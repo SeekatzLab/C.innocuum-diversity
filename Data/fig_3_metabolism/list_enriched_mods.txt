@@ -1,0 +1,35 @@
+unique(enr_mods3$KEGG_Module)
+Acylglycerol degradation
+Ubiquinone biosynthesis, prokaryotes, chorismate (+ polyprenyl-PP) => ubiquinol
+GABA biosynthesis, eukaryotes, putrescine => GABA
+Galactose degradation, Leloir pathway, galactose => alpha-D-glucose-1P
+Nucleotide sugar biosynthesis, galactose => UDP-galactose
+Pyridoxal-P biosynthesis, erythrose-4P => pyridoxal-P
+Glucuronate pathway (uronate pathway)
+Ascorbate biosynthesis, animals, glucose-1P => ascorbate
+Methionine salvage pathway
+Helicobacter pylori pathogenicity signature, cagA pathogenicity island
+Methionine degradation
+Fosfomycin biosynthesis, phosphoenolpyruvate => fosfomycin
+UDP-L-FucNAm biosynthesis
+Ethylmalonyl pathway
+Riboflavin biosynthesis, plants and bacteria, GTP => riboflavin/FMN/FAD
+Riboflavin biosynthesis, fungi, GTP => riboflavin/FMN/FAD
+dTDP-L-mycarose biosynthesis
+dTDP-L-oleandrose biosynthesis
+dTDP-L-megosamine biosynthesis
+dTDP-L-olivose biosynthesis
+dTDP-D-forosamine biosynthesis
+dTDP-D-angolosamine biosynthesis
+ADP-L-glycero-D-manno-heptose biosynthesis
+C5 isoprenoid biosynthesis, mevalonate pathway
+C5 isoprenoid biosynthesis, mevalonate pathway, archaea
+C5 isoprenoid biosynthesis, non-mevalonate pathway
+C10-C20 isoprenoid biosynthesis, bacteria
+C10-C20 isoprenoid biosynthesis, archaea
+C10-C20 isoprenoid biosynthesis, plants
+C10-C20 isoprenoid biosynthesis, non-plant eukaryotes
+Reductive acetyl-CoA pathway (Wood-Ljungdahl pathway)
+Acetogen
+Assimilatory sulfate reduction, sulfate => H2S
+Sulfate-sulfur assimilation
