@@ -1,0 +1,314 @@
+---
+title: WGS protocol palmetto downloads
+date: 
+author: DB
+output: installing softwares related to whole genome assembly and further analysis
+---
+
+# Basic
+
+### login into palmetto
+
+	ssh {yourusername}@login.palmetto.clemson.edu
+
+### Use "whatsfree" to get the nodes that are free to use for interactive or bash script sessions  
+
+### Interactive: always use interactive sessions for installing softwares no matter how small  
+
+	qsub -I -l select=1:ncpus= :mem= :interconnect= ,walltime=20:00:00
+	
+
+
+# Installing softwares for running the wgs pipeline  
+
+### Anaconda - taken from Sophie verbatim; skip if you already have it 
+
+#### in your home directory (home/username), make a directory called tmp  
+	mkdir tmp 
+	#### this tmp will be used for any temporary files used during package installation 
+#### move into tmp 
+	cd tmp 
+#### Run this to get the conda installer into your tmp directory 
+
+```
+	wget https://repo.anaconda.com/archive/Anaconda3-2020.07-Linux-x86_64.sh
+
+--2021-02-07 16:23:59--  https://repo.anaconda.com/archive/Anaconda3-2020.07-Linux-x86_64.sh
+Resolving repo.anaconda.com (repo.anaconda.com)... 104.16.131.3, 104.16.130.3, 2606:4700::6810:8303, ...
+Connecting to repo.anaconda.com (repo.anaconda.com)|104.16.131.3|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 576830621 (550M) [application/x-sh]
+Saving to: ‘Anaconda3-2020.07-Linux-x86_64.sh’
+
+Anaconda3-2020.07-Linux-x86_64.sh   100%[==================================================================>] 550.11M   105MB/s    in 5.3s    
+
+2021-02-07 16:24:05 (103 MB/s) - ‘Anaconda3-2020.07-Linux-x86_64.sh’ saved [576830621/576830621]
+
+```
+
+#### once installation is done, use ls to make sure it downloaded 
+
+	ls 
+	#### you should see a file called Anaconda3-5.2.0-Linux-x86_64.sh
+
+#### run the installer with bash 
+
+	bash Anaconda3-5.2.0-Linux-x86_64.sh
+
+#### accept any license agreement and allow it to be added to your path 
+
+#### source your bashrc to load changes 
+	source ~/.bashrc 
+
+#### Next three steps important because the softwares dont load correctly if this isnt done
+
+```
+
+	(base) [dbhatta@node0095 ~]$ conda config --add channels defaults
+	(base) [dbhatta@node0095 ~]$ conda config --add channels bioconda
+	(base) [dbhatta@node0095 ~]$ conda config --add channels conda-forge
+
+```
+
+### Install trim-galore : Rooksie's trim-galore doesnot work due to python version incompatibility with cutadapt
+## Before installing Trim galore make a new environment for yourself
+
+		conda create -n seekatz_wgs_assembly
+		conda activate seekatz_wgs_assembly
+		conda install -c bioconda trim-galore
+
+#### This is a potential problem installing trim_galore. You may not face this.
+
+
+	(base) [dbhatta@node0095 ~]$ conda install -c bioconda trim-galore
+	
+	Collecting package metadata (current_repodata.json): done
+	Solving environment: failed with initial frozen solve. Retrying with flexible solve.
+	Solving environment: failed with repodata from current_repodata.json, will retry with next repodata source.
+	Collecting package metadata (repodata.json): done
+	Solving environment: failed with initial frozen solve. Retrying with flexible solve.
+	Solving environment: \ 
+	Found conflicts! Looking for incompatible packages.
+	This can take several minutes.  Press CTRL-C to abort.
+	failed                                                                                                                                         
+
+	UnsatisfiableError: The following specifications were found to be incompatible with each other:
+
+	Output in format: Requested package -> Available versions
+
+	#### Problem solved with conda channels rearrangement: my rearrangement hadn't worked correctly the first time around, so just running those three commands again fixed it 
+
+### Installing bowtie2, installed in seekatz_wgs_assembly  
+
+		conda install -c bioconda bowtie2
+		conda deactivate 
+
+### Installing quast, quast has its own environment  
+
+		conda create -n quast-env python=3.6 #### creates an env with python 3.6
+		conda activate quast-env
+		conda install -c bioconda quast
+		quast --help
+		conda deactivate
+
+### Installing multiqc -- for viewing multiple QUAST reports together, install in its own environment
+
+		conda create --name multiqc python=3.7
+		conda activate multiqc
+		conda install -c bioconda -c conda-forge multiqc
+		conda deactivate
+
+
+
+### Installing `run_dbcan` for cazymes analysis from the website : https://github.com/linnabrown/run_dbcan
+# We are creating new environments for run_dbcan, phylophlan and anvio-7 so they dont clash with the wgs pipeline softwares
+# To activate any conda env: ACTIVATE YOUR RESPECTIVE CONDA ENVIRONMENT BEFORE YOU START THE PIPELINE FROM WGS_Palmetto_Protocol.md IF THE SOFTWARE IS IN A CONDA ENVIRONMENT AND DEACTIVATE ONCE DONE
+		conda activate thenameofenvironment
+		
+# To deactivate any conda env:
+		conda deactivate
+		
+# To check what conda environments you have:
+		conda info --envs
+
+```
+* Please install Anoconda first.
+
+* Create virtual environment with dependencies and activate the virtual environment.
+
+		conda create -n run_dbcan python=3.8 diamond hmmer prodigal -c conda-forge -c bioconda
+		conda activate run_dbcan ## this creates your run_dbcan environment
+
+* Install this package with pip.
+		
+		pip install run-dbcan==2.0.11
+
+* Database Installation.
+		
+		test -d db || mkdir db
+		cd db \
+    		&& wget http://bcb.unl.edu/dbCAN2/download/CAZyDB.09242021.fa && diamond makedb --in CAZyDB.09242021.fa -d CAZy \
+    		&& wget https://bcb.unl.edu/dbCAN2/download/Databases/V10/dbCAN-HMMdb-V10.txt && mv dbCAN-HMMdb-V10.txt dbCAN.txt && hmmpress dbCAN.txt \
+    		&& wget http://bcb.unl.edu/dbCAN2/download/Databases/tcdb.fa && diamond makedb --in tcdb.fa -d tcdb \
+    		&& wget http://bcb.unl.edu/dbCAN2/download/Databases/tf-1.hmm && hmmpress tf-1.hmm \
+    		&& wget http://bcb.unl.edu/dbCAN2/download/Databases/tf-2.hmm && hmmpress tf-2.hmm \
+    		&& wget http://bcb.unl.edu/dbCAN2/download/Databases/stp.hmm && hmmpress stp.hmm \
+    		&& cd ../ && wget http://bcb.unl.edu/dbCAN2/download/Samples/EscheriaColiK12MG1655.fna \
+    		&& wget http://bcb.unl.edu/dbCAN2/download/Samples/EscheriaColiK12MG1655.faa \
+    		&& wget http://bcb.unl.edu/dbCAN2/download/Samples/EscheriaColiK12MG1655.gff
+
+* Check Program.
+		
+		run_dbcan.py EscheriaColiK12MG1655.fna prok --out_dir output_EscheriaColiK12MG1655
+
+* to deactivate env to go back to base
+
+		conda deactivate
+
+```
+
+### Installing anvio on palmetto : https://merenlab.org/2016/06/26/installation-v2/
+
+```
+* First, create a new conda environment:
+
+		conda create -y --name anvio-7 python=3.6
+
+* And activate it:
+
+		conda activate anvio-7
+
+* Now you are in a pristine environment, in which you will install all conda packages that anvi’o will need to work properly. This looks scary, but it will work if you just copy paste it and press ENTER:
+
+		conda install -y -c bioconda "sqlite >=3.31.1"
+		conda install -y -c bioconda prodigal=2.6.3
+		conda install -y -c bioconda mcl=14.137
+		conda install -y -c bioconda muscle=3.8.1551
+		conda install -y -c bioconda hmmer=3.2.1
+		conda install -y -c bioconda diamond=0.9.14
+		conda install -y -c bioconda blast=2.5.0
+		conda install -y -c bioconda megahit=1.2.9
+		conda install -y -c bioconda spades=3.15.3
+		conda install -y -c bioconda bowtie2=2.3.5.1
+		conda install -y -c bioconda bwa
+		conda install -y -c bioconda samtools=1.12
+		conda install -y -c bioconda centrifuge=1.0.4
+		conda install -y -c bioconda trimal=1.4.1
+		conda install -y -c bioconda iqtree=2.1.4
+		conda install -y -c bioconda trnascan-se
+		conda install -y -c bioconda r-base
+		conda install -y -c bioconda r-stringi
+		conda install -y -c bioconda r-tidyverse
+		conda install -y -c bioconda r-magrittr
+		conda install -y -c bioconda r-optparse
+		conda install -y -c bioconda bioconductor-qvalue
+		conda install -y -c bioconda fasttree
+		conda install -y -c conda-forge h5py=2.8.0
+
+		# this last one may cause some issues. if it doesn't install,
+		# don't worry, you will still be fine:
+		conda install -y -c bioconda fastani
+
+* Here you will first download the Python source package for the official anvi’o release:
+
+		curl -L https://github.com/merenlab/anvio/releases/download/v7/anvio-7.tar.gz \
+        		--output anvio-7.tar.gz
+
+* And install it using pip like a boss:
+
+		pip install anvio-7.tar.gz
+
+* After a successful installation of anvi’o via pip, run this command to make sure you have the right version of this one library that changed its API recently:
+
+		pip install mistune==0.8.4
+
+* The easiest way to do it is to run the anvi’o program anvi-self-test and see if everything is in order:
+
+		anvi-self-test --suite mini
+
+* It will try to open a server through palmetto which wont happen but you will have tested the rest of the working parts of anvio, so you now know it works
+
+* to deactivate env to go back to base
+
+		conda deactivate
+```
+
+### Installing phylophlan : https://github.com/biobakery/phylophlan : Donot install graphlan, we are going to be using MEGAX and R to produce the trees
+
+```
+
+* Create a new conda env
+
+		conda create -n phylophlan 
+		conda activate phylophlan 
+
+* You can install PhyloPhlAn using conda as follows:  
+
+		conda install -c bioconda phylophlan
+
+* to deactivate env to go back to base
+
+		conda deactivate
+```
+
+### Installing roary
+
+```
+conda create -n roary
+conda activate roary
+
+# press 'y' whenever asked
+conda install -c bioconda cd-hit
+
+conda install -c bioconda mcl
+
+conda install -c bioconda prank
+
+conda install -c bioconda mafft
+
+conda install -c bioconda fasttree
+
+conda config --add channels r
+conda config --add channels defaults
+conda config --add channels conda-forge
+conda config --add channels bioconda
+conda install roary
+conda deactivate
+```
+
+### Installing snpsites
+
+```
+conda create -n snpsites
+
+conda config --add channels conda-forge
+
+conda config --add channels defaults
+
+conda config --add channels r
+
+conda config --add channels bioconda
+
+conda install snp-sites
+
+conda deactivate
+```
+
+### Installing raxml
+
+```
+conda create -n raxml
+conda install -c bioconda raxml
+conda deactivate
+
+```
+
+## Installing phylophlan  
+
+```
+conda create -n phylophlan
+
+conda install -c bioconda phylophlan
+```
+
+

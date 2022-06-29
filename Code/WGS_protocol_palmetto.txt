@@ -1,0 +1,671 @@
+---
+title: WGS protocol palmetto
+date:
+author: DB
+output: 
+---
+
+## Organizing data : run everything on scratch1  
+
+### make necessary directories (Windows 'folder' == Mac/Linux 'directory'); I have it organised by `WGS_datedatareceived` directory separate from actual working directory eg. all my fastq data is in `wgs_data` while my genome assembly is in another folder called data
+#### 'scratch1' has unlimited data so even if you copy over data multiple times it is fine
+#### this directory also contains unzipped fastq files both forward and reverse
+			
+		mkdir data  #makes directory data 
+		cd data  #goes to data
+		mkdir data/wgs_daterecieved  #makes a new directory inside data
+		cp ./wgs_data/wgs_daterecieved/*.fastq.gz ./data/wgs_daterecieved/  #copies over all the fastq.gz files into new folder
+		cd ./data/wgs_daterecieved/  #goes to new folder 
+## to unzip files, use gunzip only on a computer node not on the login node; the commands on the top can run on the login node		
+		gunzip *.fastq.gz  #unzips .gz files and removes the original from the folder so keep a copy of the original in wgs_data 
+
+## Running the pipeline
+
+## Input files: *.fastq files for whole genome assembly
+## Output files and folders: each step produces multiple files for eg. one of my runs looks like this:
+
+```
+CM1_51A_S205_16S.txt       CM1_51C_S207_trim          CM2_10A_S213_spades        CM2_19A_S216_R2_001.fastq  CM2_8A_S211_R1_001.fastq  CM3_44_S220_16S.txt       CM3_85_S222_trim            d22_5505_S225_spades
+CM1_51A_S205_R1_001.fastq  CM1_52_S208_16S.txt        CM2_10A_S213_trim          CM2_19A_S216_spades        CM2_8A_S211_R2_001.fastq  CM3_44_S220_R1_001.fastq  d22_429_S223_16S.txt        d22_5505_S225_trim
+CM1_51A_S205_R2_001.fastq  CM1_52_S208_R1_001.fastq   CM2_10B_S214_16S.txt       CM2_19A_S216_trim          CM2_8A_S211_spades        CM3_44_S220_R2_001.fastq  d22_429_S223_R1_001.fastq   multiqc_results
+CM1_51A_S205_spades        CM1_52_S208_R2_001.fastq   CM2_10B_S214_R1_001.fastq  CM2_19B_S217_16S.txt       CM2_8A_S211_trim          CM3_44_S220_spades        d22_429_S223_R2_001.fastq   multi_try
+CM1_51A_S205_trim          CM1_52_S208_spades         CM2_10B_S214_R2_001.fastq  CM2_19B_S217_R1_001.fastq  CM2_8B_S212_16S.txt       CM3_44_S220_trim          d22_429_S223_spades         sample_id
+CM1_51B_S206_16S.txt       CM1_52_S208_trim           CM2_10B_S214_spades        CM2_19B_S217_R2_001.fastq  CM2_8B_S212_R1_001.fastq  CM3_70_S221_16S.txt       d22_429_S223_trim           WGS_20121_16S.txt
+CM1_51B_S206_R1_001.fastq  CM1_54_S209_16S.txt        CM2_10B_S214_trim          CM2_19B_S217_spades        CM2_8B_S212_R2_001.fastq  CM3_70_S221_R1_001.fastq  d22_5220_S224_16S.txt       wgs_201218_quast.o3290046
+CM1_51B_S206_R2_001.fastq  CM1_54_S209_R1_001.fastq   CM2_18_S215_16S.txt        CM2_19B_S217_trim          CM2_8B_S212_spades        CM3_70_S221_R2_001.fastq  d22_5220_S224_R1_001.fastq  wgs_201218_quast.pbs
+CM1_51B_S206_spades        CM1_54_S209_R2_001.fastq   CM2_18_S215_R1_001.fastq   CM2_89_S218_16S.txt        CM2_8B_S212_trim          CM3_70_S221_spades        d22_5220_S224_R2_001.fastq  wgs_20121_multiqc
+CM1_51B_S206_trim          CM1_54_S209_spades         CM2_18_S215_R2_001.fastq   CM2_89_S218_R1_001.fastq   CM3_33_S219_16S.txt       CM3_70_S221_trim          d22_5220_S224_spades        wgs_20121_multiqc.o3290922
+CM1_51C_S207_16S.txt       CM1_54_S209_trim           CM2_18_S215_spades         CM2_89_S218_R2_001.fastq   CM3_33_S219_R1_001.fastq  CM3_85_S222_16S.txt       d22_5220_S224_trim          wgs_20121_multiqc.o3290923
+CM1_51C_S207_R1_001.fastq  CM2_10A_S213_16S.txt       CM2_18_S215_trim           CM2_89_S218_spades         CM3_33_S219_R2_001.fastq  CM3_85_S222_R1_001.fastq  d22_5505_S225_16S.txt       wgs_pipe_201218.pbs
+CM1_51C_S207_R2_001.fastq  CM2_10A_S213_R1_001.fastq  CM2_19A_S216_16S.txt       CM2_89_S218_trim           CM3_33_S219_spades        CM3_85_S222_R2_001.fastq  d22_5505_S225_R1_001.fastq  wgs_pipeline.o3272063
+CM1_51C_S207_spades        CM2_10A_S213_R2_001.fastq  CM2_19A_S216_R1_001.fastq  CM2_8A_S211_16S.txt        CM3_33_S219_trim          CM3_85_S222_spades        d22_5505_S225_R2_001.fastq
+```
+
+
+## Data = *_spades/ is approx. 1-2GB per species, _trim/ is approx 10-50 MB, the txt files are a few kilobytes 
+ 
+
+### create a `sample_id` file in the directory where you will run the pipeline which lists the names of all the sample file names
+
+		ls *R1_001.fastq |awk -F '_' '{print $1 "_" $2 "_" $3}' > ./sample_id
+		ls *contigs.db | sed 's|\(.*\)_.*|\1|' > sample2 ## for those filenames that have long names
+#### you can remove the `$3` to just have the first two columns of the name; I left it because sometimes I have re-sent the same strain id for WGS so having the third column helps keep the samples unique
+#### to check if the for loop will work
+		for i in `cat sample_id`; do echo ${i}; done
+#### this will print the file names on screen
+
+### I use CUGBF softwares for easier run, as I dont have to install all the softwares
+### I have clubbed all the assembly steps together. You can separate them if you need only portions of the assembly.
+### open nano/yourfavoriteeditor and paste the following:
+
+```
+#!/bin/sh
+#PBS -N pipeline_final 
+#PBS -j oe 
+#PBS -m abe
+#PBS -l select=1:ncpus=16:mem=62gb:interconnect=1g,walltime=100:00:00 #### I usually get the max mem and ncpus for all my work so it gets done faster always keep the time at 72:00:00 or more it will take a lot less time
+
+source activate seekatz_wgs_assembly
+module add samtools/1.13
+module add prokka/1.14.5
+module add bowtie2/2.4.5
+module add spades/3.15.0
+
+cd /scratch1/dbhatta/WGS_spades/WGS_12202020/ #### this is an example of my directory arrangement 
+
+
+for i in `cat ./sample_id`; do
+        ~/anaconda3/bin/trim_galore --fastqc --trim-n --paired ${i}_R1_001.fastq ${i}_R2_001.fastq --path_to_cutadapt ~/anaconda3/bin/cutadapt --output_dir ./${i}_trim/
+        spades.py -o ./${i}_spades/ -1 ./${i}_trim/${i}_R1_001_val_1.fq -2 ./${i}_trim/${i}_R2_001_val_2.fq -k 55,77,127 --careful -t 8
+        ~/anaconda3/bin/bowtie2-build ./${i}_spades/contigs.fasta ./${i}_spades/${i}_index #### I had bowtie2; you can use the one Rooksie has
+        ~/anaconda3/bin/bowtie2 -x ./${i}_spades/${i}_index -1 ${i}_R1_001.fastq -2 ${i}_R2_001.fastq -S ./${i}_spades/sam_${i}.sam
+        samtools view -b ./${i}_spades/sam_${i}.sam -o ./${i}_spades/bam_${i}.bam
+        samtools sort ./${i}_spades/bam_${i}.bam -o ./${i}_spades/sort_${i}.bam
+        samtools coverage ./${i}_spades/sort_${i}.bam | awk '{sum += $6}END{ print "Average = ", sum/NR}' > ./${i}_spades/${i}_average.txt
+        prokka --outdir ./${i}_spades/prokka_${i} --prefix ${i} ./${i}_spades/contigs.fasta
+        awk '!/^>/ { printf "%s", $0; n = "\n" } /^>/ { print n $0; n = "" } END { printf "%s", n }' ./${i}_spades/prokka_${i}/${i}.ffn > ./${i}_spades/prokka_${i}/${i}_sl.ffn
+        grep -A1 "16S ribosomal RNA" ./${i}_spades/prokka_${i}/${i}_sl.ffn > ${i}_16S.txt
+done
+
+qstat -xf $PBS_JOBID
+
+```
+## Sometimes (doesnot happen all the time) prokka will stop working without any reason even if it was working just a few seconds ago.
+## You may see a message saying can't find "Bio/SearchIO/hmm3.pm"
+## Then you have to install hmm3.pm as a perl script in your environment by: cpanm Bio::SearchIO::hmmer3 --force
+
+
+
+
+### Quast pipe: The above script will not run quast required for quality metrics look at software install on how to install quast with the correct python  
+
+
+```
+#!/bin/sh
+#PBS -N quast_pipe 
+#PBS -j oe 
+#PBS -m abe
+#PBS -l select=1:ncpus=16:mem=62gb:interconnect=1g,walltime=72:00:00 #### I usually get the max mem and ncpus for all my work so it gets done faster always keep the time at 72:00:00 or more it will take a lot less
+
+source activate quast_env
+		
+cd /scratch1/dbhatta/WGS_spades/WGS_bacthno/ #### wherever the master directory is which contains `${i}_spades` directory
+
+for i in `cat sample_id`; do
+        quast.py --output-dir ./${i}_spades/quast_${i}/ ./${i}_spades/contigs.fasta
+done
+
+qstat -xf $PBS_JOBID
+
+```
+
+### MultiQC : To see all Quast output in a single txt or html file, use this otherwise you will be pulling all info from separate html files from Quast for 30-50 samples and it will take ages
+
+#### Also this is a fairly new program, so use with precaution, I also don't know how to solve a lot of its issues
+
+#### I should also specify please finish the quast pipe before multiqc otherwise it will throw errors the programs run at different speeds
+
+``` 
+#!/bin/sh
+#PBS -N multiqc_batchno
+#PBS -j oe 
+#PBS -m abe
+#PBS -l select=1:ncpus=16:mem=94gb:interconnect=1g,walltime=72:00:00
+
+source activate multiqc
+
+cd /scratch1/dbhatta/wgs/WGS_batchno/
+
+multiqc ./*_spades/quast_*/ --dirs --outdir multiqc_batchno
+
+qstat -xf $PBS_JOBID
+
+```
+
+#### Once the multiqc runs and creates the directory multiqc_batchno, copy the multiqc_quast.txt from the multiqc_results directory into your desktop and open it in Excel.  
+#### You will have all the values Quast gives for all of your strains in one sheet, make a note of that in WGS_id_spades.xlsx
+
+### Additionally, concatenate all the `*_16S.txt` files into a single text file and run the 16S one by one in both NCBI and EZBiocloud to get the 16S ids. Note them down in WGS_id_spades.xlsx.
+		
+		for i in `cat sample_id3`; do sed -i '1{x;s/.*/fich=$(ps -p $PPID -o args=);fich=${fich##*\\} };echo ${fich%%.*}/e;G}' ${i}_16S.txt ; done # this adds the filename to the first line in the text
+		cat *_16S.txt > all_16S.txt
+		
+#### Now move `all_16S.txt` on your desktop to identify the 16S
+
+### DO this for samplename_average.txt so you can get the depth of average in a single file as well and move it to your desktop
+
+		cp ./*_spades/*_average.txt . #*_average.txt was in the spades folder, so I put it in the same folder as sample_id3
+		for i in `cat sample_id3`; do sed -i '1{x;s/.*/fich=$(ps -p $PPID -o args=);fich=${fich##*\\} };echo ${fich%%.*}/e;G}' ${i}_average.txt ; done
+		cat *_average.txt > all_average.txt
+
+
+### DBCAN pipe: Run higher than 62 gb or it wont run; https://github.com/linnabrown/run_dbcan
+
+#### the folder contains `dbcan_wgs` contains .fna files from prokka, so copy those over first along with the copy of `sample_id`
+
+#### there is command for db_dir with run_dbcan it is to indicate where the db is. I installed the db from the run_dbcan site in the /scratch1/dbhatta for easier path
+		
+		cp ./WGS_20121/*_spades/prokka_*/*.fna ./dbcan_wgs
+
+```
+#!/bin/sh
+#PBS -N dbcan_12202020 
+#PBS -j oe 
+#PBS -M dbhatta@g.clemson.edu
+#PBS -l select=1:ncpus=8:mem=94gb:interconnect=1g,walltime=96:00:00
+
+source activate run_dbcan
+
+cd /scratch1/dbhatta/dbcan_wgs/
+
+for i in `cat ./sample_id`; do
+	run_dbcan.py ./${i}.fna prok -c cluster --out_dir ./dbcan_${i}/ --db_dir /scratch1/dbhatta/db
+done
+qstat -xf $PBS_JOBID
+```
+
+### Anvio  
+
+#### Basic steps for pangenome analysis; explanations of all commands are at: https://merenlab.org/software/anvio/  
+
+#### Running the initial steps in palmetto  
+
+#### This step reformats the contigs file; generates the contig db, runs hmms, cogs and kegs annotation
+
+```
+#!/bin/sh
+#PBS -N anvi-init-steps
+#PBS -j oe
+#PBS -m abe
+#PBS -l select=1:ncpus=12:mem=94gb:interconnect=1g,walltime=48:00:00
+
+source activate anvio-7
+
+cd /scratch1/dbhatta/anvio/anvi_results3/new_cinn/
+
+
+for i in `cat ./sample_id`; do
+        anvi-script-reformat-fasta ./${i}_contigs.fasta -o ./${i}_contigs.fa -l 1000 --simplify-names --report-file ./${i}_report.txt
+        anvi-gen-contigs-database -f ./${i}_contigs.fa -o ./${i}_contigs.db -n ${i}
+        anvi-run-hmms -c ./${i}_contigs.db -T 8
+        anvi-run-ncbi-cogs -c ./${i}_contigs.db -T 8
+        anvi-run-kegg-kofams -c ./${i}_contigs.db -T 8
+done
+qstat -xf $PBS_JOBID
+```
+
+
+#### Running dereplicate in palmetto  
+
+### Example of `external_genomes.txt`; it is a tab delimited text file that you make in your fave text editor the headers are constant `name`	`contigs_db_path` content can vary
+```
+name	contigs_db_path
+CM1_51A_S205	./cinn_contigs/CM1_51A_S205_contigs.db
+CM1_51B_S206	./cinn_contigs/CM1_51B_S206_contigs.db
+CM1_51C_S207	./cinn_contigs/CM1_51C_S207_contigs.db
+CM1_52_S208	./cinn_contigs/CM1_52_S208_contigs.db
+CM1_53_S216	./cinn_contigs/CM1_53_S216_contigs.db
+CM2_10A_S213	./cinn_contigs/CM2_10A_S213_contigs.db
+CM2_10B_S214	./cinn_contigs/CM2_10B_S214_contigs.db
+CM2_11_S218	./cinn_contigs/CM2_11_S218_contigs.db
+CM2_19A_S216	./cinn_contigs/CM2_19A_S216_contigs.db
+CM2_19B_S217	./cinn_contigs/CM2_19B_S217_contigs.db
+CM2_20_S220	./cinn_contigs/CM2_20_S220_contigs.db
+CM2_89_S218	./cinn_contigs/CM2_89_S218_contigs.db
+CM2_8A_S211	./cinn_contigs/CM2_8A_S211_contigs.db
+CM2_8B_S212	./cinn_contigs/CM2_8B_S212_contigs.db
+
+```
+
+#### To figure out the phylogroups/same strains; only required when multiple strains of the same species are around   
+
+```
+#!/bin/sh
+#PBS -N anvi-dereplicate
+#PBS -j oe
+#PBS -m abe
+#PBS -l select=1:ncpus=12:mem=94gb:interconnect=1g,walltime=48:00:00
+
+source activate anvio-7
+
+cd /scratch1/dbhatta/anvio/anvi_results3/
+
+anvi-dereplicate-genomes -e ./external_genomes_new.txt --output-dir ./dereplicate_90 --program pyANI --similarity-threshold 0.9 -T 6
+anvi-dereplicate-genomes -e ./external_genomes_new.txt --output-dir ./dereplicate_95 --program pyANI --similarity-threshold 0.95 -T 6
+anvi-dereplicate-genomes -e ./external_genomes_new.txt --output-dir ./dereplicate_98 --program pyANI --similarity-threshold 0.98 -T 6
+anvi-dereplicate-genomes -e ./external_genomes_new.txt --output-dir ./dereplicate_99 --program pyANI --similarity-threshold 0.99 -T 6
+anvi-dereplicate-genomes -e ./external_genomes_new.txt --output-dir ./dereplicate_999 --program pyANI --similarity-threshold 0.999 -T 6
+anvi-dereplicate-genomes -e ./external_genomes_new.txt --output-dir ./dereplicate_100 --program pyANI --similarity-threshold 1.0 -T 6
+
+qstat -xf $PBS_JOBID
+```
+
+#### Running estimate metabolism over palmetto  
+
+#### To estimate metabolic activity; run this twice once with the --matrix-format flag and once without  
+
+```
+#!/bin/sh
+#PBS -N anvi-estimate2
+#PBS -j oe
+#PBS -m abe
+#PBS -l select=1:ncpus=12:mem=94gb:interconnect=1g,walltime=48:00:00
+
+source activate anvio-7
+
+cd /scratch1/dbhatta/anvio/anvi_results3/
+
+anvi-estimate-metabolism -e ./external_genomes_new.txt --matrix-format -O full
+anvi-estimate-metabolism -e ./external_genomes_new.txt -O full
+
+qstat -xf $PBS_JOBID
+```
+
+#### Running the steps right before display-pan 
+ 
+#### To see the display on CHrome, these steps are going to be required; the first PBS script below is on Palmetto, the other steps are on desktop  
+
+``` 
+
+#!/bin/sh
+#PBS -N anvi-pan
+#PBS -j oe
+#PBS -m abe
+#PBS -l select=1:ncpus=12:mem=94gb:interconnect=1g,walltime=48:00:00
+
+source activate anvio-7
+
+cd /scratch1/dbhatta/anvio/anvi_results3/
+
+anvi-gen-genomes-storage -e ./external_genomes_new.txt -o ./new_cinn/NEWCINN-GENOMES.db
+anvi-pan-genome -g ./new_cinn/NEWCINN-GENOMES.db -n NEWCINNWGS --output-dir ./new_cinn/NEWCINN --num-threads 10 --mcl-inflation 10 --use-ncbi-blast
+anvi-compute-genome-similarity --external-genomes ./external_genomes_new.txt --program pyANI --output-dir NEWANI --num-threads 10 --pan-db ./new_cinn/NEWCINNWGS-PAN.db
+
+qstat -xf $PBS_JOBID
+```
+
+#### Final display on Chrome; this is on the desktop  
+
+		anvi-display-pan -p ./cinn_contigs/CINN/CINNWGS-PAN.db -g ./cinn_contigs/CINN_GENOMES.db
+
+#### Splits the display in selected bins on Chrome  
+
+		anvi-split -p ./NEWCINN/NEWCINNWGS-PAN.db -g ./NEWCINN-GENOMES.db -C bin_set -o DEFAULT2-SPLIT-PANS  
+
+		anvi-display-pan -g NEWCINN-GENOMES.db -p ./DEFAULT2-SPLIT-PANS/Core/PAN.db  
+
+		anvi-display-pan -g NEWCINN-GENOMES.db -p ./DEFAULT2-SPLIT-PANS/Minor_core/PAN.db  
+
+		anvi-display-pan -g NEWCINN-GENOMES.db -p ./DEFAULT2-SPLIT-PANS/Singletons/PAN.db  
+
+
+## make a simple text file with "category-layers" with a tab delimited text file to provide more layers for enrichment and use the headers for function enrichment
+		anvi-import-misc-data -p ./new_cinn/NEWCINN/NEWCINNWGS-PAN.db -t layers --just-do-it ./category-layers.txt  
+
+		anvi-display-pan -g ./NEWCINN-GENOMES.db -p ./new_cinn/NEWCINN/NEWCINNWGS-PAN.db  
+
+		anvi-compute-functional-enrichment -p ./new_cinn/NEWCINN/NEWCINNWGS-PAN.db -g NEWCINN-GENOMES.db --category sample_id --annotation-source KEGG_Module -o enriched_functn.txt --include-gc-identity-as-function  
+
+		anvi-compute-functional-enrichment -p ./new_cinn/NEWCINN/NEWCINNWGS-PAN.db -g NEWCINN-GENOMES.db --category sample_id --annotation-source KEGG_Class -o enriched_functn_cog.txt  
+
+
+### To make a raxml tree from snps in core genome in palmetto
+
+#### Roary
+
+#### collect all gff files. make sure prokka has run on the samples or get the gff files from ncbi (I did not do that for the dataset from gtdb, I put it through prokka)
+
+```
+mkdir gff_cinn_all
+cp *.gff ./gff_cinn_all
+```
+
+### paste the following in nano. The explanations of the actual commands are in: https://sanger-pathogens.github.io/Roary/
+```
+#!/bin/sh
+#PBS -N roary_cinn
+#PBS -j oe 
+#PBS -m abe
+#PBS -l select=1:ncpus=12:mem=94gb:interconnect=1g,walltime=72:00:00
+
+
+source activate roary1
+
+cd /scratch1/dbhatta/roary/gff_files/
+
+roary -e --mafft -b blastp -n -v -p 8 *.gff
+
+qstat -xf $PBS_JOBID
+```
+
+### using snp_sites to produce a relaxed Phylip format
+
+### use interactive for this session, it requires the core_gene_alignment.aln from roary  using 62gb and 12 ncpus
+
+		snp-sites -mvp -o snp_sites core_gene_alignment.aln 
+		
+
+### use interactive for the raxml 94 gb, 16 ncpus; if you dont the pbs script will not run
+### raxml to create the final tree; raxml has manual online for more explanations on the commands : https://github.com/stamatak/standard-RAxML/blob/master/manual/NewManual.pdf
+
+		raxmlHPC -s snp_sites_all.phylip -f a -k -m GTRGAMMA -p 12345 -x 1234 -N 500 -n all_cinn
+		
+		­f a 	rapid Bootstrap analysis and search for best­scoring ML tree in one program run
+		-k 		Specifies that bootstrapped trees should be printed with branch lengths. 
+    			The   bootstraps   will   run   a   bit   longer,   because   model   parameters   will   be  optimized   at   the   end   of   each   replicate   under   GAMMA   or   GAMMA+P­Invar  respectively.
+    	-m GTRGAMMA GTR + Optimization of substitution rates + GAMMA model of rate heterogeneity (alpha parameter will be estimated). 
+                      With the optional "X" appendix you can specify a ML estimate of base frequencies. execute a simple search under the GAMMA model of rate heterogeneity and correct for ascertainment bias on a DNA dataset. 
+		-p Specify a random number seed for the parsimony inferences. This allows you to reproduce your results and will help me debug the program. For all options/algorithms in RAxML that require some sort of randomization, this option must be specified. Make sure to pass different random number seeds to RAxML and not only 12345 as I have done in the examples
+		-x Specify an integer number (random seed) and turn on rapid bootstrapping 
+		     CAUTION:   unlike   in   previous   versions   of   RAxML   will   conduct   rapid   BS  replicates under the model of rate heterogeneity you specified via ­m and  not by default under CAT 
+		-N or -# Specify the number of alternative runs on distinct starting trees In combination with the "­b" option, this will invoke a multiple bootstrap 
+					analysis Note that "­N" has been added as an alternative since ­# sometimes caused  problems with certain MPI job submission systems, since ­# is often used  to start comments. 
+					If   you   want   to   use   the   bootstopping   criteria   specify   ­#   autoMR   or   ­#  autoMRE or ­# autoMRE_IGN for the majority­rule tree based criteria (see ­I option) or ­# autoFC for the frequency­based criterion. 
+      				Bootstopping will only work in combination with ­x or ­b
+		
+
+
+		
+### All of the above steps are to be done in the same folder
+
+
+# 16S tree from clustalo and raxml
+
+## collect all 16S nucleotides in a single .fa file
+```
+#!/bin/sh
+#PBS -N 16S_collection
+#PBS -j oe 
+#PBS -m abe
+#PBS -l select=1:ncpus=16:mem=62gb:interconnect=1g,walltime=100:00:00
+
+cd /scratch1/dbhatta/wgs/all_cinn_prokka/
+
+for i in `cat ./sample2`; do
+	grep -A1 "16S ribosomal RNA" ./prokka_${i}/${i}_sl.ffn > ${i}_16S.txt
+	sed -i '1{x;s/.*/fich=$(ps -p $PPID -o args=);fich=${fich##*\\} };echo ${fich%%.*}/e;G}' ${i}_16S.txt
+done
+
+qstat -xf $PBS_JOBID
+```
+```
+cat *.txt > all_16S_cinn.txt
+```
+## edit the file on the desktop in BBEdit to fix the fasta titles
+
+## clustalo
+
+		mv cinn_final_16S.txt cinn_final_16S.fa
+		clustalo -i ./cinn_final_16S.fa --threads 4 -o out_cinn_final.fa -v
+
+## moving to raxml folder
+
+		cp /scratch1/dbhatta/clustalo/cinn_final/out_cinn_final.fa ./out_cinn_final.fasta
+
+## raxml trees; raxml-pthreads if you want to run over pbs scripts otherwise raxmlHPC only on interactive which is going to take numerous hours
+
+````
+#!/bin/sh
+#PBS -N raxml_16S
+#PBS -j oe 
+#PBS -m abe
+#PBS -l select=1:ncpus=12:mem=94gb:interconnect=1g,walltime=100:00:00
+
+source activate raxml
+
+cd /scratch1/dbhatta/raxml/raxml_cinn_final/
+
+raxmlHPC-PTHREADS -s out_cinn_final.fasta -f a -k -m GTRGAMMA -p 12345 -x 1234 -N 500 -n 16S_final
+
+
+qstat -xf $PBS_JOBID
+
+```
+
+# Phylophlan; for protein sequences
+
+## setup database
+
+# do not use this yet: phylophlan_setup_database -g s__Clostridium_innocuum -o cinn_db --verbose 2>&1 | tee logs/phylophlan_setup_database.log
+
+## write config file with tree1 being raxml if you want to run on pbs script; i have only managed to figure out aa
+
+	phylophlan_write_config_file -o custom_aa_anerostipes.cfg -d a --db_aa diamond --map_aa diamond --map_dna diamond --msa mafft --trim trimal --tree1 raxml --tree2 raxml
+
+## pbs script for this; I have two databases that I test out to see which tree looks better cinn_db that I have setup above and the phylophlan db 400 marker proteins
+
+```
+#!/bin/sh
+#PBS -N phyla
+#PBS -j oe 
+#PBS -m abe
+#PBS -l select=1:ncpus=16:mem=251gb:interconnect=1g,walltime=100:00:00
+
+source activate phylophlan
+
+cd /scratch1/
+
+#donot use this yet/donot copy this line in your script: phylophlan -i ./full_cinn_cdiff_faa -o output_cinn_cdiff_faa -d cinn_db -f custom_aa_cinn.cfg --nproc 8 --diversity low --accurate --mutation_rates
+phylophlan -i ./faa_files -o output_anerostipes_phylo -d phylophlan -f custom_aa_anerostipes.cfg --nproc 8 --diversity low --accurate --mutation_rates
+
+qstat -xf $PBS_JOBID
+```
+
+# PATHOFACT
+
+## Installation
+
+## go to the pathofact folder that you made
+
+## Requirements to install pathofact
+	The main requirements are:
+
+	gcc/g++
+	
+	git and git lfs
+
+	conda (version 4.9.2)
+
+## Getting into actual installation
+
+# activate git lfs
+	git lfs install
+# clone branch incl. sub-modules
+	git clone -b master --recursive https://git-r3lab.uni.lu/laura.denies/PathoFact.git --depth 1
+
+
+## Making environment
+
+# go into the new Pathofact folder
+	conda env create -f=envs/PathoFact.yaml
+
+## This is the output to be expected once PathoFact is created
+```
+analytical_code             cluster.json  cluster.yaml  config.yaml  envs      LICENSE        README.md  run_PathoFact.sh  scripts   submodules  workflows
+card_database_v3.0.9.fasta  cluster.sh    databases     localDB      rules     Snakefile      test
+```
+
+## Get signal_P: https://services.healthtech.dtu.dk/
+## I downloaded signal5.0b because that is what was recommended for pathofact
+## fill in your details they will send you an email with the link
+
+	wget "link/filename.gz" <--- fill in the link from your email, make sure .gz is at the end
+
+## PathoFact requires a snakemake version >= 5.5.4, which will be downloaded with pathofact in the .yaml
+## PathoFact has been downloaded with full folder inside the PathoFact environment
+## Pathofact also creates a bunch of unnamed envs in anaconda3 I dont know how to fix this
+## Unzip the signal5-0b.tar.gz inside the PathoFact folder
+
+	tar -xvf signal5......
+
+## This is how the final PathoFact folder look after opening signalp.tar
+```
+analytical_code             cluster.json  cluster.yaml  config.yaml  envs      LICENSE  README.md  run_PathoFact.sh  scripts       signalp-5.0b.Linux.tar  submodules  workflows
+card_database_v3.0.9.fasta  cluster.sh    databases    localDB  rules      signalp-5.0b  Snakefile               test
+```
+## Running
+
+## Two files to be modded when running: config.yaml and pbs script that you create
+
+## Input files:
+
+### Put all .fna from prokka into a folder called fna_genus
+
+### This will be where the results will be generated
+
+### Example of config.yaml; save under a different name
+```
+pathofact:
+  sample: ["CM1_51A_S205", "CM1_51B_S206", "CM1_51C_S207", "CM1_52_S208", "CM1_53_S216"] # requires user input
+  project: PathoFact_results_CM1 # requires user input
+  datadir:  /scratch1/dbhatta/virulence_factors/pathofact/PathoFact/fna_cinn/ # requires user input
+  workflow: "complete" #options: "complete", "AMR", "Tox", "Vir"
+  size_fasta: 10000 #Adjustable to preference
+  scripts: "scripts"
+  signalp: "/scratch1/dbhatta/virulence_factors/pathofact/PathoFact/signalp-5.0b/bin/" # requires user input
+  deepvirfinder: "submodules/DeepVirFinder/dvf.py"
+  tox_hmm: "databases/toxins/combined_Toxin.hmm"
+  tox_lib: "databases/library_HMM_Toxins.csv"
+  tox_threshold: 40 #Bitscore threshold of the toxin prediction, adjustable by user to preference
+  vir_hmm: "databases/virulence/Virulence_factor.hmm"
+  vir_domains: "databases/models_and_domains"
+  plasflow_threshold: 0.7
+  plasflow_minlen: 1000
+  runtime:
+    short: "00:10:00"
+    medium: "01:00:00"
+    long: "02:00:00"
+  mem:
+    normal_mem_per_core_gb: "4G"
+    big_mem_cores: 12 # change if required 
+    big_mem_per_core_gb: "200G" # change if required
+```    
+    
+### Exmaple of PBS script that will use the above config file
+```
+#!/bin/sh
+#PBS -N pathofact_cm1
+#PBS -j oe 
+#PBS -m abe
+#PBS -l select=1:ncpus=16:mem=251gb:interconnect=1g,walltime=100:00:00
+
+source activate PathoFact
+
+cd /scratch1/dbhatta/virulence_factors/pathofact/PathoFact/
+
+snakemake -s Snakefile --configfile configcm1.yaml --use-conda --reason --cores 12 -p
+
+qstat -xf $PBS_JOBID
+```
+
+### Because software is new they are constantly changing the output so make sure you check their wiki/github page
+### https://git-r3lab.uni.lu/laura.denies/PathoFact
+
+# to find out the coordinates for toxins/gene names + coordinates for virulence factors
+# create orf_id list in R
+# move the list in to the folder in palmetto
+# convert the _ID.faa to sl.faa using the awk script; grep only those present in the orf_id list in a new _vir_facts.faa file 
+# diamond blastp with VFDB_protein.dmnd to get the genes involved for vir factors or victors_protein.dmnd
+
+
+```
+#!/bin/sh
+#PBS -N diamond_vir
+#PBS -j oe 
+#PBS -m abe
+#PBS -l select=1:ncpus=16:mem=200gb:interconnect=1g,walltime=48:00:00
+
+cd /scratch1/dbhatta/virulence_factors/pathofact/PathoFact/fasta_refs/
+
+source activate run_dbcan
+
+for i in `cat ./sample3`; do
+	awk '!/^>/ { printf "%s", $0; n = "\n" } /^>/ { print n $0; n = "" } END { printf "%s", n }' ./${i}_ID.faa > ./${i}_sl.faa
+	grep -Fw -A1 -f orf_id_${i}.txt ${i}_sl.faa > ${i}_vir_facts.faa
+	diamond blastp -d VFDB_protein.dmnd -q ./${i}_vir_facts.faa --threads 8 --id 50 --query-cover 80 --top 1 -o ./${i}_diamond.tsv --header
+done
+
+qstat -xf $PBS_JOBID
+
+```
+# to get coordinates
+
+# copy all the .faa files to a new folder (coordinates)
+# make blastdb out of 4 strains
+
+makeblastdb -in ./Ref_Cinnocuum_14501.faa -dbtype prot -parse_seqids
+makeblastdb -in ./GCA_000165065_1_ASM16506v1_genomic.faa -dbtype prot -parse_seqids
+makeblastdb -in ./GCA_003481775_1_ASM348177v1_genomic.faa -dbtype prot -parse_seqids
+makeblastdb -in ./Ref_Cinnocuum_I46.faa -dbtype prot -parse_seqids
+
+# convert gff to gtf where the coordinates are
+
+grep -v "#" GCA_000165065_1_ASM16506v1_genomic.gff | grep "ID=" | cut -f1 -d ';' | sed 's/ID=//g' | cut -f1,4,5,7,9 |  awk -v OFS='\t' '{print $1,"PROKKA","CDS",$2,$3,".",$4,".","gene_id " $5}' > GCA_000165065_1_ASM16506v1_genomic.gtf 
+
+# blast the db against *_vir_facts.faa
+
+blastp -query GCA_000165065_1_ASM16506v1_genomic_vir_facts.faa -db GCA_000165065_1_ASM16506v1_genomic -outfmt 6 -out blast_GCA_000165065_1_ASM16506v1_genomic.txt
+blastp -query GCA_003481775_1_ASM348177v1_genomic_vir_facts.faa -db GCA_003481775_1_ASM348177v1_genomic -outfmt 6 -out blast_GCA_003481775_1_ASM348177v1_genomic.txt
+blastp -query Ref_Cinnocuum_14501_dvf_vir_facts.faa -db Ref_Cinnocuum_14501 -outfmt 6 -out blast_Ref_Cinnocuum_14501.txt
+blastp -query Ref_Cinnocuum_I46_dvf_vir_facts.faa -db Ref_Cinnocuum_I46 -outfmt 6 -out blast_Ref_Cinnocuum_I46.txt
+
+# in a script
+
+#!/bin/sh
+#PBS -N blast
+#PBS -j oe 
+#PBS -m abe
+#PBS -l select=1:ncpus=16:mem=251gb:interconnect=1g,walltime=100:00:00
+
+source activate blast
+
+cd /scratch1/dbhatta/virulence_factors/pathofact/PathoFact/blast_toxins/coordinates/
+
+makeblastdb -in ./Ref_Cinnocuum_14501.faa -dbtype prot -parse_seqids
+makeblastdb -in ./GCA_000165065_1_ASM16506v1_genomic.faa -dbtype prot -parse_seqids
+makeblastdb -in ./GCA_003481775_1_ASM348177v1_genomic.faa -dbtype prot -parse_seqids
+makeblastdb -in ./Ref_Cinnocuum_I46.faa -dbtype prot -parse_seqids
+blastp -query GCA_000165065_1_ASM16506v1_genomic_vir_facts.faa -db GCA_000165065_1_ASM16506v1_genomic.faa -outfmt 6 -out blast_GCA_000165065_1_ASM16506v1_genomic.txt
+blastp -query GCA_003481775_1_ASM348177v1_genomic_vir_facts.faa -db GCA_003481775_1_ASM348177v1_genomic.faa -outfmt 6 -out blast_GCA_003481775_1_ASM348177v1_genomic.txt
+blastp -query Ref_Cinnocuum_14501_dvf_vir_facts.faa -db Ref_Cinnocuum_14501.faa -outfmt 6 -out blast_Ref_Cinnocuum_14501.txt
+blastp -query Ref_Cinnocuum_I46_dvf_vir_facts.faa -db Ref_Cinnocuum_I46.faa -outfmt 6 -out blast_Ref_Cinnocuum_I46.txt
+
+qstat -xf $PBS_JOBID
+
+# collect gtf files and blastp files into one folder for R
+
+
+
+
+
+
+
+
+
+		
+
+
+
+
+
+
