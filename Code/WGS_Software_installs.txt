@@ -312,3 +312,69 @@ conda install -c bioconda phylophlan
 ```
 
 
+
+## Installing PathoFact
+
+## go to the pathofact folder that you made
+
+## Requirements to install pathofact
+	The main requirements are:
+
+	gcc/g++
+	
+	git and git lfs
+
+	conda (version 4.9.2)
+
+## Getting into actual installation
+
+# activate git lfs
+	git lfs install
+# clone branch incl. sub-modules
+	git clone -b master --recursive https://git-r3lab.uni.lu/laura.denies/PathoFact.git --depth 1
+
+
+## Making environment
+
+# go into the new Pathofact folder
+	conda env create -f=envs/PathoFact.yaml
+
+## This is the output to be expected once PathoFact is created
+```
+analytical_code             cluster.json  cluster.yaml  config.yaml  envs      LICENSE        README.md  run_PathoFact.sh  scripts   submodules  workflows
+card_database_v3.0.9.fasta  cluster.sh    databases     localDB      rules     Snakefile      test
+```
+
+## Get signal_P: https://services.healthtech.dtu.dk/
+## I downloaded signal5.0b because that is what was recommended for pathofact
+## fill in your details they will send you an email with the link
+
+	wget "link/filename.gz" <--- fill in the link from your email, make sure .gz is at the end
+
+## PathoFact requires a snakemake version >= 5.5.4, which will be downloaded with pathofact in the .yaml
+## PathoFact has been downloaded with full folder inside the PathoFact environment
+## Pathofact also creates a bunch of unnamed envs in anaconda3 I dont know how to fix this
+## Unzip the signal5-0b.tar.gz inside the PathoFact folder
+
+	tar -xvf signal5......
+
+## This is how the final PathoFact folder look after opening signalp.tar
+```
+analytical_code             cluster.json  cluster.yaml  config.yaml  envs      LICENSE  README.md  run_PathoFact.sh  scripts       signalp-5.0b.Linux.tar  submodules  workflows
+card_database_v3.0.9.fasta  cluster.sh    databases    localDB  rules      signalp-5.0b  Snakefile               test
+```
+
+## Installing Circos
+
+### circos was installed on Windows following instructions from http://circos.ca/software/installation/
+
+## Installing Graphlan
+
+```
+conda create -n graphlna 
+conda install -c bioconda graphlan
+```
+
+
+
+

@@ -1,0 +1,1005 @@
+Contig	Contig_ID	ORF	ORF_ID	ARG	ARG_SNPs	AMR_category	AMR_sub_class	Resistance_mechanism	Database	MGE_prediction	genome_name	newgenome_name
+c_000000000001	0000000001	1_352	0000000352	VANRI	n/a	glycopeptide	glycopeptide antibiotic	antibiotic target alteration	DeepARG	ambiguous (phage/chromosome)	CM1_52_S208	CM1_52
+c_000000000001	0000000001	1_352	0000000352	VANRI	n/a	glycopeptide	glycopeptide antibiotic	antibiotic target alteration	DeepARG	ambiguous (phage/chromosome)	CM1_52_S208	CM1_52
+c_000000000002	0000000002	2_169	0000000709	VANU	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	ambiguous (phage/chromosome)	CM1_52_S208	CM1_52
+c_000000000002	0000000002	2_28	0000000568	EFRA	n/a	multidrug	fluoroquinolone antibiotic;macrolide antibiotic;rifamycin antibiotic	antibiotic efflux	DeepARG	ambiguous (phage/chromosome)	CM1_52_S208	CM1_52
+c_000000000002	0000000002	2_322	0000000862	VANR	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	ambiguous (phage/chromosome)	CM1_52_S208	CM1_52
+c_000000000019	0000000019	19_40	0000003933	LLMA_23S_RIBOSOMAL_RNA_METHYLTRANSFERASE	n/a	MLS	lincosamide antibiotic	antibiotic target alteration	DeepARG	chromosome	CM1_52_S208	CM1_52
+c_000000000001	0000000001	1_169	0000000169	VANU	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	ambiguous (phage/chromosome)	CM1_53_S216	CM1_53
+c_000000000001	0000000001	1_28	0000000028	EFRA	n/a	multidrug	fluoroquinolone antibiotic;macrolide antibiotic;rifamycin antibiotic	antibiotic efflux	DeepARG	ambiguous (phage/chromosome)	CM1_53_S216	CM1_53
+c_000000000001	0000000001	1_322	0000000322	VANR	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	ambiguous (phage/chromosome)	CM1_53_S216	CM1_53
+c_000000000004	0000000004	4_189	0000001369	VANRI	n/a	glycopeptide	glycopeptide antibiotic	antibiotic target alteration	DeepARG	ambiguous (phage/chromosome)	CM1_53_S216	CM1_53
+c_000000000017	0000000017	17_40	0000003721	LLMA_23S_RIBOSOMAL_RNA_METHYLTRANSFERASE	n/a	MLS	lincosamide antibiotic	antibiotic target alteration	DeepARG	chromosome	CM1_53_S216	CM1_53
+c_000000000001	0000000001	1_189	0000000189	VANRI	n/a	glycopeptide	glycopeptide antibiotic	antibiotic target alteration	DeepARG	ambiguous (phage/chromosome)	CM2_89_S218	CM2_89
+c_000000000001	0000000001	1_189	0000000189	VANRI	n/a	glycopeptide	glycopeptide antibiotic	antibiotic target alteration	DeepARG	ambiguous (phage/chromosome)	CM2_89_S218	CM2_89
+c_000000000002	0000000002	2_127	0000000668	VANR	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	ambiguous (phage/chromosome)	CM2_89_S218	CM2_89
+c_000000000002	0000000002	2_280	0000000821	VANU	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	ambiguous (phage/chromosome)	CM2_89_S218	CM2_89
+c_000000000002	0000000002	2_421	0000000962	EFRA	n/a	multidrug	fluoroquinolone antibiotic;macrolide antibiotic;rifamycin antibiotic	antibiotic efflux	DeepARG	ambiguous (phage/chromosome)	CM2_89_S218	CM2_89
+c_000000000016	0000000016	16_38	0000003640	LLMA_23S_RIBOSOMAL_RNA_METHYLTRANSFERASE	n/a	MLS	lincosamide antibiotic	antibiotic target alteration	DeepARG	chromosome	CM2_89_S218	CM2_89
+c_000000000002	0000000002	2_77	0000000435	VANS	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	CM6_03_S228	CM6_03
+c_000000000003	0000000003	3_252	0000000950	VANRI	n/a	glycopeptide	glycopeptide antibiotic	antibiotic target alteration	DeepARG	ambiguous (phage/chromosome)	CM6_03_S228	CM6_03
+c_000000000014	0000000014	14_40	0000002308	LLMA_23S_RIBOSOMAL_RNA_METHYLTRANSFERASE	n/a	MLS	lincosamide antibiotic	antibiotic target alteration	DeepARG	chromosome	CM6_03_S228	CM6_03
+c_000000000019	0000000019	19_1	0000002695	VANR	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	CM6_03_S228	CM6_03
+c_000000000041	0000000041	41_8	0000003926	EFRA	n/a	multidrug	fluoroquinolone antibiotic;macrolide antibiotic;rifamycin antibiotic	antibiotic efflux	DeepARG	chromosome	CM6_03_S228	CM6_03
+c_000000000042	0000000042	42_27	0000003978	VANU	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	CM6_03_S228	CM6_03
+c_000000000064	0000000064	64_12	0000004310	TETW	n/a	tetracycline	tetracycline antibiotic	antibiotic target protection	RGI	chromosome	CM6_03_S228	CM6_03
+c_000000000095	0000000095	95_1	0000004452	TET(W/N/W)	n/a	tetracycline	tetracycline antibiotic	antibiotic target protection	RGI	plasmid	CM6_03_S228	CM6_03
+c_000000000002	0000000002	2_22	0000000382	VANRI	n/a	glycopeptide	glycopeptide antibiotic	antibiotic target alteration	DeepARG	ambiguous (phage/chromosome)	CM6_07_S232	CM6_07
+c_000000000003	0000000003	3_77	0000000777	VANS	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	CM6_07_S232	CM6_07
+c_000000000015	0000000015	15_40	0000002582	LLMA_23S_RIBOSOMAL_RNA_METHYLTRANSFERASE	n/a	MLS	lincosamide antibiotic	antibiotic target alteration	DeepARG	chromosome	CM6_07_S232	CM6_07
+c_000000000019	0000000019	19_72	0000002948	VANR	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	CM6_07_S232	CM6_07
+c_000000000039	0000000039	39_8	0000003931	EFRA	n/a	multidrug	fluoroquinolone antibiotic;macrolide antibiotic;rifamycin antibiotic	antibiotic efflux	DeepARG	chromosome	CM6_07_S232	CM6_07
+c_000000000040	0000000040	40_1	0000003957	VANU	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	CM6_07_S232	CM6_07
+c_000000000064	0000000064	64_12	0000004374	TETW	n/a	tetracycline	tetracycline antibiotic	antibiotic target protection	RGI	chromosome	CM6_07_S232	CM6_07
+c_000000000093	0000000093	93_1	0000004519	TET(W/N/W)	n/a	tetracycline	tetracycline antibiotic	antibiotic target protection	RGI	plasmid	CM6_07_S232	CM6_07
+c_000000000002	0000000002	2_267	0000000600	VANS	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	CM6_80_S239	CM6_80
+c_000000000003	0000000003	3_22	0000000698	VANRI	n/a	glycopeptide	glycopeptide antibiotic	antibiotic target alteration	DeepARG	ambiguous (phage/chromosome)	CM6_80_S239	CM6_80
+c_000000000015	0000000015	15_40	0000002350	LLMA_23S_RIBOSOMAL_RNA_METHYLTRANSFERASE	n/a	MLS	lincosamide antibiotic	antibiotic target alteration	DeepARG	chromosome	CM6_80_S239	CM6_80
+c_000000000020	0000000020	20_72	0000002807	VANR	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	CM6_80_S239	CM6_80
+c_000000000041	0000000041	41_8	0000003882	EFRA	n/a	multidrug	fluoroquinolone antibiotic;macrolide antibiotic;rifamycin antibiotic	antibiotic efflux	DeepARG	chromosome	CM6_80_S239	CM6_80
+c_000000000043	0000000043	43_27	0000003964	VANU	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	CM6_80_S239	CM6_80
+c_000000000065	0000000065	65_1	0000004293	TETW	n/a	tetracycline	tetracycline antibiotic	antibiotic target protection	RGI	unclassified	CM6_80_S239	CM6_80
+c_000000000095	0000000095	95_1	0000004451	TET(W/N/W)	n/a	tetracycline	tetracycline antibiotic	antibiotic target protection	RGI	plasmid	CM6_80_S239	CM6_80
+c_000000000011	0000000011	11_61	0000001919	LNUA	n/a	MLS	lincosamide antibiotic	antibiotic inactivation	DeepARG	chromosome	d22_429_S223	d22_429
+c_000000000019	0000000019	19_75	0000002718	VANR	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	d22_429_S223	d22_429
+c_000000000020	0000000020	20_65	0000002800	VANU	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	ambiguous (phage/chromosome)	d22_429_S223	d22_429
+c_000000000024	0000000024	24_81	0000003166	VANU	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	d22_429_S223	d22_429
+c_000000000025	0000000025	25_40	0000003207	LLMA_23S_RIBOSOMAL_RNA_METHYLTRANSFERASE	n/a	MLS	lincosamide antibiotic	antibiotic target alteration	DeepARG	chromosome	d22_429_S223	d22_429
+c_000000000029	0000000029	29_49	0000003504	VATB	n/a	MLS	streptogramin antibiotic	antibiotic inactivation	DeepARG	phage	d22_429_S223	d22_429
+c_000000000034	0000000034	34_15	0000003775	VANRI	n/a	glycopeptide	glycopeptide antibiotic	antibiotic target alteration	DeepARG	chromosome	d22_429_S223	d22_429
+c_000000000044	0000000044	44_26	0000004230	EFRA	n/a	multidrug	fluoroquinolone antibiotic;macrolide antibiotic;rifamycin antibiotic	antibiotic efflux	DeepARG	chromosome	d22_429_S223	d22_429
+c_000000000048	0000000048	48_25	0000004346	ERMB	n/a	MLS	lincosamide antibiotic;macrolide antibiotic;streptogramin antibiotic	antibiotic target alteration	DeepARG/RGI	ambiguous (plasmid/phage)	d22_429_S223	d22_429
+c_000000000059	0000000059	59_8	0000004545	BCRA	n/a	bacitracin	peptide antibiotic	antibiotic efflux	DeepARG	chromosome	d22_429_S223	d22_429
+c_000000000063	0000000063	63_4	0000004601	VANU	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	ambiguous (phage/chromosome)	d22_429_S223	d22_429
+c_000000000012	0000000012	12_53	0000001827	LNUA	n/a	MLS	lincosamide antibiotic	antibiotic inactivation	DeepARG	chromosome	d22_5220_S224	d22_5220
+c_000000000019	0000000019	19_104	0000002576	VANU	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	ambiguous (phage/chromosome)	d22_5220_S224	d22_5220
+c_000000000019	0000000019	19_15	0000002487	ERMB	n/a	MLS	lincosamide antibiotic;macrolide antibiotic;streptogramin antibiotic	antibiotic target alteration	DeepARG/RGI	ambiguous (phage/chromosome)	d22_5220_S224	d22_5220
+c_000000000019	0000000019	19_5	0000002477	VANU	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	ambiguous (phage/chromosome)	d22_5220_S224	d22_5220
+c_000000000021	0000000021	21_18	0000002685	VANR	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	d22_5220_S224	d22_5220
+c_000000000025	0000000025	25_2	0000003007	VANU	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	d22_5220_S224	d22_5220
+c_000000000031	0000000031	31_24	0000003499	VATB	n/a	MLS	streptogramin antibiotic	antibiotic inactivation	DeepARG	phage	d22_5220_S224	d22_5220
+c_000000000034	0000000034	34_40	0000003707	LLMA_23S_RIBOSOMAL_RNA_METHYLTRANSFERASE	n/a	MLS	lincosamide antibiotic	antibiotic target alteration	DeepARG	chromosome	d22_5220_S224	d22_5220
+c_000000000035	0000000035	35_41	0000003763	VANRI	n/a	glycopeptide	glycopeptide antibiotic	antibiotic target alteration	DeepARG	chromosome	d22_5220_S224	d22_5220
+c_000000000040	0000000040	40_26	0000003996	EFRA	n/a	multidrug	fluoroquinolone antibiotic;macrolide antibiotic;rifamycin antibiotic	antibiotic efflux	DeepARG	chromosome	d22_5220_S224	d22_5220
+c_000000000061	0000000061	61_16	0000004565	BCRA	n/a	bacitracin	peptide antibiotic	antibiotic efflux	DeepARG	chromosome	d22_5220_S224	d22_5220
+c_000000000003	0000000003	3_95	0000000584	VANS	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	d22_5505_S225	d22_5505
+c_000000000012	0000000012	12_71	0000001714	VANRI	n/a	glycopeptide	glycopeptide antibiotic	antibiotic target alteration	DeepARG	chromosome	d22_5505_S225	d22_5505
+c_000000000022	0000000022	22_72	0000002645	VANR	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	d22_5505_S225	d22_5505
+c_000000000035	0000000035	35_40	0000003499	LLMA_23S_RIBOSOMAL_RNA_METHYLTRANSFERASE	n/a	MLS	lincosamide antibiotic	antibiotic target alteration	DeepARG	chromosome	d22_5505_S225	d22_5505
+c_000000000050	0000000050	50_27	0000004015	VANU	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	d22_5505_S225	d22_5505
+c_000000000059	0000000059	59_10	0000004220	EFRA	n/a	multidrug	fluoroquinolone antibiotic;macrolide antibiotic;rifamycin antibiotic	antibiotic efflux	DeepARG	chromosome	d22_5505_S225	d22_5505
+c_000000000072	0000000072	72_1	0000004411	TETW	n/a	tetracycline	tetracycline antibiotic	antibiotic target protection	DeepARG/RGI	unclassified	d22_5505_S225	d22_5505
+c_000000000002	0000000002	4_159	0000001957	LLMA_23S_RIBOSOMAL_RNA_METHYLTRANSFERASE	n/a	MLS	lincosamide antibiotic	antibiotic target alteration	DeepARG	chromosome	Ref_Cinnocuum_2959_dvf	Cinnocuum_2959
+c_000000000002	0000000004	4_159	0000001957	LLMA_23S_RIBOSOMAL_RNA_METHYLTRANSFERASE	n/a	MLS	lincosamide antibiotic	antibiotic target alteration	DeepARG	ambiguous (phage/chromosome)	Ref_Cinnocuum_2959_dvf	Cinnocuum_2959
+c_000000000002	0000000002	4_440	0000002238	VANRI	n/a	glycopeptide	glycopeptide antibiotic	antibiotic target alteration	DeepARG	chromosome	Ref_Cinnocuum_2959_dvf	Cinnocuum_2959
+c_000000000002	0000000004	4_440	0000002238	VANRI	n/a	glycopeptide	glycopeptide antibiotic	antibiotic target alteration	DeepARG	ambiguous (phage/chromosome)	Ref_Cinnocuum_2959_dvf	Cinnocuum_2959
+c_000000000003	0000000003	3_1502	0000001536	VANU	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	ambiguous (phage/chromosome)	Ref_Cinnocuum_2959_dvf	Cinnocuum_2959
+c_000000000003	0000000005	3_1502	0000001536	VANU	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	ambiguous (phage/chromosome)	Ref_Cinnocuum_2959_dvf	Cinnocuum_2959
+c_000000000003	0000000003	3_962	0000000996	LNUA	n/a	MLS	lincosamide antibiotic	antibiotic inactivation	DeepARG	ambiguous (phage/chromosome)	Ref_Cinnocuum_2959_dvf	Cinnocuum_2959
+c_000000000003	0000000005	3_962	0000000996	LNUA	n/a	MLS	lincosamide antibiotic	antibiotic inactivation	DeepARG	ambiguous (phage/chromosome)	Ref_Cinnocuum_2959_dvf	Cinnocuum_2959
+c_000000000003	0000000003	3_1671	0000001705	VATB	n/a	MLS	streptogramin antibiotic	antibiotic inactivation	DeepARG	ambiguous (phage/chromosome)	Ref_Cinnocuum_2959_dvf	Cinnocuum_2959
+c_000000000003	0000000005	3_1671	0000001705	VATB	n/a	MLS	streptogramin antibiotic	antibiotic inactivation	DeepARG	ambiguous (phage/chromosome)	Ref_Cinnocuum_2959_dvf	Cinnocuum_2959
+c_000000000003	0000000003	5_400	0000003978	EFRA	n/a	multidrug	fluoroquinolone antibiotic;macrolide antibiotic;rifamycin antibiotic	antibiotic efflux	DeepARG	ambiguous (phage/chromosome)	Ref_Cinnocuum_2959_dvf	Cinnocuum_2959
+c_000000000003	0000000005	5_400	0000003978	EFRA	n/a	multidrug	fluoroquinolone antibiotic;macrolide antibiotic;rifamycin antibiotic	antibiotic efflux	DeepARG	ambiguous (phage/chromosome)	Ref_Cinnocuum_2959_dvf	Cinnocuum_2959
+c_000000000003	0000000003	5_604	0000004182	VANR	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	ambiguous (phage/chromosome)	Ref_Cinnocuum_2959_dvf	Cinnocuum_2959
+c_000000000003	0000000005	5_604	0000004182	VANR	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	ambiguous (phage/chromosome)	Ref_Cinnocuum_2959_dvf	Cinnocuum_2959
+c_000000000001	0000000001	1_1302	0000001302	VANS	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	ambiguous (phage/chromosome)	Ref_Cinnocuum_I46_dvf	Cinnocuum_I46
+c_000000000001	0000000001	1_1302	0000001302	VANS	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	ambiguous (phage/chromosome)	Ref_Cinnocuum_I46_dvf	Cinnocuum_I46
+c_000000000001	0000000001	1_1302	0000001302	VANS	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	ambiguous (phage/chromosome)	Ref_Cinnocuum_I46_dvf	Cinnocuum_I46
+c_000000000001	0000000001	1_1302	0000001302	VANS	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	ambiguous (phage/chromosome)	Ref_Cinnocuum_I46_dvf	Cinnocuum_I46
+c_000000000001	0000000001	1_1326	0000001326	VANU	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	ambiguous (phage/chromosome)	Ref_Cinnocuum_I46_dvf	Cinnocuum_I46
+c_000000000001	0000000001	1_1326	0000001326	VANU	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	ambiguous (phage/chromosome)	Ref_Cinnocuum_I46_dvf	Cinnocuum_I46
+c_000000000001	0000000001	1_1326	0000001326	VANU	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	ambiguous (phage/chromosome)	Ref_Cinnocuum_I46_dvf	Cinnocuum_I46
+c_000000000001	0000000001	1_1326	0000001326	VANU	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	ambiguous (phage/chromosome)	Ref_Cinnocuum_I46_dvf	Cinnocuum_I46
+c_000000000001	0000000001	1_1738	0000001738	VANS	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	ambiguous (phage/chromosome)	Ref_Cinnocuum_I46_dvf	Cinnocuum_I46
+c_000000000001	0000000001	1_1738	0000001738	VANS	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	ambiguous (phage/chromosome)	Ref_Cinnocuum_I46_dvf	Cinnocuum_I46
+c_000000000001	0000000001	1_1738	0000001738	VANS	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	ambiguous (phage/chromosome)	Ref_Cinnocuum_I46_dvf	Cinnocuum_I46
+c_000000000001	0000000001	1_1738	0000001738	VANS	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	ambiguous (phage/chromosome)	Ref_Cinnocuum_I46_dvf	Cinnocuum_I46
+c_000000000001	0000000001	1_178	0000000178	BRUCELLA SUIS MPRF	n/a	peptide	peptide antibiotic	antibiotic target alteration	RGI	ambiguous (phage/chromosome)	Ref_Cinnocuum_I46_dvf	Cinnocuum_I46
+c_000000000001	0000000001	1_178	0000000178	BRUCELLA SUIS MPRF	n/a	peptide	peptide antibiotic	antibiotic target alteration	RGI	ambiguous (phage/chromosome)	Ref_Cinnocuum_I46_dvf	Cinnocuum_I46
+c_000000000001	0000000001	1_178	0000000178	BRUCELLA SUIS MPRF	n/a	peptide	peptide antibiotic	antibiotic target alteration	RGI	ambiguous (phage/chromosome)	Ref_Cinnocuum_I46_dvf	Cinnocuum_I46
+c_000000000001	0000000001	1_178	0000000178	BRUCELLA SUIS MPRF	n/a	peptide	peptide antibiotic	antibiotic target alteration	RGI	ambiguous (phage/chromosome)	Ref_Cinnocuum_I46_dvf	Cinnocuum_I46
+c_000000000002	0000000002	2_154	0000002066	VANS	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	ambiguous (phage/chromosome)	Ref_Cinnocuum_I46_dvf	Cinnocuum_I46
+c_000000000002	0000000002	2_251	0000002163	EFRA	n/a	multidrug	fluoroquinolone antibiotic;macrolide antibiotic;rifamycin antibiotic	antibiotic efflux	DeepARG	ambiguous (phage/chromosome)	Ref_Cinnocuum_I46_dvf	Cinnocuum_I46
+c_000000000002	0000000002	2_254	0000002166	VANS	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	ambiguous (phage/chromosome)	Ref_Cinnocuum_I46_dvf	Cinnocuum_I46
+c_000000000002	0000000002	2_33	0000001945	VANR	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	ambiguous (phage/chromosome)	Ref_Cinnocuum_I46_dvf	Cinnocuum_I46
+c_000000000003	0000000003	3_310	0000003966	VANRI	n/a	glycopeptide	glycopeptide antibiotic	antibiotic target alteration	DeepARG	ambiguous (phage/chromosome)	Ref_Cinnocuum_I46_dvf	Cinnocuum_I46
+c_000000000003	0000000003	3_493	0000004149	LLMA_23S_RIBOSOMAL_RNA_METHYLTRANSFERASE	n/a	MLS	lincosamide antibiotic	antibiotic target alteration	DeepARG	ambiguous (phage/chromosome)	Ref_Cinnocuum_I46_dvf	Cinnocuum_I46
+c_000000000001	0000000001	1_1056	0000001056	EFRA	n/a	multidrug	fluoroquinolone antibiotic;macrolide antibiotic;rifamycin antibiotic	antibiotic efflux	DeepARG	ambiguous (phage/chromosome)	Ref_Cinnocuum_LCLUMC_dvf	Cinnocuum_LCLUMC
+c_000000000001	0000000001	1_1342	0000001342	VANR	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	ambiguous (phage/chromosome)	Ref_Cinnocuum_LCLUMC_dvf	Cinnocuum_LCLUMC
+c_000000000002	0000000002	2_1410	0000003202	LLMA_23S_RIBOSOMAL_RNA_METHYLTRANSFERASE	n/a	MLS	lincosamide antibiotic	antibiotic target alteration	DeepARG	ambiguous (phage/chromosome)	Ref_Cinnocuum_LCLUMC_dvf	Cinnocuum_LCLUMC
+c_000000000002	0000000002	2_1640	0000003432	VANRI	n/a	glycopeptide	glycopeptide antibiotic	antibiotic target alteration	DeepARG	ambiguous (phage/chromosome)	Ref_Cinnocuum_LCLUMC_dvf	Cinnocuum_LCLUMC
+c_000000000002	0000000002	2_80	0000001872	VANU	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	ambiguous (phage/chromosome)	Ref_Cinnocuum_LCLUMC_dvf	Cinnocuum_LCLUMC
+c_000000000008	0000000007	7_115	0000000708	VANRI	n/a	glycopeptide	glycopeptide antibiotic	antibiotic target alteration	DeepARG	chromosome	GCA_000183585_2_ASM18358v1_genomic	GCA_000183585
+c_000000000050	0000000045	45_145	0000002622	EFRA	n/a	multidrug	fluoroquinolone antibiotic;macrolide antibiotic;rifamycin antibiotic	antibiotic efflux	DeepARG	chromosome	GCA_000183585_2_ASM18358v1_genomic	GCA_000183585
+c_000000000052	0000000047	47_224	0000002874	VANR	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	GCA_000183585_2_ASM18358v1_genomic	GCA_000183585
+c_000000000054	0000000049	49_133	0000003127	LLMA_23S_RIBOSOMAL_RNA_METHYLTRANSFERASE	n/a	MLS	lincosamide antibiotic	antibiotic target alteration	DeepARG	ambiguous (phage/chromosome)	GCA_000183585_2_ASM18358v1_genomic	GCA_000183585
+c_000000000058	0000000053	53_51	0000003674	LNUA	n/a	MLS	lincosamide antibiotic	antibiotic inactivation	DeepARG	chromosome	GCA_000183585_2_ASM18358v1_genomic	GCA_000183585
+c_000000000001	0000000001	1_1027	0000001027	VANR	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	ambiguous (phage/chromosome)	GCA_000242195_1_Erys_bact_21_3_V1_genomic	GCA_000242195
+c_000000000001	0000000001	1_1027	0000001027	VANR	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	ambiguous (phage/chromosome)	GCA_000242195_1_Erys_bact_21_3_V1_genomic	GCA_000242195
+c_000000000001	0000000001	1_1307	0000001307	EFRA	n/a	multidrug	fluoroquinolone antibiotic;macrolide antibiotic;rifamycin antibiotic	antibiotic efflux	DeepARG	ambiguous (phage/chromosome)	GCA_000242195_1_Erys_bact_21_3_V1_genomic	GCA_000242195
+c_000000000001	0000000001	1_1307	0000001307	EFRA	n/a	multidrug	fluoroquinolone antibiotic;macrolide antibiotic;rifamycin antibiotic	antibiotic efflux	DeepARG	ambiguous (phage/chromosome)	GCA_000242195_1_Erys_bact_21_3_V1_genomic	GCA_000242195
+c_000000000001	0000000001	1_1445	0000001445	ERMB	n/a	MLS	lincosamide antibiotic;macrolide antibiotic;streptogramin antibiotic	antibiotic target alteration	DeepARG/RGI	ambiguous (phage/chromosome)	GCA_000242195_1_Erys_bact_21_3_V1_genomic	GCA_000242195
+c_000000000001	0000000001	1_1445	0000001445	ERMB	n/a	MLS	lincosamide antibiotic;macrolide antibiotic;streptogramin antibiotic	antibiotic target alteration	DeepARG/RGI	ambiguous (phage/chromosome)	GCA_000242195_1_Erys_bact_21_3_V1_genomic	GCA_000242195
+c_000000000001	0000000001	1_368	0000000368	VANS	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	ambiguous (phage/chromosome)	GCA_000242195_1_Erys_bact_21_3_V1_genomic	GCA_000242195
+c_000000000001	0000000001	1_368	0000000368	VANS	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	ambiguous (phage/chromosome)	GCA_000242195_1_Erys_bact_21_3_V1_genomic	GCA_000242195
+c_000000000001	0000000001	1_396	0000000396	BCRA	n/a	bacitracin	peptide antibiotic	antibiotic efflux	DeepARG	ambiguous (phage/chromosome)	GCA_000242195_1_Erys_bact_21_3_V1_genomic	GCA_000242195
+c_000000000001	0000000001	1_396	0000000396	BCRA	n/a	bacitracin	peptide antibiotic	antibiotic efflux	DeepARG	ambiguous (phage/chromosome)	GCA_000242195_1_Erys_bact_21_3_V1_genomic	GCA_000242195
+c_000000000001	0000000001	1_517	0000000517	VANU	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	ambiguous (phage/chromosome)	GCA_000242195_1_Erys_bact_21_3_V1_genomic	GCA_000242195
+c_000000000001	0000000001	1_517	0000000517	VANU	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	ambiguous (phage/chromosome)	GCA_000242195_1_Erys_bact_21_3_V1_genomic	GCA_000242195
+c_000000000003	0000000003	3_20	0000002754	VANU	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	ambiguous (phage/chromosome)	GCA_000242195_1_Erys_bact_21_3_V1_genomic	GCA_000242195
+c_000000000003	0000000003	3_20	0000002754	VANU	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	ambiguous (phage/chromosome)	GCA_000242195_1_Erys_bact_21_3_V1_genomic	GCA_000242195
+c_000000000003	0000000003	3_395	0000003129	VANRI	n/a	glycopeptide	glycopeptide antibiotic	antibiotic target alteration	DeepARG	ambiguous (phage/chromosome)	GCA_000242195_1_Erys_bact_21_3_V1_genomic	GCA_000242195
+c_000000000003	0000000003	3_395	0000003129	VANRI	n/a	glycopeptide	glycopeptide antibiotic	antibiotic target alteration	DeepARG	ambiguous (phage/chromosome)	GCA_000242195_1_Erys_bact_21_3_V1_genomic	GCA_000242195
+c_000000000003	0000000003	3_76	0000002810	TET(44)	n/a	tetracycline	tetracycline antibiotic	antibiotic target protection	DeepARG/RGI	ambiguous (phage/chromosome)	GCA_000242195_1_Erys_bact_21_3_V1_genomic	GCA_000242195
+c_000000000003	0000000003	3_76	0000002810	TET(44)	n/a	tetracycline	tetracycline antibiotic	antibiotic target protection	DeepARG/RGI	ambiguous (phage/chromosome)	GCA_000242195_1_Erys_bact_21_3_V1_genomic	GCA_000242195
+c_000000000003	0000000003	3_77	0000002811	ANT(6)-IB	n/a	aminoglycoside	aminoglycoside antibiotic	antibiotic inactivation	DeepARG/RGI	ambiguous (phage/chromosome)	GCA_000242195_1_Erys_bact_21_3_V1_genomic	GCA_000242195
+c_000000000003	0000000003	3_77	0000002811	ANT(6)-IB	n/a	aminoglycoside	aminoglycoside antibiotic	antibiotic inactivation	DeepARG/RGI	ambiguous (phage/chromosome)	GCA_000242195_1_Erys_bact_21_3_V1_genomic	GCA_000242195
+c_000000000004	0000000004	4_490	0000003988	LLMA_23S_RIBOSOMAL_RNA_METHYLTRANSFERASE	n/a	MLS	lincosamide antibiotic	antibiotic target alteration	DeepARG	ambiguous (phage/chromosome)	GCA_000242195_1_Erys_bact_21_3_V1_genomic	GCA_000242195
+c_000000000010	0000000009	9_11	0000000093	TET(W/N/W)	n/a	tetracycline	tetracycline antibiotic	antibiotic target protection	DeepARG/RGI	plasmid	GCA_000435955_1_MGS64_genomic	GCA_000435955
+c_000000000031	0000000028	28_40	0000000870	LLMA_23S_RIBOSOMAL_RNA_METHYLTRANSFERASE	n/a	MLS	lincosamide antibiotic	antibiotic target alteration	DeepARG	chromosome	GCA_000435955_1_MGS64_genomic	GCA_000435955
+c_000000000058	0000000054	54_9	0000001645	VANU	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	GCA_000435955_1_MGS64_genomic	GCA_000435955
+c_000000000095	0000000087	87_108	0000003246	VANR	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	GCA_000435955_1_MGS64_genomic	GCA_000435955
+c_000000000102	0000000094	94_10	0000003674	EFRA	n/a	multidrug	fluoroquinolone antibiotic;macrolide antibiotic;rifamycin antibiotic	antibiotic efflux	DeepARG	chromosome	GCA_000435955_1_MGS64_genomic	GCA_000435955
+c_000000000103	0000000095	95_42	0000003752	VANRI	n/a	glycopeptide	glycopeptide antibiotic	antibiotic target alteration	DeepARG	chromosome	GCA_000435955_1_MGS64_genomic	GCA_000435955
+c_000000000105	0000000097	97_180	0000004060	VANS	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	GCA_000435955_1_MGS64_genomic	GCA_000435955
+c_000000000007	0000000007	7_74	0000000318	VANR	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	GCA_000450985_2_ASM45098v2_genomic	GCA_000450985
+c_000000000008	0000000008	8_68	0000000465	MEL	n/a	multidrug	lincosamide antibiotic;macrolide antibiotic;oxazolidinone antibiotic;phenicol antibiotic;pleuromutilin antibiotic;streptogramin antibiotic;tetracycline antibiotic	antibiotic target protection	DeepARG/RGI	chromosome	GCA_000450985_2_ASM45098v2_genomic	GCA_000450985
+c_000000000009	0000000009	9_91	0000000588	LLMA_23S_RIBOSOMAL_RNA_METHYLTRANSFERASE	n/a	MLS	lincosamide antibiotic	antibiotic target alteration	DeepARG	chromosome	GCA_000450985_2_ASM45098v2_genomic	GCA_000450985
+c_000000000023	0000000023	23_10	0000001051	EFRA	n/a	multidrug	fluoroquinolone antibiotic;macrolide antibiotic;rifamycin antibiotic	antibiotic efflux	DeepARG	chromosome	GCA_000450985_2_ASM45098v2_genomic	GCA_000450985
+c_000000000044	0000000044	44_11	0000002256	VANU	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	ambiguous (plasmid/phage)	GCA_000450985_2_ASM45098v2_genomic	GCA_000450985
+c_000000000051	0000000051	51_163	0000002686	VANRI	n/a	glycopeptide	glycopeptide antibiotic	antibiotic target alteration	DeepARG	chromosome	GCA_000450985_2_ASM45098v2_genomic	GCA_000450985
+c_000000000048	0000000046	46_87	0000002201	AADE	n/a	aminoglycoside	aminoglycoside antibiotic	-	DeepARG	chromosome	GCA_000763955_1_ASM76395v1_genomic	GCA_000763955
+c_000000000048	0000000046	46_99	0000002213	VANR	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	GCA_000763955_1_ASM76395v1_genomic	GCA_000763955
+c_000000000065	0000000062	62_42	0000002786	VANU	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	ambiguous (phage/chromosome)	GCA_000763955_1_ASM76395v1_genomic	GCA_000763955
+c_000000000069	0000000066	66_9	0000002872	LLMA_23S_RIBOSOMAL_RNA_METHYLTRANSFERASE	n/a	MLS	lincosamide antibiotic	antibiotic target alteration	DeepARG	chromosome	GCA_000763955_1_ASM76395v1_genomic	GCA_000763955
+c_000000000073	0000000070	70_3	0000002976	CAMPYLOBACTER COLI CHLORAMPHENICOL ACETYLTRANSFERASE	n/a	phenicol	phenicol antibiotic	antibiotic inactivation	DeepARG/RGI	phage	GCA_000763955_1_ASM76395v1_genomic	GCA_000763955
+c_000000000083	0000000076	76_3	0000003149	EFRA	n/a	multidrug	fluoroquinolone antibiotic;macrolide antibiotic;rifamycin antibiotic	antibiotic efflux	DeepARG	chromosome	GCA_000763955_1_ASM76395v1_genomic	GCA_000763955
+c_000000000095	0000000084	84_8	0000003440	VANS	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	GCA_000763955_1_ASM76395v1_genomic	GCA_000763955
+c_000000000097	0000000086	86_67	0000003542	LNUA	n/a	MLS	lincosamide antibiotic	antibiotic inactivation	DeepARG	chromosome	GCA_000763955_1_ASM76395v1_genomic	GCA_000763955
+c_000000000132	0000000111	111_12	0000004140	TETM	n/a	tetracycline	tetracycline antibiotic	antibiotic target protection	DeepARG/RGI	ambiguous (plasmid/phage)	GCA_000763955_1_ASM76395v1_genomic	GCA_000763955
+c_000000000142	0000000115	115_12	0000004201	VANRI	n/a	glycopeptide	glycopeptide antibiotic	antibiotic target alteration	DeepARG	chromosome	GCA_000763955_1_ASM76395v1_genomic	GCA_000763955
+c_000000000002	0000000002	2_167	0000000505	VANRI	n/a	glycopeptide	glycopeptide antibiotic	antibiotic target alteration	DeepARG	chromosome	GCA_001305075_1_ASM130507v1_genomic	GCA_001305075
+c_000000000003	0000000003	3_159	0000000804	AADE	n/a	aminoglycoside	aminoglycoside antibiotic	-	DeepARG	chromosome	GCA_001305075_1_ASM130507v1_genomic	GCA_001305075
+c_000000000017	0000000017	17_37	0000002648	LLMA_23S_RIBOSOMAL_RNA_METHYLTRANSFERASE	n/a	MLS	lincosamide antibiotic	antibiotic target alteration	DeepARG	chromosome	GCA_001305075_1_ASM130507v1_genomic	GCA_001305075
+c_000000000031	0000000031	31_40	0000003731	EFRA	n/a	multidrug	fluoroquinolone antibiotic;macrolide antibiotic;rifamycin antibiotic	antibiotic efflux	DeepARG	chromosome	GCA_001305075_1_ASM130507v1_genomic	GCA_001305075
+c_000000000056	0000000056	56_21	0000004528	VANU	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	GCA_001305075_1_ASM130507v1_genomic	GCA_001305075
+c_000000000061	0000000061	61_11	0000004623	ERMB	n/a	MLS	lincosamide antibiotic;macrolide antibiotic;streptogramin antibiotic	antibiotic target alteration	DeepARG/RGI	ambiguous (plasmid/phage)	GCA_001305075_1_ASM130507v1_genomic	GCA_001305075
+c_000000000066	0000000066	66_6	0000004704	VANR	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	GCA_001305075_1_ASM130507v1_genomic	GCA_001305075
+c_000000000001	0000000001	1_469	0000000469	VATB	n/a	MLS	streptogramin antibiotic	antibiotic inactivation	DeepARG	ambiguous (phage/chromosome)	GCA_001406695_1_13470_2_72_genomic	GCA_001406695
+c_000000000001	0000000001	1_54	0000000054	LLMA_23S_RIBOSOMAL_RNA_METHYLTRANSFERASE	n/a	MLS	lincosamide antibiotic	antibiotic target alteration	DeepARG	ambiguous (phage/chromosome)	GCA_001406695_1_13470_2_72_genomic	GCA_001406695
+c_000000000003	0000000003	3_172	0000001027	VANRI	n/a	glycopeptide	glycopeptide antibiotic	antibiotic target alteration	DeepARG	ambiguous (phage/chromosome)	GCA_001406695_1_13470_2_72_genomic	GCA_001406695
+c_000000000006	0000000006	6_190	0000001932	EFRA	n/a	multidrug	fluoroquinolone antibiotic;macrolide antibiotic;rifamycin antibiotic	antibiotic efflux	DeepARG	chromosome	GCA_001406695_1_13470_2_72_genomic	GCA_001406695
+c_000000000023	0000000023	23_6	0000003804	LNUA	n/a	MLS	lincosamide antibiotic	antibiotic inactivation	DeepARG	chromosome	GCA_001406695_1_13470_2_72_genomic	GCA_001406695
+c_000000000025	0000000025	25_36	0000003942	VANR	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	GCA_001406695_1_13470_2_72_genomic	GCA_001406695
+c_000000000001	0000000001	1_1353	0000001353	VANS	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	ambiguous (phage/chromosome)	GCA_001688965_2_ASM168896v2_genomic_dvf	GCA_001688965
+c_000000000001	0000000001	1_1356	0000001356	EFRA	n/a	multidrug	fluoroquinolone antibiotic;macrolide antibiotic;rifamycin antibiotic	antibiotic efflux	DeepARG	ambiguous (phage/chromosome)	GCA_001688965_2_ASM168896v2_genomic_dvf	GCA_001688965
+c_000000000001	0000000001	1_1452	0000001452	VANS	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	ambiguous (phage/chromosome)	GCA_001688965_2_ASM168896v2_genomic_dvf	GCA_001688965
+c_000000000001	0000000001	1_1573	0000001573	VANR	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	ambiguous (phage/chromosome)	GCA_001688965_2_ASM168896v2_genomic_dvf	GCA_001688965
+c_000000000002	0000000002	2_1583	0000003359	BRUCELLA SUIS MPRF	n/a	peptide	peptide antibiotic	antibiotic target alteration	RGI	ambiguous (phage/chromosome)	GCA_001688965_2_ASM168896v2_genomic_dvf	GCA_001688965
+c_000000000002	0000000002	2_1583	0000003359	BRUCELLA SUIS MPRF	n/a	peptide	peptide antibiotic	antibiotic target alteration	RGI	ambiguous (phage/chromosome)	GCA_001688965_2_ASM168896v2_genomic_dvf	GCA_001688965
+c_000000000002	0000000002	2_1583	0000003359	BRUCELLA SUIS MPRF	n/a	peptide	peptide antibiotic	antibiotic target alteration	RGI	ambiguous (phage/chromosome)	GCA_001688965_2_ASM168896v2_genomic_dvf	GCA_001688965
+c_000000000002	0000000002	2_3	0000001779	VANS	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	ambiguous (phage/chromosome)	GCA_001688965_2_ASM168896v2_genomic_dvf	GCA_001688965
+c_000000000002	0000000002	2_3	0000001779	VANS	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	ambiguous (phage/chromosome)	GCA_001688965_2_ASM168896v2_genomic_dvf	GCA_001688965
+c_000000000002	0000000002	2_3	0000001779	VANS	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	ambiguous (phage/chromosome)	GCA_001688965_2_ASM168896v2_genomic_dvf	GCA_001688965
+c_000000000002	0000000002	2_413	0000002189	VANU	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	ambiguous (phage/chromosome)	GCA_001688965_2_ASM168896v2_genomic_dvf	GCA_001688965
+c_000000000002	0000000002	2_413	0000002189	VANU	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	ambiguous (phage/chromosome)	GCA_001688965_2_ASM168896v2_genomic_dvf	GCA_001688965
+c_000000000002	0000000002	2_413	0000002189	VANU	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	ambiguous (phage/chromosome)	GCA_001688965_2_ASM168896v2_genomic_dvf	GCA_001688965
+c_000000000002	0000000002	2_437	0000002213	VANS	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	ambiguous (phage/chromosome)	GCA_001688965_2_ASM168896v2_genomic_dvf	GCA_001688965
+c_000000000002	0000000002	2_437	0000002213	VANS	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	ambiguous (phage/chromosome)	GCA_001688965_2_ASM168896v2_genomic_dvf	GCA_001688965
+c_000000000002	0000000002	2_437	0000002213	VANS	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	ambiguous (phage/chromosome)	GCA_001688965_2_ASM168896v2_genomic_dvf	GCA_001688965
+c_000000000003	0000000003	3_169	0000003831	LLMA_23S_RIBOSOMAL_RNA_METHYLTRANSFERASE	n/a	MLS	lincosamide antibiotic	antibiotic target alteration	DeepARG	ambiguous (phage/chromosome)	GCA_001688965_2_ASM168896v2_genomic_dvf	GCA_001688965
+c_000000000003	0000000003	3_351	0000004013	VANRI	n/a	glycopeptide	glycopeptide antibiotic	antibiotic target alteration	DeepARG	ambiguous (phage/chromosome)	GCA_001688965_2_ASM168896v2_genomic_dvf	GCA_001688965
+c_000000000001	0000000001	1_1302	0000001302	VANS	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	ambiguous (phage/chromosome)	GCA_002221705_2_ASM222170v2_genomic_dvf	GCA_002221705
+c_000000000001	0000000001	1_1302	0000001302	VANS	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	ambiguous (phage/chromosome)	GCA_002221705_2_ASM222170v2_genomic_dvf	GCA_002221705
+c_000000000001	0000000001	1_1302	0000001302	VANS	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	ambiguous (phage/chromosome)	GCA_002221705_2_ASM222170v2_genomic_dvf	GCA_002221705
+c_000000000001	0000000001	1_1302	0000001302	VANS	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	ambiguous (phage/chromosome)	GCA_002221705_2_ASM222170v2_genomic_dvf	GCA_002221705
+c_000000000001	0000000001	1_1326	0000001326	VANU	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	ambiguous (phage/chromosome)	GCA_002221705_2_ASM222170v2_genomic_dvf	GCA_002221705
+c_000000000001	0000000001	1_1326	0000001326	VANU	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	ambiguous (phage/chromosome)	GCA_002221705_2_ASM222170v2_genomic_dvf	GCA_002221705
+c_000000000001	0000000001	1_1326	0000001326	VANU	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	ambiguous (phage/chromosome)	GCA_002221705_2_ASM222170v2_genomic_dvf	GCA_002221705
+c_000000000001	0000000001	1_1326	0000001326	VANU	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	ambiguous (phage/chromosome)	GCA_002221705_2_ASM222170v2_genomic_dvf	GCA_002221705
+c_000000000001	0000000001	1_1738	0000001738	VANS	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	ambiguous (phage/chromosome)	GCA_002221705_2_ASM222170v2_genomic_dvf	GCA_002221705
+c_000000000001	0000000001	1_1738	0000001738	VANS	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	ambiguous (phage/chromosome)	GCA_002221705_2_ASM222170v2_genomic_dvf	GCA_002221705
+c_000000000001	0000000001	1_1738	0000001738	VANS	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	ambiguous (phage/chromosome)	GCA_002221705_2_ASM222170v2_genomic_dvf	GCA_002221705
+c_000000000001	0000000001	1_1738	0000001738	VANS	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	ambiguous (phage/chromosome)	GCA_002221705_2_ASM222170v2_genomic_dvf	GCA_002221705
+c_000000000001	0000000001	1_178	0000000178	BRUCELLA SUIS MPRF	n/a	peptide	peptide antibiotic	antibiotic target alteration	RGI	ambiguous (phage/chromosome)	GCA_002221705_2_ASM222170v2_genomic_dvf	GCA_002221705
+c_000000000001	0000000001	1_178	0000000178	BRUCELLA SUIS MPRF	n/a	peptide	peptide antibiotic	antibiotic target alteration	RGI	ambiguous (phage/chromosome)	GCA_002221705_2_ASM222170v2_genomic_dvf	GCA_002221705
+c_000000000001	0000000001	1_178	0000000178	BRUCELLA SUIS MPRF	n/a	peptide	peptide antibiotic	antibiotic target alteration	RGI	ambiguous (phage/chromosome)	GCA_002221705_2_ASM222170v2_genomic_dvf	GCA_002221705
+c_000000000001	0000000001	1_178	0000000178	BRUCELLA SUIS MPRF	n/a	peptide	peptide antibiotic	antibiotic target alteration	RGI	ambiguous (phage/chromosome)	GCA_002221705_2_ASM222170v2_genomic_dvf	GCA_002221705
+c_000000000002	0000000002	2_194	0000002065	VANS	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	ambiguous (phage/chromosome)	GCA_002221705_2_ASM222170v2_genomic_dvf	GCA_002221705
+c_000000000002	0000000002	2_291	0000002162	EFRA	n/a	multidrug	fluoroquinolone antibiotic;macrolide antibiotic;rifamycin antibiotic	antibiotic efflux	DeepARG	ambiguous (phage/chromosome)	GCA_002221705_2_ASM222170v2_genomic_dvf	GCA_002221705
+c_000000000002	0000000002	2_294	0000002165	VANS	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	ambiguous (phage/chromosome)	GCA_002221705_2_ASM222170v2_genomic_dvf	GCA_002221705
+c_000000000002	0000000002	2_73	0000001944	VANR	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	ambiguous (phage/chromosome)	GCA_002221705_2_ASM222170v2_genomic_dvf	GCA_002221705
+c_000000000003	0000000003	3_331	0000003966	VANRI	n/a	glycopeptide	glycopeptide antibiotic	antibiotic target alteration	DeepARG	ambiguous (phage/chromosome)	GCA_002221705_2_ASM222170v2_genomic_dvf	GCA_002221705
+c_000000000003	0000000003	3_514	0000004149	LLMA_23S_RIBOSOMAL_RNA_METHYLTRANSFERASE	n/a	MLS	lincosamide antibiotic	antibiotic target alteration	DeepARG	ambiguous (phage/chromosome)	GCA_002221705_2_ASM222170v2_genomic_dvf	GCA_002221705
+c_000000000001	0000000001	1_1502	0000001502	VANU	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	ambiguous (phage/chromosome)	GCA_002814255_1_ASM281425v1_genomic_dvf	GCA_002814255
+c_000000000001	0000000001	1_1671	0000001671	VATB	n/a	MLS	streptogramin antibiotic	antibiotic inactivation	DeepARG	ambiguous (phage/chromosome)	GCA_002814255_1_ASM281425v1_genomic_dvf	GCA_002814255
+c_000000000001	0000000001	1_962	0000000962	LNUA	n/a	MLS	lincosamide antibiotic	antibiotic inactivation	DeepARG	ambiguous (phage/chromosome)	GCA_002814255_1_ASM281425v1_genomic_dvf	GCA_002814255
+c_000000000002	0000000002	2_124	0000001922	LLMA_23S_RIBOSOMAL_RNA_METHYLTRANSFERASE	n/a	MLS	lincosamide antibiotic	antibiotic target alteration	DeepARG	ambiguous (phage/chromosome)	GCA_002814255_1_ASM281425v1_genomic_dvf	GCA_002814255
+c_000000000002	0000000002	2_405	0000002203	VANRI	n/a	glycopeptide	glycopeptide antibiotic	antibiotic target alteration	DeepARG	ambiguous (phage/chromosome)	GCA_002814255_1_ASM281425v1_genomic_dvf	GCA_002814255
+c_000000000003	0000000003	3_486	0000003944	EFRA	n/a	multidrug	fluoroquinolone antibiotic;macrolide antibiotic;rifamycin antibiotic	antibiotic efflux	DeepARG	ambiguous (phage/chromosome)	GCA_002814255_1_ASM281425v1_genomic_dvf	GCA_002814255
+c_000000000003	0000000003	3_690	0000004148	VANR	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	ambiguous (phage/chromosome)	GCA_002814255_1_ASM281425v1_genomic_dvf	GCA_002814255
+c_000000000001	0000000001	1_359	0000000359	VANRI	n/a	glycopeptide	glycopeptide antibiotic	antibiotic target alteration	DeepARG	ambiguous (phage/chromosome)	GCA_009696405_1_ASM969640v1_genomic	GCA_009696405
+c_000000000001	0000000001	1_359	0000000359	VANRI	n/a	glycopeptide	glycopeptide antibiotic	antibiotic target alteration	DeepARG	ambiguous (phage/chromosome)	GCA_009696405_1_ASM969640v1_genomic	GCA_009696405
+c_000000000005	0000000005	5_13	0000001000	VANR	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	GCA_009696405_1_ASM969640v1_genomic	GCA_009696405
+c_000000000008	0000000008	8_22	0000001343	MEFA	n/a	MLS	macrolide antibiotic	antibiotic efflux	DeepARG	chromosome	GCA_009696405_1_ASM969640v1_genomic	GCA_009696405
+c_000000000008	0000000008	8_30	0000001351	AAD(6)	n/a	aminoglycoside	aminoglycoside antibiotic	antibiotic inactivation	DeepARG/RGI	chromosome	GCA_009696405_1_ASM969640v1_genomic	GCA_009696405
+c_000000000008	0000000008	8_31	0000001352	SAT-4	n/a	nucleoside	nucleoside antibiotic	antibiotic inactivation	RGI	chromosome	GCA_009696405_1_ASM969640v1_genomic	GCA_009696405
+c_000000000008	0000000008	8_32	0000001353	APH(3')-IIIA	n/a	aminoglycoside	aminoglycoside antibiotic	antibiotic inactivation	DeepARG/RGI	chromosome	GCA_009696405_1_ASM969640v1_genomic	GCA_009696405
+c_000000000009	0000000009	9_40	0000001465	LLMA_23S_RIBOSOMAL_RNA_METHYLTRANSFERASE	n/a	MLS	lincosamide antibiotic	antibiotic target alteration	DeepARG	chromosome	GCA_009696405_1_ASM969640v1_genomic	GCA_009696405
+c_000000000012	0000000012	12_474	0000002157	VANS	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	GCA_009696405_1_ASM969640v1_genomic	GCA_009696405
+c_000000000014	0000000014	14_57	0000002310	VANU	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	GCA_009696405_1_ASM969640v1_genomic	GCA_009696405
+c_000000000019	0000000019	19_27	0000002560	EFRA	n/a	multidrug	fluoroquinolone antibiotic;macrolide antibiotic;rifamycin antibiotic	antibiotic efflux	DeepARG	chromosome	GCA_009696405_1_ASM969640v1_genomic	GCA_009696405
+c_000000000040	0000000040	40_148	0000003966	AADE	n/a	aminoglycoside	aminoglycoside antibiotic	-	DeepARG	chromosome	GCA_009696405_1_ASM969640v1_genomic	GCA_009696405
+c_000000000040	0000000040	40_182	0000004000	TET(W/N/W)	n/a	tetracycline	tetracycline antibiotic	antibiotic target protection	DeepARG/RGI	chromosome	GCA_009696405_1_ASM969640v1_genomic	GCA_009696405
+c_000000000005	0000000005	5_50	0000000475	VANU	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	GCA_009874055_1_ASM987405v1_genomic	GCA_009874055
+c_000000000011	0000000011	11_22	0000000932	VANRI	n/a	glycopeptide	glycopeptide antibiotic	antibiotic target alteration	DeepARG	chromosome	GCA_009874055_1_ASM987405v1_genomic	GCA_009874055
+c_000000000012	0000000012	12_73	0000001230	VANR	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	GCA_009874055_1_ASM987405v1_genomic	GCA_009874055
+c_000000000025	0000000025	25_26	0000002179	EFRA	n/a	multidrug	fluoroquinolone antibiotic;macrolide antibiotic;rifamycin antibiotic	antibiotic efflux	DeepARG	chromosome	GCA_009874055_1_ASM987405v1_genomic	GCA_009874055
+c_000000000028	0000000028	28_10	0000002352	LLMA_23S_RIBOSOMAL_RNA_METHYLTRANSFERASE	n/a	MLS	lincosamide antibiotic	antibiotic target alteration	DeepARG	chromosome	GCA_009874055_1_ASM987405v1_genomic	GCA_009874055
+c_000000000046	0000000046	46_27	0000003339	VANU	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	GCA_009874055_1_ASM987405v1_genomic	GCA_009874055
+c_000000000055	0000000055	55_84	0000003594	VANS	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	GCA_009874055_1_ASM987405v1_genomic	GCA_009874055
+c_000000000061	0000000061	61_12	0000003738	TETW	n/a	tetracycline	tetracycline antibiotic	antibiotic target protection	DeepARG/RGI	chromosome	GCA_009874055_1_ASM987405v1_genomic	GCA_009874055
+c_000000000004	0000000004	4_55	0000000368	LLMA_23S_RIBOSOMAL_RNA_METHYLTRANSFERASE	n/a	MLS	lincosamide antibiotic	antibiotic target alteration	DeepARG	chromosome	GCA_009874095_1_ASM987409v1_genomic	GCA_009874095
+c_000000000009	0000000009	9_2	0000000735	VANR	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	GCA_009874095_1_ASM987409v1_genomic	GCA_009874095
+c_000000000011	0000000011	11_22	0000000914	VANRI	n/a	glycopeptide	glycopeptide antibiotic	antibiotic target alteration	DeepARG	chromosome	GCA_009874095_1_ASM987409v1_genomic	GCA_009874095
+c_000000000019	0000000019	19_22	0000001607	VANU	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	GCA_009874095_1_ASM987409v1_genomic	GCA_009874095
+c_000000000030	0000000030	30_26	0000002419	EFRA	n/a	multidrug	fluoroquinolone antibiotic;macrolide antibiotic;rifamycin antibiotic	antibiotic efflux	DeepARG	chromosome	GCA_009874095_1_ASM987409v1_genomic	GCA_009874095
+c_000000000032	0000000032	32_42	0000002548	TETW	n/a	tetracycline	tetracycline antibiotic	antibiotic target protection	DeepARG/RGI	chromosome	GCA_009874095_1_ASM987409v1_genomic	GCA_009874095
+c_000000000044	0000000044	44_86	0000003212	VANS	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	GCA_009874095_1_ASM987409v1_genomic	GCA_009874095
+c_000000000051	0000000051	51_27	0000003502	VANU	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	GCA_009874095_1_ASM987409v1_genomic	GCA_009874095
+c_000000000004	0000000004	4_55	0000000372	LLMA_23S_RIBOSOMAL_RNA_METHYLTRANSFERASE	n/a	MLS	lincosamide antibiotic	antibiotic target alteration	DeepARG	chromosome	GCA_009874135_1_ASM987413v1_genomic	GCA_009874135
+c_000000000008	0000000008	8_11	0000000659	TETW	n/a	tetracycline	tetracycline antibiotic	antibiotic target protection	DeepARG/RGI	chromosome	GCA_009874135_1_ASM987413v1_genomic	GCA_009874135
+c_000000000010	0000000010	10_73	0000000895	VANR	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	GCA_009874135_1_ASM987413v1_genomic	GCA_009874135
+c_000000000011	0000000011	11_22	0000000918	VANRI	n/a	glycopeptide	glycopeptide antibiotic	antibiotic target alteration	DeepARG	chromosome	GCA_009874135_1_ASM987413v1_genomic	GCA_009874135
+c_000000000018	0000000018	18_22	0000001544	VANU	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	GCA_009874135_1_ASM987413v1_genomic	GCA_009874135
+c_000000000028	0000000028	28_26	0000002312	EFRA	n/a	multidrug	fluoroquinolone antibiotic;macrolide antibiotic;rifamycin antibiotic	antibiotic efflux	DeepARG	chromosome	GCA_009874135_1_ASM987413v1_genomic	GCA_009874135
+c_000000000044	0000000044	44_84	0000003225	VANS	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	GCA_009874135_1_ASM987413v1_genomic	GCA_009874135
+c_000000000049	0000000049	49_27	0000003425	VANU	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	GCA_009874135_1_ASM987413v1_genomic	GCA_009874135
+c_000000000005	0000000005	5_55	0000000480	LLMA_23S_RIBOSOMAL_RNA_METHYLTRANSFERASE	n/a	MLS	lincosamide antibiotic	antibiotic target alteration	DeepARG	chromosome	GCA_009874145_1_ASM987414v1_genomic	GCA_009874145
+c_000000000009	0000000009	9_11	0000000767	TETW	n/a	tetracycline	tetracycline antibiotic	antibiotic target protection	DeepARG/RGI	chromosome	GCA_009874145_1_ASM987414v1_genomic	GCA_009874145
+c_000000000010	0000000010	10_2	0000000856	VANR	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	GCA_009874145_1_ASM987414v1_genomic	GCA_009874145
+c_000000000011	0000000011	11_22	0000000950	VANRI	n/a	glycopeptide	glycopeptide antibiotic	antibiotic target alteration	DeepARG	chromosome	GCA_009874145_1_ASM987414v1_genomic	GCA_009874145
+c_000000000022	0000000022	22_148	0000002014	VANU	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	GCA_009874145_1_ASM987414v1_genomic	GCA_009874145
+c_000000000026	0000000026	26_36	0000002276	EFRA	n/a	multidrug	fluoroquinolone antibiotic;macrolide antibiotic;rifamycin antibiotic	antibiotic efflux	DeepARG	chromosome	GCA_009874145_1_ASM987414v1_genomic	GCA_009874145
+c_000000000046	0000000046	46_27	0000003353	VANU	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	GCA_009874145_1_ASM987414v1_genomic	GCA_009874145
+c_000000000066	0000000066	66_84	0000003916	VANS	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	GCA_009874145_1_ASM987414v1_genomic	GCA_009874145
+c_000000000011	0000000011	11_55	0000000383	LLMA_23S_RIBOSOMAL_RNA_METHYLTRANSFERASE	n/a	MLS	lincosamide antibiotic	antibiotic target alteration	DeepARG	chromosome	GCA_009874155_1_ASM987415v1_genomic	GCA_009874155
+c_000000000016	0000000016	16_73	0000000821	VANR	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	GCA_009874155_1_ASM987415v1_genomic	GCA_009874155
+c_000000000024	0000000024	24_23	0000001518	VANU	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	GCA_009874155_1_ASM987415v1_genomic	GCA_009874155
+c_000000000029	0000000029	29_22	0000001876	VANRI	n/a	glycopeptide	glycopeptide antibiotic	antibiotic target alteration	DeepARG	chromosome	GCA_009874155_1_ASM987415v1_genomic	GCA_009874155
+c_000000000037	0000000037	37_36	0000002384	EFRA	n/a	multidrug	fluoroquinolone antibiotic;macrolide antibiotic;rifamycin antibiotic	antibiotic efflux	DeepARG	chromosome	GCA_009874155_1_ASM987415v1_genomic	GCA_009874155
+c_000000000052	0000000052	52_84	0000003131	VANS	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	GCA_009874155_1_ASM987415v1_genomic	GCA_009874155
+c_000000000053	0000000053	53_1	0000003194	TETW	n/a	tetracycline	tetracycline antibiotic	antibiotic target protection	DeepARG/RGI	chromosome	GCA_009874155_1_ASM987415v1_genomic	GCA_009874155
+c_000000000056	0000000056	56_27	0000003315	VANU	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	GCA_009874155_1_ASM987415v1_genomic	GCA_009874155
+c_000000000076	0000000076	76_14	0000003952	TETW	n/a	tetracycline	tetracycline antibiotic	antibiotic target protection	RGI	unclassified	GCA_009874155_1_ASM987415v1_genomic	GCA_009874155
+c_000000000015	0000000015	15_55	0000000298	LLMA_23S_RIBOSOMAL_RNA_METHYLTRANSFERASE	n/a	MLS	lincosamide antibiotic	antibiotic target alteration	DeepARG	chromosome	GCA_009874195_1_ASM987419v1_genomic	GCA_009874195
+c_000000000020	0000000020	20_2	0000000665	VANR	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	GCA_009874195_1_ASM987419v1_genomic	GCA_009874195
+c_000000000030	0000000030	30_20	0000001595	VANU	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	GCA_009874195_1_ASM987419v1_genomic	GCA_009874195
+c_000000000034	0000000034	34_22	0000001840	VANRI	n/a	glycopeptide	glycopeptide antibiotic	antibiotic target alteration	DeepARG	chromosome	GCA_009874195_1_ASM987419v1_genomic	GCA_009874195
+c_000000000037	0000000037	37_36	0000002157	EFRA	n/a	multidrug	fluoroquinolone antibiotic;macrolide antibiotic;rifamycin antibiotic	antibiotic efflux	DeepARG	chromosome	GCA_009874195_1_ASM987419v1_genomic	GCA_009874195
+c_000000000056	0000000056	56_84	0000003167	VANS	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	GCA_009874195_1_ASM987419v1_genomic	GCA_009874195
+c_000000000063	0000000063	63_27	0000003428	VANU	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	GCA_009874195_1_ASM987419v1_genomic	GCA_009874195
+c_000000000083	0000000083	83_12	0000004022	TETW	n/a	tetracycline	tetracycline antibiotic	antibiotic target protection	DeepARG/RGI	chromosome	GCA_009874195_1_ASM987419v1_genomic	GCA_009874195
+c_000000000008	0000000008	8_55	0000000382	LLMA_23S_RIBOSOMAL_RNA_METHYLTRANSFERASE	n/a	MLS	lincosamide antibiotic	antibiotic target alteration	DeepARG	chromosome	GCA_009874205_1_ASM987420v1_genomic	GCA_009874205
+c_000000000012	0000000012	12_2	0000000661	VANR	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	GCA_009874205_1_ASM987420v1_genomic	GCA_009874205
+c_000000000021	0000000021	21_20	0000001502	VANU	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	GCA_009874205_1_ASM987420v1_genomic	GCA_009874205
+c_000000000026	0000000026	26_22	0000001827	VANRI	n/a	glycopeptide	glycopeptide antibiotic	antibiotic target alteration	DeepARG	chromosome	GCA_009874205_1_ASM987420v1_genomic	GCA_009874205
+c_000000000029	0000000029	29_36	0000002143	EFRA	n/a	multidrug	fluoroquinolone antibiotic;macrolide antibiotic;rifamycin antibiotic	antibiotic efflux	DeepARG	chromosome	GCA_009874205_1_ASM987420v1_genomic	GCA_009874205
+c_000000000048	0000000048	48_84	0000003135	VANS	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	GCA_009874205_1_ASM987420v1_genomic	GCA_009874205
+c_000000000050	0000000050	50_1	0000003230	TETW	n/a	tetracycline	tetracycline antibiotic	antibiotic target protection	DeepARG/RGI	chromosome	GCA_009874205_1_ASM987420v1_genomic	GCA_009874205
+c_000000000054	0000000054	54_27	0000003375	VANU	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	GCA_009874205_1_ASM987420v1_genomic	GCA_009874205
+c_000000000002	0000000002	2_2	0000000004	VANR	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	GCA_009876345_1_ASM987634v1_genomic	GCA_009876345
+c_000000000005	0000000005	5_55	0000000445	LLMA_23S_RIBOSOMAL_RNA_METHYLTRANSFERASE	n/a	MLS	lincosamide antibiotic	antibiotic target alteration	DeepARG	chromosome	GCA_009876345_1_ASM987634v1_genomic	GCA_009876345
+c_000000000012	0000000012	12_22	0000000993	VANRI	n/a	glycopeptide	glycopeptide antibiotic	antibiotic target alteration	DeepARG	chromosome	GCA_009876345_1_ASM987634v1_genomic	GCA_009876345
+c_000000000019	0000000019	19_22	0000001631	VANU	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	GCA_009876345_1_ASM987634v1_genomic	GCA_009876345
+c_000000000028	0000000028	28_36	0000002357	EFRA	n/a	multidrug	fluoroquinolone antibiotic;macrolide antibiotic;rifamycin antibiotic	antibiotic efflux	DeepARG	chromosome	GCA_009876345_1_ASM987634v1_genomic	GCA_009876345
+c_000000000045	0000000045	45_84	0000003253	VANS	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	GCA_009876345_1_ASM987634v1_genomic	GCA_009876345
+c_000000000049	0000000049	49_27	0000003426	VANU	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	GCA_009876345_1_ASM987634v1_genomic	GCA_009876345
+c_000000000066	0000000066	66_1	0000003859	TETW	n/a	tetracycline	tetracycline antibiotic	antibiotic target protection	DeepARG/RGI	unclassified	GCA_009876345_1_ASM987634v1_genomic	GCA_009876345
+c_000000000006	0000000006	6_55	0000000374	LLMA_23S_RIBOSOMAL_RNA_METHYLTRANSFERASE	n/a	MLS	lincosamide antibiotic	antibiotic target alteration	DeepARG	chromosome	GCA_009876375_1_ASM987637v1_genomic	GCA_009876375
+c_000000000011	0000000011	11_72	0000000811	VANR	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	GCA_009876375_1_ASM987637v1_genomic	GCA_009876375
+c_000000000013	0000000013	13_22	0000000919	VANRI	n/a	glycopeptide	glycopeptide antibiotic	antibiotic target alteration	DeepARG	chromosome	GCA_009876375_1_ASM987637v1_genomic	GCA_009876375
+c_000000000020	0000000020	20_21	0000001541	VANU	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	GCA_009876375_1_ASM987637v1_genomic	GCA_009876375
+c_000000000028	0000000028	28_26	0000002135	EFRA	n/a	multidrug	fluoroquinolone antibiotic;macrolide antibiotic;rifamycin antibiotic	antibiotic efflux	DeepARG	chromosome	GCA_009876375_1_ASM987637v1_genomic	GCA_009876375
+c_000000000046	0000000046	46_84	0000003118	VANS	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	GCA_009876375_1_ASM987637v1_genomic	GCA_009876375
+c_000000000050	0000000050	50_1	0000003276	TETW	n/a	tetracycline	tetracycline antibiotic	antibiotic target protection	DeepARG/RGI	chromosome	GCA_009876375_1_ASM987637v1_genomic	GCA_009876375
+c_000000000054	0000000054	54_27	0000003421	VANU	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	GCA_009876375_1_ASM987637v1_genomic	GCA_009876375
+c_000000000008	0000000008	8_11	0000000674	TETW	n/a	tetracycline	tetracycline antibiotic	antibiotic target protection	DeepARG/RGI	chromosome	GCA_009876385_1_ASM987638v1_genomic	GCA_009876385
+c_000000000010	0000000010	10_72	0000000909	VANR	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	GCA_009876385_1_ASM987638v1_genomic	GCA_009876385
+c_000000000018	0000000018	18_22	0000001621	VANU	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	GCA_009876385_1_ASM987638v1_genomic	GCA_009876385
+c_000000000022	0000000022	22_22	0000001871	VANRI	n/a	glycopeptide	glycopeptide antibiotic	antibiotic target alteration	DeepARG	chromosome	GCA_009876385_1_ASM987638v1_genomic	GCA_009876385
+c_000000000028	0000000028	28_58	0000002383	LLMA_23S_RIBOSOMAL_RNA_METHYLTRANSFERASE	n/a	MLS	lincosamide antibiotic	antibiotic target alteration	DeepARG	chromosome	GCA_009876385_1_ASM987638v1_genomic	GCA_009876385
+c_000000000044	0000000044	44_84	0000003277	VANS	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	GCA_009876385_1_ASM987638v1_genomic	GCA_009876385
+c_000000000047	0000000047	47_28	0000003415	VANU	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	GCA_009876385_1_ASM987638v1_genomic	GCA_009876385
+c_000000000066	0000000066	66_26	0000003887	EFRA	n/a	multidrug	fluoroquinolone antibiotic;macrolide antibiotic;rifamycin antibiotic	antibiotic efflux	DeepARG	chromosome	GCA_009876385_1_ASM987638v1_genomic	GCA_009876385
+c_000000000005	0000000005	5_55	0000000264	LLMA_23S_RIBOSOMAL_RNA_METHYLTRANSFERASE	n/a	MLS	lincosamide antibiotic	antibiotic target alteration	DeepARG	chromosome	GCA_009876415_1_ASM987641v1_genomic	GCA_009876415
+c_000000000010	0000000010	10_2	0000000622	VANR	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	GCA_009876415_1_ASM987641v1_genomic	GCA_009876415
+c_000000000013	0000000013	13_22	0000000888	VANRI	n/a	glycopeptide	glycopeptide antibiotic	antibiotic target alteration	DeepARG	chromosome	GCA_009876415_1_ASM987641v1_genomic	GCA_009876415
+c_000000000019	0000000019	19_23	0000001432	VANU	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	GCA_009876415_1_ASM987641v1_genomic	GCA_009876415
+c_000000000025	0000000025	25_42	0000001993	TETW	n/a	tetracycline	tetracycline antibiotic	antibiotic target protection	DeepARG/RGI	chromosome	GCA_009876415_1_ASM987641v1_genomic	GCA_009876415
+c_000000000031	0000000031	31_36	0000002375	EFRA	n/a	multidrug	fluoroquinolone antibiotic;macrolide antibiotic;rifamycin antibiotic	antibiotic efflux	DeepARG	chromosome	GCA_009876415_1_ASM987641v1_genomic	GCA_009876415
+c_000000000046	0000000046	46_84	0000003187	VANS	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	GCA_009876415_1_ASM987641v1_genomic	GCA_009876415
+c_000000000051	0000000051	51_27	0000003395	VANU	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	GCA_009876415_1_ASM987641v1_genomic	GCA_009876415
+c_000000000005	0000000005	5_55	0000000352	LLMA_23S_RIBOSOMAL_RNA_METHYLTRANSFERASE	n/a	MLS	lincosamide antibiotic	antibiotic target alteration	DeepARG	chromosome	GCA_009876425_1_ASM987642v1_genomic	GCA_009876425
+c_000000000014	0000000014	14_2	0000000849	VANR	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	GCA_009876425_1_ASM987642v1_genomic	GCA_009876425
+c_000000000024	0000000024	24_21	0000001843	VANU	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	GCA_009876425_1_ASM987642v1_genomic	GCA_009876425
+c_000000000026	0000000026	26_22	0000001952	VANRI	n/a	glycopeptide	glycopeptide antibiotic	antibiotic target alteration	DeepARG	chromosome	GCA_009876425_1_ASM987642v1_genomic	GCA_009876425
+c_000000000031	0000000031	31_26	0000002372	EFRA	n/a	multidrug	fluoroquinolone antibiotic;macrolide antibiotic;rifamycin antibiotic	antibiotic efflux	DeepARG	chromosome	GCA_009876425_1_ASM987642v1_genomic	GCA_009876425
+c_000000000041	0000000041	41_1	0000002965	TETW	n/a	tetracycline	tetracycline antibiotic	antibiotic target protection	DeepARG/RGI	chromosome	GCA_009876425_1_ASM987642v1_genomic	GCA_009876425
+c_000000000048	0000000048	48_84	0000003305	VANS	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	GCA_009876425_1_ASM987642v1_genomic	GCA_009876425
+c_000000000051	0000000051	51_27	0000003444	VANU	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	GCA_009876425_1_ASM987642v1_genomic	GCA_009876425
+c_000000000001	0000000001	1_1056	0000001056	EFRA	n/a	multidrug	fluoroquinolone antibiotic;macrolide antibiotic;rifamycin antibiotic	antibiotic efflux	DeepARG	ambiguous (phage/chromosome)	GCA_012271835_1_ASM1227183v1_genomic_dvf	GCA_012271835
+c_000000000001	0000000001	1_1342	0000001342	VANR	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	ambiguous (phage/chromosome)	GCA_012271835_1_ASM1227183v1_genomic_dvf	GCA_012271835
+c_000000000002	0000000002	2_1424	0000003202	LLMA_23S_RIBOSOMAL_RNA_METHYLTRANSFERASE	n/a	MLS	lincosamide antibiotic	antibiotic target alteration	DeepARG	ambiguous (phage/chromosome)	GCA_012271835_1_ASM1227183v1_genomic_dvf	GCA_012271835
+c_000000000002	0000000002	2_1654	0000003432	VANRI	n/a	glycopeptide	glycopeptide antibiotic	antibiotic target alteration	DeepARG	ambiguous (phage/chromosome)	GCA_012271835_1_ASM1227183v1_genomic_dvf	GCA_012271835
+c_000000000002	0000000002	2_94	0000001872	VANU	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	ambiguous (phage/chromosome)	GCA_012271835_1_ASM1227183v1_genomic_dvf	GCA_012271835
+c_000000000001	0000000001	1_472	0000000472	VANS	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	GCA_902165885_1_26009_2_3_genomic	GCA_902165885
+c_000000000002	0000000002	2_179	0000000664	VANRI	n/a	glycopeptide	glycopeptide antibiotic	antibiotic target alteration	DeepARG	ambiguous (phage/chromosome)	GCA_902165885_1_26009_2_3_genomic	GCA_902165885
+c_000000000006	0000000006	6_250	0000002073	VANR	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	GCA_902165885_1_26009_2_3_genomic	GCA_902165885
+c_000000000010	0000000010	10_9	0000002805	VANU	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	unclassified	GCA_902165885_1_26009_2_3_genomic	GCA_902165885
+c_000000000017	0000000017	17_41	0000003809	LLMA_23S_RIBOSOMAL_RNA_METHYLTRANSFERASE	n/a	MLS	lincosamide antibiotic	antibiotic target alteration	DeepARG	chromosome	GCA_902165885_1_26009_2_3_genomic	GCA_902165885
+c_000000000027	0000000027	27_6	0000004342	EFRA	n/a	multidrug	fluoroquinolone antibiotic;macrolide antibiotic;rifamycin antibiotic	antibiotic efflux	DeepARG	chromosome	GCA_902165885_1_26009_2_3_genomic	GCA_902165885
+c_000000000001	0000000001	1_295	0000000295	VANU	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	ambiguous (phage/chromosome)	GCA_902374605_1_MGYG_HGUT_01396_genomic	GCA_902374605
+c_000000000001	0000000001	1_295	0000000295	VANU	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	ambiguous (phage/chromosome)	GCA_902374605_1_MGYG_HGUT_01396_genomic	GCA_902374605
+c_000000000002	0000000002	2_1106	0000002540	VATB	n/a	MLS	streptogramin antibiotic	antibiotic inactivation	DeepARG	ambiguous (phage/chromosome)	GCA_902374605_1_MGYG_HGUT_01396_genomic	GCA_902374605
+c_000000000002	0000000002	2_888	0000002322	VANU	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	ambiguous (phage/chromosome)	GCA_902374605_1_MGYG_HGUT_01396_genomic	GCA_902374605
+c_000000000002	0000000002	2_96	0000001530	LNUA	n/a	MLS	lincosamide antibiotic	antibiotic inactivation	DeepARG	ambiguous (phage/chromosome)	GCA_902374605_1_MGYG_HGUT_01396_genomic	GCA_902374605
+c_000000000003	0000000003	3_1069	0000003698	LLMA_23S_RIBOSOMAL_RNA_METHYLTRANSFERASE	n/a	MLS	lincosamide antibiotic	antibiotic target alteration	DeepARG	ambiguous (phage/chromosome)	GCA_902374605_1_MGYG_HGUT_01396_genomic	GCA_902374605
+c_000000000003	0000000003	3_1069	0000003698	LLMA_23S_RIBOSOMAL_RNA_METHYLTRANSFERASE	n/a	MLS	lincosamide antibiotic	antibiotic target alteration	DeepARG	ambiguous (phage/chromosome)	GCA_902374605_1_MGYG_HGUT_01396_genomic	GCA_902374605
+c_000000000003	0000000003	3_812	0000003441	VANRI	n/a	glycopeptide	glycopeptide antibiotic	antibiotic target alteration	DeepARG	ambiguous (phage/chromosome)	GCA_902374605_1_MGYG_HGUT_01396_genomic	GCA_902374605
+c_000000000003	0000000003	3_812	0000003441	VANRI	n/a	glycopeptide	glycopeptide antibiotic	antibiotic target alteration	DeepARG	ambiguous (phage/chromosome)	GCA_902374605_1_MGYG_HGUT_01396_genomic	GCA_902374605
+c_000000000004	0000000004	4_341	0000004138	VANR	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	ambiguous (phage/chromosome)	GCA_902374605_1_MGYG_HGUT_01396_genomic	GCA_902374605
+c_000000000005	0000000005	5_73	0000004337	VANU	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	GCA_902374605_1_MGYG_HGUT_01396_genomic	GCA_902374605
+c_000000000006	0000000006	6_143	0000004732	EFRA	n/a	multidrug	fluoroquinolone antibiotic;macrolide antibiotic;rifamycin antibiotic	antibiotic efflux	DeepARG	chromosome	GCA_902374605_1_MGYG_HGUT_01396_genomic	GCA_902374605
+c_000000000001	0000000001	1_314	0000000314	LLMA_23S_RIBOSOMAL_RNA_METHYLTRANSFERASE	n/a	MLS	lincosamide antibiotic	antibiotic target alteration	DeepARG	ambiguous (phage/chromosome)	GCA_903181455_1_NZ_Clostridium_innocuum_9H7_BL_hyb_genomic	GCA_903181455
+c_000000000001	0000000001	1_497	0000000497	VANRI	n/a	glycopeptide	glycopeptide antibiotic	antibiotic target alteration	DeepARG	ambiguous (phage/chromosome)	GCA_903181455_1_NZ_Clostridium_innocuum_9H7_BL_hyb_genomic	GCA_903181455
+c_000000000008	0000000003	3_1488	0000003337	LSA	n/a	multidrug	oxazolidinone antibiotic;lincosamide antibiotic;tetracycline antibiotic;tetracycline antibiotic;streptogramin antibiotic;macrolide antibiotic;pleuromutilin antibiotic; phenicol antibiotic	antibiotic target protection	DeepARG	ambiguous (phage/chromosome)	GCA_903181455_1_NZ_Clostridium_innocuum_9H7_BL_hyb_genomic	GCA_903181455
+c_000000000008	0000000003	3_1531	0000003380	TET(W/N/W)	n/a	tetracycline	tetracycline antibiotic	antibiotic target protection	DeepARG/RGI	ambiguous (phage/chromosome)	GCA_903181455_1_NZ_Clostridium_innocuum_9H7_BL_hyb_genomic	GCA_903181455
+c_000000000008	0000000003	3_959	0000002808	VANS	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	ambiguous (phage/chromosome)	GCA_903181455_1_NZ_Clostridium_innocuum_9H7_BL_hyb_genomic	GCA_903181455
+c_000000000008	0000000003	3_984	0000002833	VANU	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	ambiguous (phage/chromosome)	GCA_903181455_1_NZ_Clostridium_innocuum_9H7_BL_hyb_genomic	GCA_903181455
+c_000000000009	0000000004	4_365	0000003747	EFRA	n/a	multidrug	fluoroquinolone antibiotic;macrolide antibiotic;rifamycin antibiotic	antibiotic efflux	DeepARG	ambiguous (phage/chromosome)	GCA_903181455_1_NZ_Clostridium_innocuum_9H7_BL_hyb_genomic	GCA_903181455
+c_000000000009	0000000004	4_556	0000003938	VANR	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	ambiguous (phage/chromosome)	GCA_903181455_1_NZ_Clostridium_innocuum_9H7_BL_hyb_genomic	GCA_903181455
+c_000000000012	0000000007	7_7	0000004092	TETM	n/a	tetracycline	tetracycline antibiotic	antibiotic target protection	DeepARG/RGI	ambiguous (plasmid/phage)	GCA_903181455_1_NZ_Clostridium_innocuum_9H7_BL_hyb_genomic	GCA_903181455
+NODE_30_length_58494_cov_12.796220	0000000030	30_15	0000003429	VANRI	n/a	glycopeptide	glycopeptide antibiotic	antibiotic target alteration	DeepARG	chromosome	SRR12535044	SRR12535044
+NODE_32_length_55008_cov_12.447204	0000000032	32_40	0000003568	LLMA_23S_RIBOSOMAL_RNA_METHYLTRANSFERASE	n/a	MLS	lincosamide antibiotic	antibiotic target alteration	DeepARG	chromosome	SRR12535044	SRR12535044
+NODE_47_length_36861_cov_11.170224	0000000047	47_12	0000004205	VATB	n/a	MLS	streptogramin antibiotic	antibiotic inactivation	DeepARG	ambiguous (plasmid/phage)	SRR12535044	SRR12535044
+NODE_53_length_23683_cov_12.733019	0000000053	53_2	0000004405	EFRA	n/a	multidrug	fluoroquinolone antibiotic;macrolide antibiotic;rifamycin antibiotic	antibiotic efflux	DeepARG	chromosome	SRR12535044	SRR12535044
+NODE_62_length_15107_cov_12.151402	0000000062	62_8	0000004570	VANR	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	SRR12535044	SRR12535044
+NODE_7_length_128434_cov_11.442525	0000000007	7_37	0000001429	VANU	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	ambiguous (phage/chromosome)	SRR12535044	SRR12535044
+NODE_9_length_114009_cov_11.837261	0000000009	9_53	0000001698	LNUA	n/a	MLS	lincosamide antibiotic	antibiotic inactivation	DeepARG	chromosome	SRR12535044	SRR12535044
+NODE_10_length_113963_cov_5.542061	0000000010	10_53	0000001869	LNUA	n/a	MLS	lincosamide antibiotic	antibiotic inactivation	DeepARG	chromosome	SRR12535045	SRR12535045
+NODE_26_length_58487_cov_6.136926	0000000026	26_15	0000003128	VANRI	n/a	glycopeptide	glycopeptide antibiotic	antibiotic target alteration	DeepARG	chromosome	SRR12535045	SRR12535045
+NODE_29_length_55011_cov_5.989523	0000000029	29_13	0000003298	LLMA_23S_RIBOSOMAL_RNA_METHYLTRANSFERASE	n/a	MLS	lincosamide antibiotic	antibiotic target alteration	DeepARG	chromosome	SRR12535045	SRR12535045
+NODE_45_length_36860_cov_5.383279	0000000045	45_12	0000003987	VATB	n/a	MLS	streptogramin antibiotic	antibiotic inactivation	DeepARG	ambiguous (plasmid/phage)	SRR12535045	SRR12535045
+NODE_58_length_23685_cov_6.206512	0000000058	58_2	0000004373	EFRA	n/a	multidrug	fluoroquinolone antibiotic;macrolide antibiotic;rifamycin antibiotic	antibiotic efflux	DeepARG	chromosome	SRR12535045	SRR12535045
+NODE_68_length_15107_cov_5.711215	0000000068	68_8	0000004563	VANR	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	SRR12535045	SRR12535045
+NODE_8_length_128434_cov_5.508717	0000000008	8_92	0000001655	VANU	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	ambiguous (phage/chromosome)	SRR12535045	SRR12535045
+NODE_1_length_522888_cov_15.599075	0000000001	1_453	0000000453	LLMA_23S_RIBOSOMAL_RNA_METHYLTRANSFERASE	n/a	MLS	lincosamide antibiotic	antibiotic target alteration	DeepARG	ambiguous (phage/chromosome)	SRR12535046	SRR12535046
+NODE_15_length_84175_cov_16.478536	0000000015	15_54	0000003563	VANRI	n/a	glycopeptide	glycopeptide antibiotic	antibiotic target alteration	DeepARG	chromosome	SRR12535046	SRR12535046
+NODE_2_length_522193_cov_16.911471	0000000002	2_253	0000000758	EFRA	n/a	multidrug	fluoroquinolone antibiotic;macrolide antibiotic;rifamycin antibiotic	antibiotic efflux	DeepARG	ambiguous (phage/chromosome)	SRR12535046	SRR12535046
+NODE_4_length_383166_cov_16.135482	0000000004	4_306	0000001717	LNUA	n/a	MLS	lincosamide antibiotic	antibiotic inactivation	DeepARG	ambiguous (phage/chromosome)	SRR12535046	SRR12535046
+NODE_4_length_383166_cov_16.135482	0000000004	4_321	0000001732	BCRA	n/a	bacitracin	peptide antibiotic	antibiotic efflux	DeepARG	ambiguous (phage/chromosome)	SRR12535046	SRR12535046
+NODE_8_length_218284_cov_17.868948	0000000008	8_217	0000002813	MEL	n/a	multidrug	lincosamide antibiotic;macrolide antibiotic;oxazolidinone antibiotic;phenicol antibiotic;pleuromutilin antibiotic;streptogramin antibiotic;tetracycline antibiotic	antibiotic target protection	DeepARG/RGI	chromosome	SRR12535046	SRR12535046
+NODE_9_length_127667_cov_15.739007	0000000009	9_16	0000002835	VANR	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	SRR12535046	SRR12535046
+NODE_13_length_112167_cov_10.419841	0000000013	13_22	0000002580	VANR	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	SRR12535047	SRR12535047
+NODE_21_length_67004_cov_9.125095	0000000021	21_57	0000003355	VANU	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	SRR12535047	SRR12535047
+NODE_3_length_339046_cov_10.426037	0000000003	3_153	0000000854	VANRI	n/a	glycopeptide	glycopeptide antibiotic	antibiotic target alteration	DeepARG	ambiguous (phage/chromosome)	SRR12535047	SRR12535047
+NODE_36_length_26246_cov_10.458134	0000000036	36_27	0000004050	EFRA	n/a	multidrug	fluoroquinolone antibiotic;macrolide antibiotic;rifamycin antibiotic	antibiotic efflux	DeepARG	chromosome	SRR12535047	SRR12535047
+NODE_4_length_276731_cov_8.508923	0000000004	4_264	0000001333	VANS	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	SRR12535047	SRR12535047
+NODE_9_length_150128_cov_9.644349	0000000009	9_114	0000002145	VANU	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	SRR12535047	SRR12535047
+NODE_9_length_150128_cov_9.644349	0000000009	9_56	0000002087	LLMA_23S_RIBOSOMAL_RNA_METHYLTRANSFERASE	n/a	MLS	lincosamide antibiotic	antibiotic target alteration	DeepARG	chromosome	SRR12535047	SRR12535047
+NODE_10_length_150473_cov_9.791694	0000000010	10_114	0000002347	VANU	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	SRR12535048	SRR12535048
+NODE_10_length_150473_cov_9.791694	0000000010	10_56	0000002289	LLMA_23S_RIBOSOMAL_RNA_METHYLTRANSFERASE	n/a	MLS	lincosamide antibiotic	antibiotic target alteration	DeepARG	chromosome	SRR12535048	SRR12535048
+NODE_13_length_112169_cov_10.610807	0000000013	13_66	0000002706	VANR	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	SRR12535048	SRR12535048
+NODE_2_length_366771_cov_8.699169	0000000002	2_14	0000000381	VANS	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	SRR12535048	SRR12535048
+NODE_22_length_67004_cov_9.321904	0000000022	22_57	0000003553	VANU	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	SRR12535048	SRR12535048
+NODE_3_length_339046_cov_11.127886	0000000003	3_215	0000000949	VANRI	n/a	glycopeptide	glycopeptide antibiotic	antibiotic target alteration	DeepARG	ambiguous (phage/chromosome)	SRR12535048	SRR12535048
+NODE_35_length_26246_cov_11.211838	0000000035	35_6	0000004150	EFRA	n/a	multidrug	fluoroquinolone antibiotic;macrolide antibiotic;rifamycin antibiotic	antibiotic efflux	DeepARG	chromosome	SRR12535048	SRR12535048
+NODE_4_length_238190_cov_9.305806	0000000004	4_139	0000001240	VANU	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	SRR12535048	SRR12535048
+NODE_11_length_109964_cov_11.426914	0000000011	11_54	0000001696	LLMA_23S_RIBOSOMAL_RNA_METHYLTRANSFERASE	n/a	MLS	lincosamide antibiotic	antibiotic target alteration	DeepARG	chromosome	SRR12535049	SRR12535049
+NODE_12_length_100177_cov_9.871224	0000000012	12_4	0000001753	VANRI	n/a	glycopeptide	glycopeptide antibiotic	antibiotic target alteration	DeepARG	chromosome	SRR12535049	SRR12535049
+NODE_3_length_177147_cov_10.754559	0000000003	3_122	0000000547	VANS	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	SRR12535049	SRR12535049
+NODE_41_length_40852_cov_8.935715	0000000041	41_43	0000003786	TET(W/N/W)	n/a	tetracycline	tetracycline antibiotic	antibiotic target protection	DeepARG/RGI	chromosome	SRR12535049	SRR12535049
+NODE_6_length_169148_cov_11.815058	0000000006	6_10	0000000954	VANR	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	SRR12535049	SRR12535049
+NODE_6_length_169148_cov_11.815058	0000000006	6_69	0000001013	EFRA	n/a	multidrug	fluoroquinolone antibiotic;macrolide antibiotic;rifamycin antibiotic	antibiotic efflux	DeepARG	chromosome	SRR12535049	SRR12535049
+NODE_1_length_366808_cov_11.663574	0000000001	1_14	0000000014	VANS	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	SRR12535050	SRR12535050
+NODE_10_length_150128_cov_12.741948	0000000010	10_31	0000002196	VANU	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	SRR12535050	SRR12535050
+NODE_10_length_150128_cov_12.741948	0000000010	10_89	0000002254	LLMA_23S_RIBOSOMAL_RNA_METHYLTRANSFERASE	n/a	MLS	lincosamide antibiotic	antibiotic target alteration	DeepARG	chromosome	SRR12535050	SRR12535050
+NODE_13_length_112167_cov_13.587549	0000000013	13_66	0000002638	VANR	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	SRR12535050	SRR12535050
+NODE_2_length_339046_cov_13.293477	0000000002	2_153	0000000519	VANRI	n/a	glycopeptide	glycopeptide antibiotic	antibiotic target alteration	DeepARG	ambiguous (phage/chromosome)	SRR12535050	SRR12535050
+NODE_23_length_67007_cov_12.403828	0000000023	23_57	0000003524	VANU	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	SRR12535050	SRR12535050
+NODE_35_length_26246_cov_13.259198	0000000035	35_6	0000004063	EFRA	n/a	multidrug	fluoroquinolone antibiotic;macrolide antibiotic;rifamycin antibiotic	antibiotic efflux	DeepARG	chromosome	SRR12535050	SRR12535050
+NODE_5_length_233181_cov_11.524501	0000000005	5_131	0000001396	VANU	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	SRR12535050	SRR12535050
+NODE_1_length_499249_cov_8.451821	0000000001	1_320	0000000320	VANRI	n/a	glycopeptide	glycopeptide antibiotic	antibiotic target alteration	DeepARG	ambiguous (phage/chromosome)	SRR12535051	SRR12535051
+NODE_1_length_499249_cov_8.451821	0000000001	1_320	0000000320	VANRI	n/a	glycopeptide	glycopeptide antibiotic	antibiotic target alteration	DeepARG	ambiguous (phage/chromosome)	SRR12535051	SRR12535051
+NODE_11_length_112167_cov_8.402321	0000000011	11_22	0000002473	VANR	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	SRR12535051	SRR12535051
+NODE_2_length_366778_cov_6.615457	0000000002	2_354	0000000889	VANS	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	SRR12535051	SRR12535051
+NODE_21_length_66930_cov_7.223194	0000000021	21_57	0000003431	VANU	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	SRR12535051	SRR12535051
+NODE_36_length_26247_cov_8.762711	0000000036	36_27	0000004120	EFRA	n/a	multidrug	fluoroquinolone antibiotic;macrolide antibiotic;rifamycin antibiotic	antibiotic efflux	DeepARG	chromosome	SRR12535051	SRR12535051
+NODE_5_length_238576_cov_6.926575	0000000005	5_139	0000001572	VANU	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	SRR12535051	SRR12535051
+NODE_9_length_150129_cov_7.441481	0000000009	9_114	0000002293	VANU	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	SRR12535051	SRR12535051
+NODE_9_length_150129_cov_7.441481	0000000009	9_56	0000002235	LLMA_23S_RIBOSOMAL_RNA_METHYLTRANSFERASE	n/a	MLS	lincosamide antibiotic	antibiotic target alteration	DeepARG	chromosome	SRR12535051	SRR12535051
+NODE_1_length_268932_cov_15.965339	0000000001	1_230	0000000230	VANRI	n/a	glycopeptide	glycopeptide antibiotic	antibiotic target alteration	DeepARG	chromosome	SRR12535054	SRR12535054
+NODE_10_length_118258_cov_15.218571	0000000010	10_28	0000001531	EFRA	n/a	multidrug	fluoroquinolone antibiotic;macrolide antibiotic;rifamycin antibiotic	antibiotic efflux	DeepARG	chromosome	SRR12535054	SRR12535054
+NODE_2_length_214101_cov_13.783081	0000000002	2_123	0000000397	VANS	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	SRR12535054	SRR12535054
+NODE_24_length_68645_cov_14.923130	0000000024	24_73	0000002782	ERMB	n/a	MLS	lincosamide antibiotic;macrolide antibiotic;streptogramin antibiotic	antibiotic target alteration	DeepARG/RGI	chromosome	SRR12535054	SRR12535054
+NODE_50_length_31574_cov_14.622158	0000000050	50_21	0000004019	VANR	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	SRR12535054	SRR12535054
+NODE_6_length_148357_cov_14.981475	0000000006	6_96	0000001082	LLMA_23S_RIBOSOMAL_RNA_METHYLTRANSFERASE	n/a	MLS	lincosamide antibiotic	antibiotic target alteration	DeepARG	chromosome	SRR12535054	SRR12535054
+NODE_75_length_10484_cov_31.210293	0000000075	75_1	0000004508	TET(W/N/W)	n/a	tetracycline	tetracycline antibiotic	antibiotic target protection	DeepARG/RGI	unclassified	SRR12535054	SRR12535054
+NODE_2_length_395398_cov_10.885486	0000000002	2_130	0000000521	VATB	n/a	MLS	streptogramin antibiotic	antibiotic inactivation	DeepARG	ambiguous (phage/chromosome)	SRR12535056	SRR12535056
+NODE_2_length_395398_cov_10.885486	0000000002	2_187	0000000578	VANR	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	ambiguous (phage/chromosome)	SRR12535056	SRR12535056
+NODE_2_length_395398_cov_10.885486	0000000002	2_47	0000000438	LLMA_23S_RIBOSOMAL_RNA_METHYLTRANSFERASE	n/a	MLS	lincosamide antibiotic	antibiotic target alteration	DeepARG	ambiguous (phage/chromosome)	SRR12535056	SRR12535056
+NODE_20_length_83672_cov_9.350949	0000000020	20_61	0000003020	VANS	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	SRR12535056	SRR12535056
+NODE_21_length_80860_cov_10.017849	0000000021	21_6	0000003061	VANU	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	SRR12535056	SRR12535056
+NODE_3_length_275376_cov_11.790212	0000000003	3_14	0000000770	VANRI	n/a	glycopeptide	glycopeptide antibiotic	antibiotic target alteration	DeepARG	chromosome	SRR12535056	SRR12535056
+NODE_9_length_133499_cov_11.181417	0000000009	9_2	0000001838	EFRA	n/a	multidrug	fluoroquinolone antibiotic;macrolide antibiotic;rifamycin antibiotic	antibiotic efflux	DeepARG	chromosome	SRR12535056	SRR12535056
+NODE_1_length_595744_cov_9.234923	0000000001	1_367	0000000367	VANR	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	ambiguous (phage/chromosome)	SRR12535057	SRR12535057
+NODE_1_length_595744_cov_9.234923	0000000001	1_424	0000000424	VATB	n/a	MLS	streptogramin antibiotic	antibiotic inactivation	DeepARG	ambiguous (phage/chromosome)	SRR12535057	SRR12535057
+NODE_1_length_595744_cov_9.234923	0000000001	1_507	0000000507	LLMA_23S_RIBOSOMAL_RNA_METHYLTRANSFERASE	n/a	MLS	lincosamide antibiotic	antibiotic target alteration	DeepARG	ambiguous (phage/chromosome)	SRR12535057	SRR12535057
+NODE_18_length_83672_cov_8.142330	0000000018	18_36	0000002962	VANS	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	SRR12535057	SRR12535057
+NODE_19_length_80864_cov_8.579833	0000000019	19_74	0000003096	VANU	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	SRR12535057	SRR12535057
+NODE_3_length_275376_cov_10.056956	0000000003	3_14	0000000958	VANRI	n/a	glycopeptide	glycopeptide antibiotic	antibiotic target alteration	DeepARG	chromosome	SRR12535057	SRR12535057
+NODE_7_length_133485_cov_9.548793	0000000007	7_2	0000001774	EFRA	n/a	multidrug	fluoroquinolone antibiotic;macrolide antibiotic;rifamycin antibiotic	antibiotic efflux	DeepARG	chromosome	SRR12535057	SRR12535057
+NODE_1_length_419005_cov_8.494402	0000000001	1_65	0000000065	VANS	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	SRR12535136	SRR12535136
+NODE_2_length_332271_cov_9.177191	0000000002	2_117	0000000536	VANR	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	SRR12535136	SRR12535136
+NODE_22_length_49716_cov_9.237190	0000000022	22_40	0000003770	LLMA_23S_RIBOSOMAL_RNA_METHYLTRANSFERASE	n/a	MLS	lincosamide antibiotic	antibiotic target alteration	DeepARG	chromosome	SRR12535136	SRR12535136
+NODE_27_length_26247_cov_9.588361	0000000027	27_6	0000003963	EFRA	n/a	multidrug	fluoroquinolone antibiotic;macrolide antibiotic;rifamycin antibiotic	antibiotic efflux	DeepARG	chromosome	SRR12535136	SRR12535136
+NODE_9_length_222114_cov_9.611905	0000000009	9_126	0000002407	VANRI	n/a	glycopeptide	glycopeptide antibiotic	antibiotic target alteration	DeepARG	chromosome	SRR12535136	SRR12535136
+NODE_15_length_123419_cov_14.176719	0000000015	15_6	0000002617	EFRA	n/a	multidrug	fluoroquinolone antibiotic;macrolide antibiotic;rifamycin antibiotic	antibiotic efflux	DeepARG	chromosome	SRR12535139	SRR12535139
+NODE_20_length_106817_cov_13.497179	0000000020	20_10	0000003206	VANR	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	SRR12535139	SRR12535139
+NODE_23_length_94614_cov_13.590028	0000000023	23_55	0000003520	LLMA_23S_RIBOSOMAL_RNA_METHYLTRANSFERASE	n/a	MLS	lincosamide antibiotic	antibiotic target alteration	DeepARG	chromosome	SRR12535139	SRR12535139
+NODE_47_length_14999_cov_14.532343	0000000047	47_11	0000004627	AAD(6)	n/a	aminoglycoside	aminoglycoside antibiotic	antibiotic inactivation	DeepARG/RGI	ambiguous (phage/chromosome)	SRR12535139	SRR12535139
+NODE_47_length_14999_cov_14.532343	0000000047	47_12	0000004628	SAT-4	n/a	nucleoside	nucleoside antibiotic	antibiotic inactivation	DeepARG/RGI	ambiguous (phage/chromosome)	SRR12535139	SRR12535139
+NODE_47_length_14999_cov_14.532343	0000000047	47_13	0000004629	APH(3')-IIIA	n/a	aminoglycoside	aminoglycoside antibiotic	antibiotic inactivation	DeepARG/RGI	ambiguous (phage/chromosome)	SRR12535139	SRR12535139
+NODE_5_length_214367_cov_14.370948	0000000005	5_111	0000001080	VANRI	n/a	glycopeptide	glycopeptide antibiotic	antibiotic target alteration	DeepARG	chromosome	SRR12535139	SRR12535139
+NODE_54_length_8267_cov_27.606020	0000000054	54_4	0000004705	TETM	n/a	tetracycline	tetracycline antibiotic	antibiotic target protection	DeepARG/RGI	ambiguous (plasmid/phage)	SRR12535139	SRR12535139
+NODE_6_length_189557_cov_15.244011	0000000006	6_45	0000001232	ERMB	n/a	MLS	lincosamide antibiotic;macrolide antibiotic;streptogramin antibiotic	antibiotic target alteration	DeepARG/RGI	chromosome	SRR12535139	SRR12535139
+NODE_9_length_160311_cov_12.133571	0000000009	9_123	0000001840	DFRF	n/a	diaminopyrimidine	diaminopyrimidine antibiotic	antibiotic target replacement	RGI	chromosome	SRR12535139	SRR12535139
+NODE_1_length_332518_cov_13.543399	0000000001	1_263	0000000263	VANR	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	SRR12535140	SRR12535140
+NODE_11_length_114656_cov_12.213439	0000000011	11_92	0000002237	VANU	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	ambiguous (phage/chromosome)	SRR12535140	SRR12535140
+NODE_12_length_113914_cov_12.877060	0000000012	12_61	0000002322	LNUA	n/a	MLS	lincosamide antibiotic	antibiotic inactivation	DeepARG	chromosome	SRR12535140	SRR12535140
+NODE_21_length_78131_cov_13.576099	0000000021	21_37	0000003092	LLMA_23S_RIBOSOMAL_RNA_METHYLTRANSFERASE	n/a	MLS	lincosamide antibiotic	antibiotic target alteration	DeepARG	chromosome	SRR12535140	SRR12535140
+NODE_26_length_71405_cov_14.451893	0000000026	26_15	0000003465	VANRI	n/a	glycopeptide	glycopeptide antibiotic	antibiotic target alteration	DeepARG	chromosome	SRR12535140	SRR12535140
+NODE_32_length_53558_cov_14.342573	0000000032	32_37	0000003837	EFRA	n/a	multidrug	fluoroquinolone antibiotic;macrolide antibiotic;rifamycin antibiotic	antibiotic efflux	DeepARG	chromosome	SRR12535140	SRR12535140
+NODE_33_length_52253_cov_12.260868	0000000033	33_15	0000003878	VATB	n/a	MLS	streptogramin antibiotic	antibiotic inactivation	DeepARG	phage	SRR12535140	SRR12535140
+NODE_34_length_50796_cov_12.784484	0000000034	34_37	0000003963	VANU	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	SRR12535140	SRR12535140
+NODE_50_length_25165_cov_14.367561	0000000050	50_23	0000004567	TET32	n/a	tetracycline	tetracycline antibiotic	antibiotic target protection	DeepARG/RGI	chromosome	SRR12535140	SRR12535140
+NODE_13_length_119714_cov_15.487444	0000000013	13_68	0000003016	VANU	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	ambiguous (phage/chromosome)	SRR12535141	SRR12535141
+NODE_18_length_79867_cov_17.788939	0000000018	18_40	0000003534	LLMA_23S_RIBOSOMAL_RNA_METHYLTRANSFERASE	n/a	MLS	lincosamide antibiotic	antibiotic target alteration	DeepARG	chromosome	SRR12535141	SRR12535141
+NODE_2_length_345102_cov_18.184758	0000000002	2_24	0000000467	VANRI	n/a	glycopeptide	glycopeptide antibiotic	antibiotic target alteration	DeepARG	chromosome	SRR12535141	SRR12535141
+NODE_25_length_36147_cov_16.682066	0000000025	25_14	0000003914	VANS	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	SRR12535141	SRR12535141
+NODE_26_length_26251_cov_17.830118	0000000026	26_6	0000003946	EFRA	n/a	multidrug	fluoroquinolone antibiotic;macrolide antibiotic;rifamycin antibiotic	antibiotic efflux	DeepARG	chromosome	SRR12535141	SRR12535141
+NODE_69_length_283_cov_0.333333	0000000069	69_1	0000004097	VANSO	n/a	glycopeptide	glycopeptide antibiotic	antibiotic target alteration	RGI	unclassified	SRR12535141	SRR12535141
+NODE_8_length_232298_cov_17.481188	0000000008	8_10	0000002098	VANR	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	SRR12535141	SRR12535141
+NODE_1_length_419443_cov_7.951368	0000000001	1_358	0000000358	VANS	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	SRR12535144	SRR12535144
+NODE_16_length_94573_cov_8.801252	0000000016	16_40	0000003132	LLMA_23S_RIBOSOMAL_RNA_METHYLTRANSFERASE	n/a	MLS	lincosamide antibiotic	antibiotic target alteration	DeepARG	chromosome	SRR12535144	SRR12535144
+NODE_2_length_332069_cov_8.630300	0000000002	2_187	0000000609	VANR	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	SRR12535144	SRR12535144
+NODE_29_length_26247_cov_8.856355	0000000029	29_27	0000003949	EFRA	n/a	multidrug	fluoroquinolone antibiotic;macrolide antibiotic;rifamycin antibiotic	antibiotic efflux	DeepARG	chromosome	SRR12535144	SRR12535144
+NODE_4_length_279635_cov_9.020708	0000000004	4_160	0000001176	VANRI	n/a	glycopeptide	glycopeptide antibiotic	antibiotic target alteration	DeepARG	chromosome	SRR12535144	SRR12535144
+NODE_12_length_114656_cov_12.745043	0000000012	12_25	0000002109	VANU	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	ambiguous (phage/chromosome)	SRR12535145	SRR12535145
+NODE_14_length_113914_cov_13.395827	0000000014	14_61	0000002386	LNUA	n/a	MLS	lincosamide antibiotic	antibiotic inactivation	DeepARG	chromosome	SRR12535145	SRR12535145
+NODE_148_length_279_cov_0.756579	0000000148	148_1	0000004903	TETU	n/a	tetracycline	tetracycline antibiotic	antibiotic efflux	RGI	unclassified	SRR12535145	SRR12535145
+NODE_23_length_78131_cov_13.096546	0000000023	23_40	0000003171	LLMA_23S_RIBOSOMAL_RNA_METHYLTRANSFERASE	n/a	MLS	lincosamide antibiotic	antibiotic target alteration	DeepARG	chromosome	SRR12535145	SRR12535145
+NODE_27_length_71405_cov_13.544263	0000000027	27_15	0000003464	VANRI	n/a	glycopeptide	glycopeptide antibiotic	antibiotic target alteration	DeepARG	chromosome	SRR12535145	SRR12535145
+NODE_33_length_53758_cov_13.649979	0000000033	33_27	0000003827	EFRA	n/a	multidrug	fluoroquinolone antibiotic;macrolide antibiotic;rifamycin antibiotic	antibiotic efflux	DeepARG	chromosome	SRR12535145	SRR12535145
+NODE_34_length_52253_cov_12.215497	0000000034	34_15	0000003878	VATB	n/a	MLS	streptogramin antibiotic	antibiotic inactivation	DeepARG	phage	SRR12535145	SRR12535145
+NODE_35_length_50796_cov_12.655055	0000000035	35_37	0000003963	VANU	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	SRR12535145	SRR12535145
+NODE_37_length_49853_cov_13.906286	0000000037	37_23	0000004042	TET32	n/a	tetracycline	tetracycline antibiotic	antibiotic target protection	DeepARG/RGI	chromosome	SRR12535145	SRR12535145
+NODE_5_length_174804_cov_12.716809	0000000005	5_97	0000001100	VANR	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	SRR12535145	SRR12535145
+NODE_1_length_345102_cov_14.836800	0000000001	1_302	0000000302	VANRI	n/a	glycopeptide	glycopeptide antibiotic	antibiotic target alteration	DeepARG	chromosome	SRR12535146	SRR12535146
+NODE_14_length_119714_cov_12.064622	0000000014	14_68	0000002768	VANU	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	ambiguous (phage/chromosome)	SRR12535146	SRR12535146
+NODE_21_length_79867_cov_14.087848	0000000021	21_40	0000003484	LLMA_23S_RIBOSOMAL_RNA_METHYLTRANSFERASE	n/a	MLS	lincosamide antibiotic	antibiotic target alteration	DeepARG	chromosome	SRR12535146	SRR12535146
+NODE_28_length_36147_cov_13.288562	0000000028	28_27	0000003877	VANS	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	SRR12535146	SRR12535146
+NODE_30_length_26251_cov_14.602320	0000000030	30_27	0000003958	EFRA	n/a	multidrug	fluoroquinolone antibiotic;macrolide antibiotic;rifamycin antibiotic	antibiotic efflux	DeepARG	chromosome	SRR12535146	SRR12535146
+NODE_7_length_232340_cov_13.994587	0000000007	7_203	0000001740	VANR	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	SRR12535146	SRR12535146
+c_000000000001	0000000001	1_76	0000000076	LNUA	n/a	MLS	lincosamide antibiotic	antibiotic inactivation	DeepARG	chromosome	CM07_207_S181	CM07_207
+c_000000000005	0000000005	5_133	0000000916	VANS	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	CM07_207_S181	CM07_207
+c_000000000006	0000000006	6_88	0000001035	VANS	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	CM07_207_S181	CM07_207
+c_000000000009	0000000009	9_119	0000001481	VANRI	n/a	glycopeptide	glycopeptide antibiotic	antibiotic target alteration	DeepARG	chromosome	CM07_207_S181	CM07_207
+c_000000000016	0000000016	16_41	0000002266	LLMA_23S_RIBOSOMAL_RNA_METHYLTRANSFERASE	n/a	MLS	lincosamide antibiotic	antibiotic target alteration	DeepARG	chromosome	CM07_207_S181	CM07_207
+c_000000000031	0000000031	31_8	0000003321	ERMB	n/a	MLS	lincosamide antibiotic;macrolide antibiotic;streptogramin antibiotic	antibiotic target alteration	DeepARG/RGI	chromosome	CM07_207_S181	CM07_207
+c_000000000040	0000000040	40_42	0000003787	VANR	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	CM07_207_S181	CM07_207
+c_000000000080	0000000080	80_8	0000004843	EFRA	n/a	multidrug	fluoroquinolone antibiotic;macrolide antibiotic;rifamycin antibiotic	antibiotic efflux	DeepARG	chromosome	CM07_207_S181	CM07_207
+c_000000000082	0000000082	82_8	0000004873	LNUC	n/a	MLS	lincosamide antibiotic	antibiotic inactivation	DeepARG	ambiguous (phage/chromosome)	CM07_207_S181	CM07_207
+c_000000000093	0000000093	93_4	0000004945	MPHK	n/a	MLS	macrolide antibiotic	antibiotic inactivation	RGI	ambiguous (plasmid/phage)	CM07_207_S181	CM07_207
+c_000000000123	0000000123	123_2	0000005091	VANS	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	phage	CM07_207_S181	CM07_207
+c_000000000002	0000000002	2_153	0000000375	LNUA	n/a	MLS	lincosamide antibiotic	antibiotic inactivation	DeepARG	chromosome	CM07_211_S182	CM07_211
+c_000000000006	0000000006	6_32	0000001034	VANS	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	CM07_211_S182	CM07_211
+c_000000000007	0000000007	7_58	0000001223	VANS	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	CM07_211_S182	CM07_211
+c_000000000010	0000000010	10_13	0000001593	VANRI	n/a	glycopeptide	glycopeptide antibiotic	antibiotic target alteration	DeepARG	chromosome	CM07_211_S182	CM07_211
+c_000000000017	0000000017	17_41	0000002412	LLMA_23S_RIBOSOMAL_RNA_METHYLTRANSFERASE	n/a	MLS	lincosamide antibiotic	antibiotic target alteration	DeepARG	chromosome	CM07_211_S182	CM07_211
+c_000000000037	0000000037	37_4	0000003710	VANR	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	CM07_211_S182	CM07_211
+c_000000000067	0000000067	67_14	0000004641	ERMB	n/a	MLS	lincosamide antibiotic;macrolide antibiotic;streptogramin antibiotic	antibiotic target alteration	DeepARG/RGI	ambiguous (plasmid/phage)	CM07_211_S182	CM07_211
+c_000000000077	0000000077	77_3	0000004793	EFRA	n/a	multidrug	fluoroquinolone antibiotic;macrolide antibiotic;rifamycin antibiotic	antibiotic efflux	DeepARG	chromosome	CM07_211_S182	CM07_211
+c_000000000080	0000000080	80_8	0000004830	LNUC	n/a	MLS	lincosamide antibiotic	antibiotic inactivation	DeepARG	ambiguous (phage/chromosome)	CM07_211_S182	CM07_211
+c_000000000093	0000000093	93_4	0000004921	MPHK	n/a	MLS	macrolide antibiotic	antibiotic inactivation	RGI	ambiguous (plasmid/phage)	CM07_211_S182	CM07_211
+c_000000000123	0000000123	123_2	0000005057	VANS	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	phage	CM07_211_S182	CM07_211
+c_000000000001	0000000001	1_27	0000000027	VANRI	n/a	glycopeptide	glycopeptide antibiotic	antibiotic target alteration	DeepARG	ambiguous (phage/chromosome)	CM07_212_S183	CM07_212
+c_000000000002	0000000002	2_125	0000000406	TET(W/N/W)	n/a	tetracycline	tetracycline antibiotic	antibiotic target protection	DeepARG/RGI	chromosome	CM07_212_S183	CM07_212
+c_000000000004	0000000004	4_85	0000000854	LNUA	n/a	MLS	lincosamide antibiotic	antibiotic inactivation	DeepARG	chromosome	CM07_212_S183	CM07_212
+c_000000000009	0000000009	9_178	0000002005	VANS	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	CM07_212_S183	CM07_212
+c_000000000010	0000000010	10_111	0000002147	VANU	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	ambiguous (phage/chromosome)	CM07_212_S183	CM07_212
+c_000000000016	0000000016	16_58	0000002981	VANS	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	CM07_212_S183	CM07_212
+c_000000000022	0000000022	22_38	0000003588	LLMA_23S_RIBOSOMAL_RNA_METHYLTRANSFERASE	n/a	MLS	lincosamide antibiotic	antibiotic target alteration	DeepARG	chromosome	CM07_212_S183	CM07_212
+c_000000000034	0000000034	34_43	0000004509	ERMB	n/a	MLS	lincosamide antibiotic;macrolide antibiotic;streptogramin antibiotic	antibiotic target alteration	DeepARG/RGI	ambiguous (plasmid/phage)	CM07_212_S183	CM07_212
+c_000000000058	0000000058	58_3	0000005202	EFRA	n/a	multidrug	fluoroquinolone antibiotic;macrolide antibiotic;rifamycin antibiotic	antibiotic efflux	DeepARG	chromosome	CM07_212_S183	CM07_212
+c_000000000059	0000000059	59_6	0000005215	VANR	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	CM07_212_S183	CM07_212
+c_000000000003	0000000003	3_162	0000000549	VANS	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	CM1_51A_S205	CM1_51A
+c_000000000009	0000000009	9_58	0000001416	VANS	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	CM1_51A_S205	CM1_51A
+c_000000000011	0000000011	11_119	0000001752	VANRI	n/a	glycopeptide	glycopeptide antibiotic	antibiotic target alteration	DeepARG	chromosome	CM1_51A_S205	CM1_51A
+c_000000000017	0000000017	17_75	0000002421	LNUA	n/a	MLS	lincosamide antibiotic	antibiotic inactivation	DeepARG	chromosome	CM1_51A_S205	CM1_51A
+c_000000000018	0000000018	18_41	0000002485	LLMA_23S_RIBOSOMAL_RNA_METHYLTRANSFERASE	n/a	MLS	lincosamide antibiotic	antibiotic target alteration	DeepARG	chromosome	CM1_51A_S205	CM1_51A
+c_000000000052	0000000052	52_4	0000004346	VANR	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	CM1_51A_S205	CM1_51A
+c_000000000074	0000000074	74_3	0000004781	EFRA	n/a	multidrug	fluoroquinolone antibiotic;macrolide antibiotic;rifamycin antibiotic	antibiotic efflux	DeepARG	chromosome	CM1_51A_S205	CM1_51A
+c_000000000092	0000000092	92_2	0000004886	VANS	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	phage	CM1_51A_S205	CM1_51A
+c_000000000004	0000000004	4_162	0000000728	VANS	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	CM1_51B_S206	CM1_51B
+c_000000000009	0000000009	9_13	0000001380	VANRI	n/a	glycopeptide	glycopeptide antibiotic	antibiotic target alteration	DeepARG	chromosome	CM1_51B_S206	CM1_51B
+c_000000000016	0000000016	16_24	0000002200	LNUA	n/a	MLS	lincosamide antibiotic	antibiotic inactivation	DeepARG	chromosome	CM1_51B_S206	CM1_51B
+c_000000000018	0000000018	18_41	0000002408	LLMA_23S_RIBOSOMAL_RNA_METHYLTRANSFERASE	n/a	MLS	lincosamide antibiotic	antibiotic target alteration	DeepARG	chromosome	CM1_51B_S206	CM1_51B
+c_000000000032	0000000032	32_2	0000003482	VANS	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	CM1_51B_S206	CM1_51B
+c_000000000069	0000000069	69_4	0000004722	VANR	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	CM1_51B_S206	CM1_51B
+c_000000000073	0000000073	73_8	0000004780	EFRA	n/a	multidrug	fluoroquinolone antibiotic;macrolide antibiotic;rifamycin antibiotic	antibiotic efflux	DeepARG	chromosome	CM1_51B_S206	CM1_51B
+c_000000000003	0000000003	3_32	0000000446	VANS	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	CM1_51C_S207	CM1_51C
+c_000000000008	0000000008	8_58	0000001293	VANS	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	CM1_51C_S207	CM1_51C
+c_000000000010	0000000010	10_119	0000001629	VANRI	n/a	glycopeptide	glycopeptide antibiotic	antibiotic target alteration	DeepARG	chromosome	CM1_51C_S207	CM1_51C
+c_000000000017	0000000017	17_24	0000002375	LNUA	n/a	MLS	lincosamide antibiotic	antibiotic inactivation	DeepARG	chromosome	CM1_51C_S207	CM1_51C
+c_000000000020	0000000020	20_41	0000002700	LLMA_23S_RIBOSOMAL_RNA_METHYLTRANSFERASE	n/a	MLS	lincosamide antibiotic	antibiotic target alteration	DeepARG	chromosome	CM1_51C_S207	CM1_51C
+c_000000000064	0000000064	64_11	0000004669	VANR	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	CM1_51C_S207	CM1_51C
+c_000000000070	0000000070	70_3	0000004746	EFRA	n/a	multidrug	fluoroquinolone antibiotic;macrolide antibiotic;rifamycin antibiotic	antibiotic efflux	DeepARG	chromosome	CM1_51C_S207	CM1_51C
+c_000000000010	0000000010	10_118	0000001858	LLMA_23S_RIBOSOMAL_RNA_METHYLTRANSFERASE	n/a	MLS	lincosamide antibiotic	antibiotic target alteration	DeepARG	ambiguous (phage/chromosome)	CM2_10A_S213	CM2_10A
+c_000000000012	0000000012	12_13	0000002049	VANRI	n/a	glycopeptide	glycopeptide antibiotic	antibiotic target alteration	DeepARG	chromosome	CM2_10A_S213	CM2_10A
+c_000000000013	0000000013	13_62	0000002229	LNUA	n/a	MLS	lincosamide antibiotic	antibiotic inactivation	DeepARG	chromosome	CM2_10A_S213	CM2_10A
+c_000000000028	0000000028	28_2	0000003429	VANS	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	CM2_10A_S213	CM2_10A
+c_000000000043	0000000043	43_9	0000004107	VANS	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	CM2_10A_S213	CM2_10A
+c_000000000064	0000000064	64_11	0000004622	VANR	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	CM2_10A_S213	CM2_10A
+c_000000000071	0000000071	71_8	0000004722	EFRA	n/a	multidrug	fluoroquinolone antibiotic;macrolide antibiotic;rifamycin antibiotic	antibiotic efflux	DeepARG	chromosome	CM2_10A_S213	CM2_10A
+c_000000000112	0000000112	112_4	0000004942	MPHK	n/a	MLS	macrolide antibiotic	antibiotic inactivation	RGI	plasmid	CM2_10A_S213	CM2_10A
+c_000000000116	0000000116	116_1	0000004951	VANS	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	ambiguous (plasmid/phage)	CM2_10A_S213	CM2_10A
+c_000000000009	0000000009	9_13	0000001401	VANRI	n/a	glycopeptide	glycopeptide antibiotic	antibiotic target alteration	DeepARG	chromosome	CM2_10B_S214	CM2_10B
+c_000000000010	0000000010	10_62	0000001581	LNUA	n/a	MLS	lincosamide antibiotic	antibiotic inactivation	DeepARG	chromosome	CM2_10B_S214	CM2_10B
+c_000000000018	0000000018	18_41	0000002401	LLMA_23S_RIBOSOMAL_RNA_METHYLTRANSFERASE	n/a	MLS	lincosamide antibiotic	antibiotic target alteration	DeepARG	chromosome	CM2_10B_S214	CM2_10B
+c_000000000028	0000000028	28_58	0000003130	VANS	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	CM2_10B_S214	CM2_10B
+c_000000000051	0000000051	51_32	0000004162	VANS	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	CM2_10B_S214	CM2_10B
+c_000000000052	0000000052	52_38	0000004203	VANZ	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	CM2_10B_S214	CM2_10B
+c_000000000069	0000000069	69_4	0000004540	VANR	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	CM2_10B_S214	CM2_10B
+c_000000000078	0000000078	78_8	0000004670	EFRA	n/a	multidrug	fluoroquinolone antibiotic;macrolide antibiotic;rifamycin antibiotic	antibiotic efflux	DeepARG	chromosome	CM2_10B_S214	CM2_10B
+c_000000000010	0000000010	10_118	0000001735	LLMA_23S_RIBOSOMAL_RNA_METHYLTRANSFERASE	n/a	MLS	lincosamide antibiotic	antibiotic target alteration	DeepARG	ambiguous (phage/chromosome)	CM2_19A_S216	CM2_19A
+c_000000000012	0000000012	12_119	0000002032	VANRI	n/a	glycopeptide	glycopeptide antibiotic	antibiotic target alteration	DeepARG	chromosome	CM2_19A_S216	CM2_19A
+c_000000000013	0000000013	13_76	0000002120	LNUA	n/a	MLS	lincosamide antibiotic	antibiotic inactivation	DeepARG	chromosome	CM2_19A_S216	CM2_19A
+c_000000000028	0000000028	28_2	0000003299	VANS	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	CM2_19A_S216	CM2_19A
+c_000000000045	0000000045	45_4	0000004074	VANS	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	CM2_19A_S216	CM2_19A
+c_000000000065	0000000065	65_4	0000004523	VANR	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	CM2_19A_S216	CM2_19A
+c_000000000073	0000000073	73_3	0000004638	EFRA	n/a	multidrug	fluoroquinolone antibiotic;macrolide antibiotic;rifamycin antibiotic	antibiotic efflux	DeepARG	chromosome	CM2_19A_S216	CM2_19A
+c_000000000084	0000000084	84_7	0000004754	VANZ	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	ambiguous (plasmid/phage)	CM2_19A_S216	CM2_19A
+c_000000000010	0000000010	10_80	0000001710	VANS	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	CM2_19B_S217	CM2_19B
+c_000000000012	0000000012	12_119	0000002024	VANRI	n/a	glycopeptide	glycopeptide antibiotic	antibiotic target alteration	DeepARG	chromosome	CM2_19B_S217	CM2_19B
+c_000000000013	0000000013	13_76	0000002112	LNUA	n/a	MLS	lincosamide antibiotic	antibiotic inactivation	DeepARG	chromosome	CM2_19B_S217	CM2_19B
+c_000000000019	0000000019	19_32	0000002686	LLMA_23S_RIBOSOMAL_RNA_METHYLTRANSFERASE	n/a	MLS	lincosamide antibiotic	antibiotic target alteration	DeepARG	chromosome	CM2_19B_S217	CM2_19B
+c_000000000046	0000000046	46_32	0000004144	VANS	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	CM2_19B_S217	CM2_19B
+c_000000000048	0000000048	48_38	0000004217	VANZ	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	CM2_19B_S217	CM2_19B
+c_000000000064	0000000064	64_11	0000004549	VANR	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	CM2_19B_S217	CM2_19B
+c_000000000071	0000000071	71_8	0000004648	EFRA	n/a	multidrug	fluoroquinolone antibiotic;macrolide antibiotic;rifamycin antibiotic	antibiotic efflux	DeepARG	chromosome	CM2_19B_S217	CM2_19B
+c_000000000001	0000000001	1_154	0000000154	TETO	n/a	tetracycline	tetracycline antibiotic	antibiotic target protection	DeepARG/RGI	ambiguous (phage/chromosome)	CM2_8A_S211	CM2_8A
+c_000000000001	0000000001	1_99	0000000099	VANRI	n/a	glycopeptide	glycopeptide antibiotic	antibiotic target alteration	DeepARG	ambiguous (phage/chromosome)	CM2_8A_S211	CM2_8A
+c_000000000015	0000000015	15_76	0000003028	VANU	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	CM2_8A_S211	CM2_8A
+c_000000000017	0000000017	17_26	0000003204	LNUA	n/a	MLS	lincosamide antibiotic	antibiotic inactivation	DeepARG	chromosome	CM2_8A_S211	CM2_8A
+c_000000000021	0000000021	21_54	0000003564	LLMA_23S_RIBOSOMAL_RNA_METHYLTRANSFERASE	n/a	MLS	lincosamide antibiotic	antibiotic target alteration	DeepARG	chromosome	CM2_8A_S211	CM2_8A
+c_000000000026	0000000026	26_57	0000003869	VANS	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	CM2_8A_S211	CM2_8A
+c_000000000031	0000000031	31_46	0000004123	EFRA	n/a	multidrug	fluoroquinolone antibiotic;macrolide antibiotic;rifamycin antibiotic	antibiotic efflux	DeepARG	chromosome	CM2_8A_S211	CM2_8A
+c_000000000038	0000000038	38_13	0000004341	VANR	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	CM2_8A_S211	CM2_8A
+c_000000000098	0000000098	98_2	0000004899	VANS	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	unclassified	CM2_8A_S211	CM2_8A
+c_000000000001	0000000001	1_267	0000000267	TETO	n/a	tetracycline	tetracycline antibiotic	antibiotic target protection	DeepARG/RGI	ambiguous (phage/chromosome)	CM2_8B_S212	CM2_8B
+c_000000000001	0000000001	1_322	0000000322	VANRI	n/a	glycopeptide	glycopeptide antibiotic	antibiotic target alteration	DeepARG	ambiguous (phage/chromosome)	CM2_8B_S212	CM2_8B
+c_000000000004	0000000004	4_189	0000001274	VANS	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	CM2_8B_S212	CM2_8B
+c_000000000004	0000000004	4_3	0000001088	EFRA	n/a	multidrug	fluoroquinolone antibiotic;macrolide antibiotic;rifamycin antibiotic	antibiotic efflux	DeepARG	chromosome	CM2_8B_S212	CM2_8B
+c_000000000014	0000000014	14_76	0000003004	VANU	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	CM2_8B_S212	CM2_8B
+c_000000000015	0000000015	15_54	0000003099	LLMA_23S_RIBOSOMAL_RNA_METHYLTRANSFERASE	n/a	MLS	lincosamide antibiotic	antibiotic target alteration	DeepARG	chromosome	CM2_8B_S212	CM2_8B
+c_000000000019	0000000019	19_26	0000003463	LNUA	n/a	MLS	lincosamide antibiotic	antibiotic inactivation	DeepARG	chromosome	CM2_8B_S212	CM2_8B
+c_000000000035	0000000035	35_11	0000004344	VANR	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	CM2_8B_S212	CM2_8B
+c_000000000003	0000000003	3_260	0000001130	VANS	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	CM3_32_S221	CM3_32
+c_000000000004	0000000004	4_13	0000001250	VANRI	n/a	glycopeptide	glycopeptide antibiotic	antibiotic target alteration	DeepARG	chromosome	CM3_32_S221	CM3_32
+c_000000000008	0000000008	8_182	0000002511	EFRA	n/a	multidrug	fluoroquinolone antibiotic;macrolide antibiotic;rifamycin antibiotic	antibiotic efflux	DeepARG	chromosome	CM3_32_S221	CM3_32
+c_000000000013	0000000013	13_53	0000003201	VANS	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	CM3_32_S221	CM3_32
+c_000000000013	0000000013	13_79	0000003227	VANR	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	CM3_32_S221	CM3_32
+c_000000000021	0000000021	21_12	0000003930	LLMA_23S_RIBOSOMAL_RNA_METHYLTRANSFERASE	n/a	MLS	lincosamide antibiotic	antibiotic target alteration	DeepARG	chromosome	CM3_32_S221	CM3_32
+c_000000000001	0000000001	1_307	0000000307	VANS	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	ambiguous (phage/chromosome)	CM3_33_S219	CM3_33
+c_000000000003	0000000003	3_13	0000000957	VANRI	n/a	glycopeptide	glycopeptide antibiotic	antibiotic target alteration	DeepARG	chromosome	CM3_33_S219	CM3_33
+c_000000000009	0000000009	9_3	0000002617	EFRA	n/a	multidrug	fluoroquinolone antibiotic;macrolide antibiotic;rifamycin antibiotic	antibiotic efflux	DeepARG	chromosome	CM3_33_S219	CM3_33
+c_000000000013	0000000013	13_54	0000003351	LLMA_23S_RIBOSOMAL_RNA_METHYLTRANSFERASE	n/a	MLS	lincosamide antibiotic	antibiotic target alteration	DeepARG	chromosome	CM3_33_S219	CM3_33
+c_000000000014	0000000014	14_19	0000003426	VANR	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	CM3_33_S219	CM3_33
+c_000000000014	0000000014	14_45	0000003452	VANS	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	CM3_33_S219	CM3_33
+c_000000000002	0000000002	2_260	0000000841	VANS	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	CM3_70_S221	CM3_70
+c_000000000004	0000000004	4_298	0000001594	VANRI	n/a	glycopeptide	glycopeptide antibiotic	antibiotic target alteration	DeepARG	chromosome	CM3_70_S221	CM3_70
+c_000000000008	0000000008	8_3	0000002348	EFRA	n/a	multidrug	fluoroquinolone antibiotic;macrolide antibiotic;rifamycin antibiotic	antibiotic efflux	DeepARG	chromosome	CM3_70_S221	CM3_70
+c_000000000012	0000000012	12_57	0000003128	LLMA_23S_RIBOSOMAL_RNA_METHYLTRANSFERASE	n/a	MLS	lincosamide antibiotic	antibiotic target alteration	DeepARG	chromosome	CM3_70_S221	CM3_70
+c_000000000013	0000000013	13_19	0000003200	VANR	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	CM3_70_S221	CM3_70
+c_000000000013	0000000013	13_45	0000003226	VANS	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	CM3_70_S221	CM3_70
+c_000000000003	0000000003	3_260	0000001206	VANS	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	CM3_76_S224	CM3_76
+c_000000000004	0000000004	4_13	0000001326	VANRI	n/a	glycopeptide	glycopeptide antibiotic	antibiotic target alteration	DeepARG	chromosome	CM3_76_S224	CM3_76
+c_000000000008	0000000008	8_24	0000002433	VANS	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	CM3_76_S224	CM3_76
+c_000000000008	0000000008	8_27	0000002436	EFRA	n/a	multidrug	fluoroquinolone antibiotic;macrolide antibiotic;rifamycin antibiotic	antibiotic efflux	DeepARG	chromosome	CM3_76_S224	CM3_76
+c_000000000014	0000000014	14_53	0000003480	VANS	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	CM3_76_S224	CM3_76
+c_000000000014	0000000014	14_79	0000003506	VANR	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	CM3_76_S224	CM3_76
+c_000000000015	0000000015	15_57	0000003592	LLMA_23S_RIBOSOMAL_RNA_METHYLTRANSFERASE	n/a	MLS	lincosamide antibiotic	antibiotic target alteration	DeepARG	chromosome	CM3_76_S224	CM3_76
+c_000000000003	0000000003	3_13	0000000959	VANRI	n/a	glycopeptide	glycopeptide antibiotic	antibiotic target alteration	DeepARG	chromosome	CM3_85_S222	CM3_85
+c_000000000005	0000000005	5_260	0000001825	VANS	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	CM3_85_S222	CM3_85
+c_000000000013	0000000013	13_53	0000003072	VANS	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	CM3_85_S222	CM3_85
+c_000000000013	0000000013	13_79	0000003098	VANR	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	CM3_85_S222	CM3_85
+c_000000000021	0000000021	21_54	0000003805	LLMA_23S_RIBOSOMAL_RNA_METHYLTRANSFERASE	n/a	MLS	lincosamide antibiotic	antibiotic target alteration	DeepARG	chromosome	CM3_85_S222	CM3_85
+c_000000000029	0000000029	29_46	0000004246	EFRA	n/a	multidrug	fluoroquinolone antibiotic;macrolide antibiotic;rifamycin antibiotic	antibiotic efflux	DeepARG	chromosome	CM3_85_S222	CM3_85
+c_000000000001	0000000001	1_1	0000000001	ERMB	n/a	MLS	lincosamide antibiotic;macrolide antibiotic;streptogramin antibiotic	antibiotic target alteration	RGI	chromosome	CM6_47_S238	CM6_47
+c_000000000004	0000000004	4_183	0000000841	VANRI	n/a	glycopeptide	glycopeptide antibiotic	antibiotic target alteration	DeepARG	chromosome	CM6_47_S238	CM6_47
+c_000000000005	0000000005	5_145	0000000989	LNUA	n/a	MLS	lincosamide antibiotic	antibiotic inactivation	DeepARG	chromosome	CM6_47_S238	CM6_47
+c_000000000006	0000000006	6_103	0000001118	VANR	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	CM6_47_S238	CM6_47
+c_000000000014	0000000014	14_126	0000002101	APH(3')-IIIA	n/a	aminoglycoside	aminoglycoside antibiotic	antibiotic inactivation	DeepARG/RGI	chromosome	CM6_47_S238	CM6_47
+c_000000000014	0000000014	14_127	0000002102	SAT-4	n/a	nucleoside	nucleoside antibiotic	antibiotic inactivation	DeepARG/RGI	chromosome	CM6_47_S238	CM6_47
+c_000000000014	0000000014	14_128	0000002103	AAD(6)	n/a	aminoglycoside	aminoglycoside antibiotic	antibiotic inactivation	DeepARG/RGI	chromosome	CM6_47_S238	CM6_47
+c_000000000029	0000000029	29_42	0000003310	LLMA_23S_RIBOSOMAL_RNA_METHYLTRANSFERASE	n/a	MLS	lincosamide antibiotic	antibiotic target alteration	DeepARG	chromosome	CM6_47_S238	CM6_47
+c_000000000039	0000000039	39_3	0000003729	EFRA	n/a	multidrug	fluoroquinolone antibiotic;macrolide antibiotic;rifamycin antibiotic	antibiotic efflux	DeepARG	chromosome	CM6_47_S238	CM6_47
+c_000000000047	0000000047	47_25	0000004077	BRUCELLA SUIS MPRF	n/a	peptide	peptide antibiotic	antibiotic target alteration	RGI	ambiguous (phage/chromosome)	CM6_47_S238	CM6_47
+c_000000000083	0000000083	83_1	0000004541	ERMB	n/a	MLS	lincosamide antibiotic;macrolide antibiotic;streptogramin antibiotic	antibiotic target alteration	RGI	plasmid	CM6_47_S238	CM6_47
+c_000000000001	0000000001	1_1069	0000001069	VANS	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	ambiguous (phage/chromosome)	Ref_Cinnocuum_14501_dvf	Cinnocuum_14501
+c_000000000001	0000000001	1_1072	0000001072	EFRA	n/a	multidrug	fluoroquinolone antibiotic;macrolide antibiotic;rifamycin antibiotic	antibiotic efflux	DeepARG	ambiguous (phage/chromosome)	Ref_Cinnocuum_14501_dvf	Cinnocuum_14501
+c_000000000001	0000000001	1_1254	0000001254	VANS	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	ambiguous (phage/chromosome)	Ref_Cinnocuum_14501_dvf	Cinnocuum_14501
+c_000000000001	0000000001	1_127	0000000127	VANS	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	ambiguous (phage/chromosome)	Ref_Cinnocuum_14501_dvf	Cinnocuum_14501
+c_000000000001	0000000001	1_1343	0000001343	VANR	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	ambiguous (phage/chromosome)	Ref_Cinnocuum_14501_dvf	Cinnocuum_14501
+c_000000000001	0000000001	1_248	0000000248	VANS	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	ambiguous (phage/chromosome)	Ref_Cinnocuum_14501_dvf	Cinnocuum_14501
+c_000000000002	0000000002	2_1775	0000003543	LLMA_23S_RIBOSOMAL_RNA_METHYLTRANSFERASE	n/a	MLS	lincosamide antibiotic	antibiotic target alteration	DeepARG	ambiguous (phage/chromosome)	Ref_Cinnocuum_14501_dvf	Cinnocuum_14501
+c_000000000002	0000000002	2_1775	0000003543	LLMA_23S_RIBOSOMAL_RNA_METHYLTRANSFERASE	n/a	MLS	lincosamide antibiotic	antibiotic target alteration	DeepARG	ambiguous (phage/chromosome)	Ref_Cinnocuum_14501_dvf	Cinnocuum_14501
+c_000000000002	0000000002	2_468	0000002236	LNUA	n/a	MLS	lincosamide antibiotic	antibiotic inactivation	DeepARG	ambiguous (phage/chromosome)	Ref_Cinnocuum_14501_dvf	Cinnocuum_14501
+c_000000000002	0000000002	2_468	0000002236	LNUA	n/a	MLS	lincosamide antibiotic	antibiotic inactivation	DeepARG	ambiguous (phage/chromosome)	Ref_Cinnocuum_14501_dvf	Cinnocuum_14501
+c_000000000003	0000000003	3_189	0000003759	VANRI	n/a	glycopeptide	glycopeptide antibiotic	antibiotic target alteration	DeepARG	ambiguous (phage/chromosome)	Ref_Cinnocuum_14501_dvf	Cinnocuum_14501
+c_000000000001	0000000001	1_1751	0000001751	LNUA	n/a	MLS	lincosamide antibiotic	antibiotic inactivation	DeepARG	ambiguous (phage/chromosome)	GCA_000225685_1_Erys_bact_2_2_44A_V1_genomic	GCA_000225685
+c_000000000001	0000000001	1_1751	0000001751	LNUA	n/a	MLS	lincosamide antibiotic	antibiotic inactivation	DeepARG	ambiguous (phage/chromosome)	GCA_000225685_1_Erys_bact_2_2_44A_V1_genomic	GCA_000225685
+c_000000000001	0000000001	1_399	0000000399	EFRA	n/a	multidrug	fluoroquinolone antibiotic;macrolide antibiotic;rifamycin antibiotic	antibiotic efflux	DeepARG	ambiguous (phage/chromosome)	GCA_000225685_1_Erys_bact_2_2_44A_V1_genomic	GCA_000225685
+c_000000000001	0000000001	1_399	0000000399	EFRA	n/a	multidrug	fluoroquinolone antibiotic;macrolide antibiotic;rifamycin antibiotic	antibiotic efflux	DeepARG	ambiguous (phage/chromosome)	GCA_000225685_1_Erys_bact_2_2_44A_V1_genomic	GCA_000225685
+c_000000000001	0000000001	1_613	0000000613	VANS	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	ambiguous (phage/chromosome)	GCA_000225685_1_Erys_bact_2_2_44A_V1_genomic	GCA_000225685
+c_000000000001	0000000001	1_613	0000000613	VANS	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	ambiguous (phage/chromosome)	GCA_000225685_1_Erys_bact_2_2_44A_V1_genomic	GCA_000225685
+c_000000000001	0000000001	1_741	0000000741	VANR	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	ambiguous (phage/chromosome)	GCA_000225685_1_Erys_bact_2_2_44A_V1_genomic	GCA_000225685
+c_000000000001	0000000001	1_741	0000000741	VANR	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	ambiguous (phage/chromosome)	GCA_000225685_1_Erys_bact_2_2_44A_V1_genomic	GCA_000225685
+c_000000000002	0000000002	2_434	0000002241	VANS	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	ambiguous (phage/chromosome)	GCA_000225685_1_Erys_bact_2_2_44A_V1_genomic	GCA_000225685
+c_000000000003	0000000003	3_37	0000002522	TETM	n/a	tetracycline	tetracycline antibiotic	antibiotic target protection	DeepARG/RGI	ambiguous (phage/chromosome)	GCA_000225685_1_Erys_bact_2_2_44A_V1_genomic	GCA_000225685
+c_000000000003	0000000003	3_37	0000002522	TETM	n/a	tetracycline	tetracycline antibiotic	antibiotic target protection	DeepARG/RGI	ambiguous (phage/chromosome)	GCA_000225685_1_Erys_bact_2_2_44A_V1_genomic	GCA_000225685
+c_000000000003	0000000003	3_597	0000003082	VANRI	n/a	glycopeptide	glycopeptide antibiotic	antibiotic target alteration	DeepARG	ambiguous (phage/chromosome)	GCA_000225685_1_Erys_bact_2_2_44A_V1_genomic	GCA_000225685
+c_000000000003	0000000003	3_597	0000003082	VANRI	n/a	glycopeptide	glycopeptide antibiotic	antibiotic target alteration	DeepARG	ambiguous (phage/chromosome)	GCA_000225685_1_Erys_bact_2_2_44A_V1_genomic	GCA_000225685
+c_000000000004	0000000004	4_57	0000003206	LLMA_23S_RIBOSOMAL_RNA_METHYLTRANSFERASE	n/a	MLS	lincosamide antibiotic	antibiotic target alteration	DeepARG	chromosome	GCA_000225685_1_Erys_bact_2_2_44A_V1_genomic	GCA_000225685
+c_000000000023	0000000023	23_1	0000005004	VANS	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	ambiguous (plasmid/phage)	GCA_000225685_1_Erys_bact_2_2_44A_V1_genomic	GCA_000225685
+c_000000000001	0000000001	1_1114	0000001114	VANS	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	ambiguous (phage/chromosome)	GCA_000371425_1_Clos_inno_2959_V1_genomic	GCA_000371425
+c_000000000001	0000000001	1_1114	0000001114	VANS	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	ambiguous (phage/chromosome)	GCA_000371425_1_Clos_inno_2959_V1_genomic	GCA_000371425
+c_000000000001	0000000001	1_1227	0000001227	VANS	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	ambiguous (phage/chromosome)	GCA_000371425_1_Clos_inno_2959_V1_genomic	GCA_000371425
+c_000000000001	0000000001	1_1227	0000001227	VANS	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	ambiguous (phage/chromosome)	GCA_000371425_1_Clos_inno_2959_V1_genomic	GCA_000371425
+c_000000000001	0000000001	1_1926	0000001926	LLMA_23S_RIBOSOMAL_RNA_METHYLTRANSFERASE	n/a	MLS	lincosamide antibiotic	antibiotic target alteration	DeepARG	ambiguous (phage/chromosome)	GCA_000371425_1_Clos_inno_2959_V1_genomic	GCA_000371425
+c_000000000001	0000000001	1_1926	0000001926	LLMA_23S_RIBOSOMAL_RNA_METHYLTRANSFERASE	n/a	MLS	lincosamide antibiotic	antibiotic target alteration	DeepARG	ambiguous (phage/chromosome)	GCA_000371425_1_Clos_inno_2959_V1_genomic	GCA_000371425
+c_000000000001	0000000001	1_48	0000000048	VANRI	n/a	glycopeptide	glycopeptide antibiotic	antibiotic target alteration	DeepARG	ambiguous (phage/chromosome)	GCA_000371425_1_Clos_inno_2959_V1_genomic	GCA_000371425
+c_000000000001	0000000001	1_48	0000000048	VANRI	n/a	glycopeptide	glycopeptide antibiotic	antibiotic target alteration	DeepARG	ambiguous (phage/chromosome)	GCA_000371425_1_Clos_inno_2959_V1_genomic	GCA_000371425
+c_000000000002	0000000002	2_1435	0000003561	LNUA	n/a	MLS	lincosamide antibiotic	antibiotic inactivation	DeepARG	ambiguous (phage/chromosome)	GCA_000371425_1_Clos_inno_2959_V1_genomic	GCA_000371425
+c_000000000002	0000000002	2_217	0000002343	VANS	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	ambiguous (phage/chromosome)	GCA_000371425_1_Clos_inno_2959_V1_genomic	GCA_000371425
+c_000000000002	0000000002	2_220	0000002346	EFRA	n/a	multidrug	fluoroquinolone antibiotic;macrolide antibiotic;rifamycin antibiotic	antibiotic efflux	DeepARG	ambiguous (phage/chromosome)	GCA_000371425_1_Clos_inno_2959_V1_genomic	GCA_000371425
+c_000000000002	0000000002	2_426	0000002552	VANR	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	ambiguous (phage/chromosome)	GCA_000371425_1_Clos_inno_2959_V1_genomic	GCA_000371425
+c_000000000001	0000000001	1_112	0000000112	VANRI	n/a	glycopeptide	glycopeptide antibiotic	antibiotic target alteration	DeepARG	ambiguous (phage/chromosome)	GCA_003149285_1_ASM314928v1_genomic	GCA_003149285
+c_000000000002	0000000002	2_60	0000000782	LNUA	n/a	MLS	lincosamide antibiotic	antibiotic inactivation	DeepARG	ambiguous (phage/chromosome)	GCA_003149285_1_ASM314928v1_genomic	GCA_003149285
+c_000000000003	0000000003	3_133	0000001518	VANR	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	GCA_003149285_1_ASM314928v1_genomic	GCA_003149285
+c_000000000003	0000000003	3_159	0000001544	VANS	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	GCA_003149285_1_ASM314928v1_genomic	GCA_003149285
+c_000000000003	0000000003	3_347	0000001732	EFRA	n/a	multidrug	fluoroquinolone antibiotic;macrolide antibiotic;rifamycin antibiotic	antibiotic efflux	DeepARG	chromosome	GCA_003149285_1_ASM314928v1_genomic	GCA_003149285
+c_000000000004	0000000004	4_49	0000001782	VANS	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	GCA_003149285_1_ASM314928v1_genomic	GCA_003149285
+c_000000000010	0000000010	10_108	0000003221	VANU	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	ambiguous (phage/chromosome)	GCA_003149285_1_ASM314928v1_genomic	GCA_003149285
+c_000000000011	0000000011	11_2	0000003282	VANS	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	GCA_003149285_1_ASM314928v1_genomic	GCA_003149285
+c_000000000014	0000000014	14_46	0000003698	LLMA_23S_RIBOSOMAL_RNA_METHYLTRANSFERASE	n/a	MLS	lincosamide antibiotic	antibiotic target alteration	DeepARG	chromosome	GCA_003149285_1_ASM314928v1_genomic	GCA_003149285
+c_000000000024	0000000024	24_33	0000004338	VANO	n/a	glycopeptide	glycopeptide antibiotic	antibiotic target alteration	RGI	phage	GCA_003149285_1_ASM314928v1_genomic	GCA_003149285
+c_000000000003	0000000003	3_51	0000000624	VANS	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	GCA_003459885_1_ASM345988v1_genomic	GCA_003459885
+c_000000000006	0000000006	6_54	0000001066	LLMA_23S_RIBOSOMAL_RNA_METHYLTRANSFERASE	n/a	MLS	lincosamide antibiotic	antibiotic target alteration	DeepARG	chromosome	GCA_003459885_1_ASM345988v1_genomic	GCA_003459885
+c_000000000007	0000000007	7_62	0000001173	LNUA	n/a	MLS	lincosamide antibiotic	antibiotic inactivation	DeepARG	chromosome	GCA_003459885_1_ASM345988v1_genomic	GCA_003459885
+c_000000000009	0000000009	9_101	0000001420	MPHK	n/a	MLS	macrolide antibiotic	antibiotic inactivation	RGI	chromosome	GCA_003459885_1_ASM345988v1_genomic	GCA_003459885
+c_000000000013	0000000013	13_73	0000002083	VANRI	n/a	glycopeptide	glycopeptide antibiotic	antibiotic target alteration	DeepARG	chromosome	GCA_003459885_1_ASM345988v1_genomic	GCA_003459885
+c_000000000020	0000000020	20_2	0000002504	VANS	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	GCA_003459885_1_ASM345988v1_genomic	GCA_003459885
+c_000000000028	0000000028	28_3	0000003165	EFRA	n/a	multidrug	fluoroquinolone antibiotic;macrolide antibiotic;rifamycin antibiotic	antibiotic efflux	DeepARG	chromosome	GCA_003459885_1_ASM345988v1_genomic	GCA_003459885
+c_000000000034	0000000034	34_48	0000003436	VANR	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	GCA_003459885_1_ASM345988v1_genomic	GCA_003459885
+c_000000000037	0000000037	37_22	0000003639	TETM	n/a	tetracycline	tetracycline antibiotic	antibiotic target protection	DeepARG/RGI	chromosome	GCA_003459885_1_ASM345988v1_genomic	GCA_003459885
+c_000000000044	0000000044	44_4	0000003781	AAC(6')-IE-APH(2'')-IA	n/a	aminoglycoside	aminoglycoside antibiotic	antibiotic inactivation	DeepARG/RGI	plasmid	GCA_003459885_1_ASM345988v1_genomic	GCA_003459885
+c_000000000044	0000000044	44_8	0000003785	ERMB	n/a	MLS	lincosamide antibiotic;macrolide antibiotic;streptogramin antibiotic	antibiotic target alteration	DeepARG/RGI	plasmid	GCA_003459885_1_ASM345988v1_genomic	GCA_003459885
+c_000000000007	0000000007	7_33	0000000070	VANO	n/a	glycopeptide	glycopeptide antibiotic	antibiotic target alteration	RGI	phage	GCA_900116735_1_IMG_taxon_2623620482_annotated_assembly_genomic	GCA_900116735
+c_000000000008	0000000008	8_108	0000000186	VANU	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	ambiguous (phage/chromosome)	GCA_900116735_1_IMG_taxon_2623620482_annotated_assembly_genomic	GCA_900116735
+c_000000000009	0000000009	9_133	0000000378	VANR	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	GCA_900116735_1_IMG_taxon_2623620482_annotated_assembly_genomic	GCA_900116735
+c_000000000009	0000000009	9_159	0000000404	VANS	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	GCA_900116735_1_IMG_taxon_2623620482_annotated_assembly_genomic	GCA_900116735
+c_000000000009	0000000009	9_347	0000000592	EFRA	n/a	multidrug	fluoroquinolone antibiotic;macrolide antibiotic;rifamycin antibiotic	antibiotic efflux	DeepARG	chromosome	GCA_900116735_1_IMG_taxon_2623620482_annotated_assembly_genomic	GCA_900116735
+c_000000000012	0000000012	12_46	0000000861	LLMA_23S_RIBOSOMAL_RNA_METHYLTRANSFERASE	n/a	MLS	lincosamide antibiotic	antibiotic target alteration	DeepARG	chromosome	GCA_900116735_1_IMG_taxon_2623620482_annotated_assembly_genomic	GCA_900116735
+c_000000000017	0000000017	17_49	0000001395	VANS	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	GCA_900116735_1_IMG_taxon_2623620482_annotated_assembly_genomic	GCA_900116735
+c_000000000020	0000000020	20_60	0000002189	LNUA	n/a	MLS	lincosamide antibiotic	antibiotic inactivation	DeepARG	ambiguous (phage/chromosome)	GCA_900116735_1_IMG_taxon_2623620482_annotated_assembly_genomic	GCA_900116735
+c_000000000023	0000000023	23_112	0000002941	VANRI	n/a	glycopeptide	glycopeptide antibiotic	antibiotic target alteration	DeepARG	ambiguous (phage/chromosome)	GCA_900116735_1_IMG_taxon_2623620482_annotated_assembly_genomic	GCA_900116735
+c_000000000024	0000000024	24_2	0000003553	VANS	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	GCA_900116735_1_IMG_taxon_2623620482_annotated_assembly_genomic	GCA_900116735
+c_000000000001	0000000001	1_541	0000000541	LNUA	n/a	MLS	lincosamide antibiotic	antibiotic inactivation	DeepARG	ambiguous (phage/chromosome)	GCA_902166045_1_26009_2_26_genomic	GCA_902166045
+c_000000000002	0000000002	2_414	0000000981	TET(W/N/W)	n/a	tetracycline	tetracycline antibiotic	antibiotic target protection	DeepARG/RGI	ambiguous (phage/chromosome)	GCA_902166045_1_26009_2_26_genomic	GCA_902166045
+c_000000000003	0000000003	3_74	0000001144	VANRI	n/a	glycopeptide	glycopeptide antibiotic	antibiotic target alteration	DeepARG	ambiguous (phage/chromosome)	GCA_902166045_1_26009_2_26_genomic	GCA_902166045
+c_000000000004	0000000004	4_307	0000001835	VANR	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	GCA_902166045_1_26009_2_26_genomic	GCA_902166045
+c_000000000005	0000000005	5_247	0000002138	VANS	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	GCA_902166045_1_26009_2_26_genomic	GCA_902166045
+c_000000000006	0000000006	6_240	0000002485	VANS	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	GCA_902166045_1_26009_2_26_genomic	GCA_902166045
+c_000000000006	0000000006	6_243	0000002488	EFRA	n/a	multidrug	fluoroquinolone antibiotic;macrolide antibiotic;rifamycin antibiotic	antibiotic efflux	DeepARG	chromosome	GCA_902166045_1_26009_2_26_genomic	GCA_902166045
+c_000000000013	0000000013	13_92	0000003894	LLMA_23S_RIBOSOMAL_RNA_METHYLTRANSFERASE	n/a	MLS	lincosamide antibiotic	antibiotic target alteration	DeepARG	chromosome	GCA_902166045_1_26009_2_26_genomic	GCA_902166045
+c_000000000017	0000000017	17_24	0000004244	VANS	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	GCA_902166045_1_26009_2_26_genomic	GCA_902166045
+c_000000000044	0000000044	44_2	0000004781	VANS	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	unclassified	GCA_902166045_1_26009_2_26_genomic	GCA_902166045
+c_000000000001	0000000001	1_13	0000000013	LLMA_23S_RIBOSOMAL_RNA_METHYLTRANSFERASE	n/a	MLS	lincosamide antibiotic	antibiotic target alteration	DeepARG	ambiguous (phage/chromosome)	GCA_902166105_1_26009_2_25_genomic	GCA_902166105
+c_000000000002	0000000002	2_414	0000000975	TET(W/N/W)	n/a	tetracycline	tetracycline antibiotic	antibiotic target protection	DeepARG/RGI	ambiguous (phage/chromosome)	GCA_902166105_1_26009_2_25_genomic	GCA_902166105
+c_000000000003	0000000003	3_388	0000001452	VANRI	n/a	glycopeptide	glycopeptide antibiotic	antibiotic target alteration	DeepARG	ambiguous (phage/chromosome)	GCA_902166105_1_26009_2_25_genomic	GCA_902166105
+c_000000000004	0000000004	4_307	0000001832	VANR	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	GCA_902166105_1_26009_2_25_genomic	GCA_902166105
+c_000000000005	0000000005	5_108	0000001987	VANS	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	GCA_902166105_1_26009_2_25_genomic	GCA_902166105
+c_000000000006	0000000006	6_171	0000002402	VANS	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	GCA_902166105_1_26009_2_25_genomic	GCA_902166105
+c_000000000006	0000000006	6_174	0000002405	EFRA	n/a	multidrug	fluoroquinolone antibiotic;macrolide antibiotic;rifamycin antibiotic	antibiotic efflux	DeepARG	chromosome	GCA_902166105_1_26009_2_25_genomic	GCA_902166105
+c_000000000014	0000000014	14_26	0000003865	LNUA	n/a	MLS	lincosamide antibiotic	antibiotic inactivation	DeepARG	chromosome	GCA_902166105_1_26009_2_25_genomic	GCA_902166105
+c_000000000016	0000000016	16_43	0000004098	VANS	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	GCA_902166105_1_26009_2_25_genomic	GCA_902166105
+c_000000000060	0000000060	60_2	0000004809	VANS	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	unclassified	GCA_902166105_1_26009_2_25_genomic	GCA_902166105
+NODE_1_length_519326_cov_11.243793	0000000001	1_26	0000000026	LNUA	n/a	MLS	lincosamide antibiotic	antibiotic inactivation	DeepARG	chromosome	SRR12535052	SRR12535052
+NODE_17_length_70869_cov_12.701804	0000000017	17_54	0000003919	LLMA_23S_RIBOSOMAL_RNA_METHYLTRANSFERASE	n/a	MLS	lincosamide antibiotic	antibiotic target alteration	DeepARG	chromosome	SRR12535052	SRR12535052
+NODE_2_length_476728_cov_14.003577	0000000002	2_84	0000000607	VANRI	n/a	glycopeptide	glycopeptide antibiotic	antibiotic target alteration	DeepARG	ambiguous (phage/chromosome)	SRR12535052	SRR12535052
+NODE_3_length_346543_cov_12.228719	0000000003	3_307	0000001319	VANR	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	SRR12535052	SRR12535052
+NODE_48_length_1072_cov_31.239153	0000000048	48_2	0000004534	VANS	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	unclassified	SRR12535052	SRR12535052
+NODE_5_length_305117_cov_14.679701	0000000005	5_61	0000001736	VANS	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	SRR12535052	SRR12535052
+NODE_7_length_255560_cov_13.032396	0000000007	7_240	0000002489	EFRA	n/a	multidrug	fluoroquinolone antibiotic;macrolide antibiotic;rifamycin antibiotic	antibiotic efflux	DeepARG	chromosome	SRR12535052	SRR12535052
+NODE_7_length_255560_cov_13.032396	0000000007	7_58	0000002307	VANS	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	SRR12535052	SRR12535052
+NODE_11_length_146286_cov_15.737642	0000000011	11_45	0000003568	LLMA_23S_RIBOSOMAL_RNA_METHYLTRANSFERASE	n/a	MLS	lincosamide antibiotic	antibiotic target alteration	DeepARG	ambiguous (phage/chromosome)	SRR12535053	SRR12535053
+NODE_13_length_105601_cov_15.775243	0000000013	13_3	0000003790	EFRA	n/a	multidrug	fluoroquinolone antibiotic;macrolide antibiotic;rifamycin antibiotic	antibiotic efflux	DeepARG	chromosome	SRR12535053	SRR12535053
+NODE_2_length_450994_cov_14.352066	0000000002	2_314	0000000981	VANU	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	ambiguous (phage/chromosome)	SRR12535053	SRR12535053
+NODE_3_length_390509_cov_15.267428	0000000003	3_240	0000001326	VANR	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	SRR12535053	SRR12535053
+NODE_5_length_346038_cov_16.006123	0000000005	5_256	0000002077	VANRI	n/a	glycopeptide	glycopeptide antibiotic	antibiotic target alteration	DeepARG	ambiguous (phage/chromosome)	SRR12535053	SRR12535053
+NODE_5_length_346038_cov_16.006123	0000000005	5_57	0000001878	MCR-4.4	n/a	peptide	peptide antibiotic	antibiotic target alteration	RGI	ambiguous (phage/chromosome)	SRR12535053	SRR12535053
+NODE_7_length_292555_cov_12.686128	0000000007	7_248	0000002771	LNUA	n/a	MLS	lincosamide antibiotic	antibiotic inactivation	DeepARG	chromosome	SRR12535053	SRR12535053
+NODE_8_length_270289_cov_16.799753	0000000008	8_245	0000003073	VANS	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	SRR12535053	SRR12535053
+NODE_1_length_413425_cov_9.119645	0000000001	1_52	0000000052	TETM	n/a	tetracycline	tetracycline antibiotic	antibiotic target protection	DeepARG/RGI	chromosome	SRR12535137	SRR12535137
+NODE_14_length_137940_cov_8.449914	0000000014	14_101	0000003265	VANR	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	SRR12535137	SRR12535137
+NODE_14_length_137940_cov_8.449914	0000000014	14_127	0000003291	VANS	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	SRR12535137	SRR12535137
+NODE_16_length_104444_cov_7.274759	0000000016	16_26	0000003434	LNUA	n/a	MLS	lincosamide antibiotic	antibiotic inactivation	DeepARG	chromosome	SRR12535137	SRR12535137
+NODE_2_length_379241_cov_9.420610	0000000002	2_297	0000000694	VANS	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	SRR12535137	SRR12535137
+NODE_20_length_70532_cov_8.432910	0000000020	20_54	0000003854	LLMA_23S_RIBOSOMAL_RNA_METHYLTRANSFERASE	n/a	MLS	lincosamide antibiotic	antibiotic target alteration	DeepARG	chromosome	SRR12535137	SRR12535137
+NODE_4_length_253765_cov_9.039158	0000000004	4_236	0000001376	VANRI	n/a	glycopeptide	glycopeptide antibiotic	antibiotic target alteration	DeepARG	chromosome	SRR12535137	SRR12535137
+NODE_6_length_231951_cov_8.438906	0000000006	6_212	0000001846	EFRA	n/a	multidrug	fluoroquinolone antibiotic;macrolide antibiotic;rifamycin antibiotic	antibiotic efflux	DeepARG	chromosome	SRR12535137	SRR12535137
+NODE_9_length_210928_cov_8.829854	0000000009	9_2	0000002280	VANS	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	SRR12535137	SRR12535137
+NODE_1_length_654379_cov_13.743703	0000000001	1_278	0000000278	VANS	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	ambiguous (phage/chromosome)	SRR12535138	SRR12535138
+NODE_1_length_654379_cov_13.743703	0000000001	1_281	0000000281	EFRA	n/a	multidrug	fluoroquinolone antibiotic;macrolide antibiotic;rifamycin antibiotic	antibiotic efflux	DeepARG	ambiguous (phage/chromosome)	SRR12535138	SRR12535138
+NODE_1_length_654379_cov_13.743703	0000000001	1_493	0000000493	VANS	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	ambiguous (phage/chromosome)	SRR12535138	SRR12535138
+NODE_1_length_654379_cov_13.743703	0000000001	1_519	0000000519	VANR	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	ambiguous (phage/chromosome)	SRR12535138	SRR12535138
+NODE_11_length_173715_cov_14.479284	0000000011	11_115	0000003117	VANS	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	SRR12535138	SRR12535138
+NODE_16_length_104484_cov_12.152477	0000000016	16_26	0000003725	LNUA	n/a	MLS	lincosamide antibiotic	antibiotic inactivation	DeepARG	chromosome	SRR12535138	SRR12535138
+NODE_19_length_70866_cov_13.292187	0000000019	19_12	0000004009	LLMA_23S_RIBOSOMAL_RNA_METHYLTRANSFERASE	n/a	MLS	lincosamide antibiotic	antibiotic target alteration	DeepARG	chromosome	SRR12535138	SRR12535138
+NODE_2_length_413642_cov_14.145298	0000000002	2_349	0000000970	TETM	n/a	tetracycline	tetracycline antibiotic	antibiotic target protection	DeepARG/RGI	ambiguous (phage/chromosome)	SRR12535138	SRR12535138
+NODE_4_length_328128_cov_14.534715	0000000004	4_49	0000001434	VANS	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	SRR12535138	SRR12535138
+NODE_5_length_254197_cov_14.158633	0000000005	5_11	0000001718	VANRI	n/a	glycopeptide	glycopeptide antibiotic	antibiotic target alteration	DeepARG	chromosome	SRR12535138	SRR12535138
+NODE_13_length_162913_cov_14.243203	0000000013	13_130	0000003690	VANR	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	SRR12535142	SRR12535142
+NODE_17_length_35371_cov_14.180031	0000000017	17_38	0000003938	EFRA	n/a	multidrug	fluoroquinolone antibiotic;macrolide antibiotic;rifamycin antibiotic	antibiotic efflux	DeepARG	chromosome	SRR12535142	SRR12535142
+NODE_2_length_381755_cov_13.704901	0000000002	2_263	0000000937	LLMA_23S_RIBOSOMAL_RNA_METHYLTRANSFERASE	n/a	MLS	lincosamide antibiotic	antibiotic target alteration	DeepARG	ambiguous (phage/chromosome)	SRR12535142	SRR12535142
+NODE_4_length_346038_cov_14.311152	0000000004	4_255	0000001672	VANRI	n/a	glycopeptide	glycopeptide antibiotic	antibiotic target alteration	DeepARG	ambiguous (phage/chromosome)	SRR12535142	SRR12535142
+NODE_4_length_346038_cov_14.311152	0000000004	4_56	0000001473	MCR-4.4	n/a	peptide	peptide antibiotic	antibiotic target alteration	RGI	ambiguous (phage/chromosome)	SRR12535142	SRR12535142
+NODE_6_length_270417_cov_14.723353	0000000006	6_30	0000002098	VANS	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	SRR12535142	SRR12535142
+NODE_7_length_255488_cov_12.207547	0000000007	7_27	0000002366	LNUA	n/a	MLS	lincosamide antibiotic	antibiotic inactivation	DeepARG	chromosome	SRR12535142	SRR12535142
+NODE_9_length_215325_cov_13.062826	0000000009	9_98	0000002928	VANU	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	ambiguous (phage/chromosome)	SRR12535142	SRR12535142
+NODE_13_length_73473_cov_15.574183	0000000013	13_45	0000003798	LLMA_23S_RIBOSOMAL_RNA_METHYLTRANSFERASE	n/a	MLS	lincosamide antibiotic	antibiotic target alteration	DeepARG	chromosome	SRR12535147	SRR12535147
+NODE_2_length_519755_cov_16.390604	0000000002	2_114	0000000591	VANRI	n/a	glycopeptide	glycopeptide antibiotic	antibiotic target alteration	DeepARG	ambiguous (phage/chromosome)	SRR12535147	SRR12535147
+NODE_2_length_519755_cov_16.390604	0000000002	2_114	0000000591	VANRI	n/a	glycopeptide	glycopeptide antibiotic	antibiotic target alteration	DeepARG	ambiguous (phage/chromosome)	SRR12535147	SRR12535147
+NODE_2_length_519755_cov_16.390604	0000000002	2_313	0000000790	MCR-4.4	n/a	peptide	peptide antibiotic	antibiotic target alteration	RGI	ambiguous (phage/chromosome)	SRR12535147	SRR12535147
+NODE_2_length_519755_cov_16.390604	0000000002	2_313	0000000790	MCR-4.4	n/a	peptide	peptide antibiotic	antibiotic target alteration	RGI	ambiguous (phage/chromosome)	SRR12535147	SRR12535147
+NODE_3_length_450951_cov_15.351192	0000000003	3_314	0000001317	VANU	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	ambiguous (phage/chromosome)	SRR12535147	SRR12535147
+NODE_4_length_426459_cov_15.900814	0000000004	4_280	0000001701	VANR	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	SRR12535147	SRR12535147
+NODE_4_length_426459_cov_15.900814	0000000004	4_3	0000001424	EFRA	n/a	multidrug	fluoroquinolone antibiotic;macrolide antibiotic;rifamycin antibiotic	antibiotic efflux	DeepARG	chromosome	SRR12535147	SRR12535147
+NODE_7_length_270289_cov_16.881493	0000000007	7_30	0000002560	VANS	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	SRR12535147	SRR12535147
+NODE_8_length_255488_cov_14.967514	0000000008	8_27	0000002828	LNUA	n/a	MLS	lincosamide antibiotic	antibiotic inactivation	DeepARG	chromosome	SRR12535147	SRR12535147
+NODE_1_length_540378_cov_15.591784	0000000001	1_384	0000000384	TETO	n/a	tetracycline	tetracycline antibiotic	antibiotic target protection	DeepARG/RGI	ambiguous (phage/chromosome)	SRR12535148	SRR12535148
+NODE_1_length_540378_cov_15.591784	0000000001	1_439	0000000439	VANRI	n/a	glycopeptide	glycopeptide antibiotic	antibiotic target alteration	DeepARG	ambiguous (phage/chromosome)	SRR12535148	SRR12535148
+NODE_11_length_150519_cov_16.683321	0000000011	11_88	0000002574	VANS	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	SRR12535148	SRR12535148
+NODE_16_length_104483_cov_13.305780	0000000016	16_85	0000003186	LNUA	n/a	MLS	lincosamide antibiotic	antibiotic inactivation	DeepARG	chromosome	SRR12535148	SRR12535148
+NODE_2_length_317008_cov_16.666632	0000000002	2_284	0000000820	VANS	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	SRR12535148	SRR12535148
+NODE_23_length_70534_cov_14.134319	0000000023	23_12	0000003769	LLMA_23S_RIBOSOMAL_RNA_METHYLTRANSFERASE	n/a	MLS	lincosamide antibiotic	antibiotic target alteration	DeepARG	chromosome	SRR12535148	SRR12535148
+NODE_29_length_45478_cov_15.151132	0000000029	29_46	0000004162	EFRA	n/a	multidrug	fluoroquinolone antibiotic;macrolide antibiotic;rifamycin antibiotic	antibiotic efflux	DeepARG	chromosome	SRR12535148	SRR12535148
+NODE_5_length_201134_cov_14.799658	0000000005	5_137	0000001528	VANS	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	SRR12535148	SRR12535148
+NODE_5_length_201134_cov_14.799658	0000000005	5_163	0000001554	VANR	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	SRR12535148	SRR12535148
+NODE_1_length_440223_cov_13.912755	0000000001	1_298	0000000298	TETO	n/a	tetracycline	tetracycline antibiotic	antibiotic target protection	DeepARG/RGI	ambiguous (phage/chromosome)	SRR12535149	SRR12535149
+NODE_1_length_440223_cov_13.912755	0000000001	1_353	0000000353	VANRI	n/a	glycopeptide	glycopeptide antibiotic	antibiotic target alteration	DeepARG	ambiguous (phage/chromosome)	SRR12535149	SRR12535149
+NODE_14_length_123956_cov_14.383642	0000000014	14_3	0000002930	VANS	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	SRR12535149	SRR12535149
+NODE_15_length_104481_cov_11.696475	0000000015	15_26	0000003076	LNUA	n/a	MLS	lincosamide antibiotic	antibiotic inactivation	DeepARG	chromosome	SRR12535149	SRR12535149
+NODE_2_length_317008_cov_15.151205	0000000002	2_284	0000000734	VANS	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	SRR12535149	SRR12535149
+NODE_25_length_70872_cov_12.853502	0000000025	25_54	0000003999	LLMA_23S_RIBOSOMAL_RNA_METHYLTRANSFERASE	n/a	MLS	lincosamide antibiotic	antibiotic target alteration	DeepARG	chromosome	SRR12535149	SRR12535149
+NODE_4_length_246999_cov_13.459153	0000000004	4_186	0000001249	VANS	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	SRR12535149	SRR12535149
+NODE_4_length_246999_cov_13.459153	0000000004	4_212	0000001275	VANR	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	SRR12535149	SRR12535149
+NODE_4_length_246999_cov_13.459153	0000000004	4_4	0000001067	EFRA	n/a	multidrug	fluoroquinolone antibiotic;macrolide antibiotic;rifamycin antibiotic	antibiotic efflux	DeepARG	chromosome	SRR12535149	SRR12535149
+NODE_14_length_102331_cov_9.616101	0000000014	14_86	0000002103	VANR	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	SRR12535150	SRR12535150
+NODE_15_length_92462_cov_9.682298	0000000015	15_42	0000002149	VANS	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	SRR12535150	SRR12535150
+NODE_150_length_545_cov_19.452153	0000000150	150_2	0000004805	VANS	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	phage	SRR12535150	SRR12535150
+NODE_2_length_185962_cov_9.511518	0000000002	2_13	0000000218	VANRI	n/a	glycopeptide	glycopeptide antibiotic	antibiotic target alteration	DeepARG	chromosome	SRR12535150	SRR12535150
+NODE_36_length_46235_cov_8.966188	0000000036	36_1	0000003471	LLMA_23S_RIBOSOMAL_RNA_METHYLTRANSFERASE	n/a	MLS	lincosamide antibiotic	antibiotic target alteration	DeepARG	chromosome	SRR12535150	SRR12535150
+NODE_7_length_153350_cov_9.234410	0000000007	7_146	0000001212	EFRA	n/a	multidrug	fluoroquinolone antibiotic;macrolide antibiotic;rifamycin antibiotic	antibiotic efflux	DeepARG	chromosome	SRR12535150	SRR12535150
+NODE_7_length_153350_cov_9.234410	0000000007	7_58	0000001124	VANS	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	SRR12535150	SRR12535150
+NODE_9_length_149613_cov_7.779444	0000000009	9_86	0000001451	LNUA	n/a	MLS	lincosamide antibiotic	antibiotic inactivation	DeepARG	chromosome	SRR12535150	SRR12535150
+NODE_11_length_119953_cov_14.111361	0000000011	11_53	0000002231	LNUA	n/a	MLS	lincosamide antibiotic	antibiotic inactivation	DeepARG	chromosome	SRR12535152	SRR12535152
+NODE_17_length_97688_cov_13.691086	0000000017	17_58	0000002886	VANS	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	SRR12535152	SRR12535152
+NODE_18_length_95323_cov_15.245777	0000000018	18_38	0000002975	LLMA_23S_RIBOSOMAL_RNA_METHYLTRANSFERASE	n/a	MLS	lincosamide antibiotic	antibiotic target alteration	DeepARG	chromosome	SRR12535152	SRR12535152
+NODE_23_length_78589_cov_13.577286	0000000023	23_74	0000003428	EFRA	n/a	multidrug	fluoroquinolone antibiotic;macrolide antibiotic;rifamycin antibiotic	antibiotic efflux	DeepARG	chromosome	SRR12535152	SRR12535152
+NODE_3_length_274121_cov_15.729881	0000000003	3_63	0000000788	VANRI	n/a	glycopeptide	glycopeptide antibiotic	antibiotic target alteration	DeepARG	chromosome	SRR12535152	SRR12535152
+NODE_30_length_59966_cov_15.606177	0000000030	30_33	0000003859	VANS	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	SRR12535152	SRR12535152
+NODE_57_length_13884_cov_12.591408	0000000057	57_4	0000004772	VANR	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	SRR12535152	SRR12535152
+NODE_7_length_174323_cov_13.958174	0000000007	7_42	0000001644	TET(W/N/W)	n/a	tetracycline	tetracycline antibiotic	antibiotic target protection	DeepARG/RGI	chromosome	SRR12535152	SRR12535152
+NODE_73_length_5856_cov_11.971025	0000000073	73_4	0000004941	APH(3')-IIIA	n/a	aminoglycoside	aminoglycoside antibiotic	antibiotic inactivation	DeepARG/RGI	chromosome	SRR12535152	SRR12535152
+NODE_73_length_5856_cov_11.971025	0000000073	73_5	0000004942	SAT-4	n/a	nucleoside	nucleoside antibiotic	antibiotic inactivation	DeepARG/RGI	chromosome	SRR12535152	SRR12535152
+NODE_73_length_5856_cov_11.971025	0000000073	73_6	0000004943	AAD(6)	n/a	aminoglycoside	aminoglycoside antibiotic	antibiotic inactivation	DeepARG/RGI	chromosome	SRR12535152	SRR12535152
+NODE_93_length_1416_cov_26.051978	0000000093	93_2	0000005031	VANS	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	phage	SRR12535152	SRR12535152
+c_000000000024	0000000024	24_57	0000000651	BCRA	n/a	bacitracin	peptide antibiotic	antibiotic efflux	DeepARG	chromosome	GCA_003433985_1_ASM343398v1_genomic	GCA_003433985
+c_000000000057	0000000037	37_37	0000000945	ERMB	n/a	MLS	lincosamide antibiotic;macrolide antibiotic;streptogramin antibiotic	antibiotic target alteration	DeepARG/RGI	chromosome	GCA_003433985_1_ASM343398v1_genomic	GCA_003433985
+c_000000000068	0000000038	38_6	0000001013	TETM	n/a	tetracycline	tetracycline antibiotic	antibiotic target protection	DeepARG/RGI	chromosome	GCA_003433985_1_ASM343398v1_genomic	GCA_003433985
+c_000000000090	0000000059	59_12	0000002744	VANRI	n/a	glycopeptide	glycopeptide antibiotic	antibiotic target alteration	DeepARG	chromosome	GCA_003433985_1_ASM343398v1_genomic	GCA_003433985
+c_000000000096	0000000065	65_11	0000003153	VANR	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	GCA_003433985_1_ASM343398v1_genomic	GCA_003433985
+c_000000000106	0000000075	75_5	0000003434	VATE	n/a	MLS	streptogramin antibiotic	antibiotic inactivation	DeepARG	chromosome	GCA_003433985_1_ASM343398v1_genomic	GCA_003433985
+c_000000000106	0000000075	75_60	0000003489	MTRD	n/a	multidrug	macrolide antibiotic;penam	antibiotic efflux	RGI	chromosome	GCA_003433985_1_ASM343398v1_genomic	GCA_003433985
+c_000000000109	0000000078	78_12	0000003659	LLMA_23S_RIBOSOMAL_RNA_METHYLTRANSFERASE	n/a	MLS	lincosamide antibiotic	antibiotic target alteration	DeepARG	chromosome	GCA_003433985_1_ASM343398v1_genomic	GCA_003433985
+c_000000000126	0000000095	95_2	0000004007	EFRA	n/a	multidrug	fluoroquinolone antibiotic;macrolide antibiotic;rifamycin antibiotic	antibiotic efflux	DeepARG	chromosome	GCA_003433985_1_ASM343398v1_genomic	GCA_003433985
+c_000000000054	0000000031	31_28	0000001225	MTRD	n/a	multidrug	macrolide antibiotic;penam	antibiotic efflux	RGI	chromosome	GCA_003481775_1_ASM348177v1_genomic	GCA_003481775
+c_000000000054	0000000031	31_83	0000001280	VATE	n/a	MLS	streptogramin antibiotic	antibiotic inactivation	DeepARG	chromosome	GCA_003481775_1_ASM348177v1_genomic	GCA_003481775
+c_000000000062	0000000039	39_22	0000002031	ERMB	n/a	MLS	lincosamide antibiotic;macrolide antibiotic;streptogramin antibiotic	antibiotic target alteration	DeepARG/RGI	chromosome	GCA_003481775_1_ASM348177v1_genomic	GCA_003481775
+c_000000000063	0000000040	40_39	0000002116	VANR	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	GCA_003481775_1_ASM348177v1_genomic	GCA_003481775
+c_000000000070	0000000047	47_31	0000002659	VANRI	n/a	glycopeptide	glycopeptide antibiotic	antibiotic target alteration	DeepARG	chromosome	GCA_003481775_1_ASM348177v1_genomic	GCA_003481775
+c_000000000077	0000000054	54_170	0000003124	LLMA_23S_RIBOSOMAL_RNA_METHYLTRANSFERASE	n/a	MLS	lincosamide antibiotic	antibiotic target alteration	DeepARG	chromosome	GCA_003481775_1_ASM348177v1_genomic	GCA_003481775
+c_000000000088	0000000065	65_90	0000003545	TETM	n/a	tetracycline	tetracycline antibiotic	antibiotic target protection	DeepARG/RGI	chromosome	GCA_003481775_1_ASM348177v1_genomic	GCA_003481775
+c_000000000112	0000000089	89_3	0000004150	EFRA	n/a	multidrug	fluoroquinolone antibiotic;macrolide antibiotic;rifamycin antibiotic	antibiotic efflux	DeepARG	chromosome	GCA_003481775_1_ASM348177v1_genomic	GCA_003481775
+c_000000000121	0000000098	98_57	0000004257	BCRA	n/a	bacitracin	peptide antibiotic	antibiotic efflux	DeepARG	chromosome	GCA_003481775_1_ASM348177v1_genomic	GCA_003481775
+NODE_1_length_435958_cov_14.035154	0000000001	1_366	0000000366	EFRA	n/a	multidrug	fluoroquinolone antibiotic;macrolide antibiotic;rifamycin antibiotic	antibiotic efflux	DeepARG	chromosome	SRR12535055	SRR12535055
+NODE_13_length_145983_cov_12.762176	0000000013	13_1	0000002481	ACRD	n/a	aminoglycoside	aminoglycoside antibiotic	antibiotic efflux	RGI	chromosome	SRR12535055	SRR12535055
+NODE_17_length_124243_cov_14.247269	0000000017	17_41	0000003027	LLMA_23S_RIBOSOMAL_RNA_METHYLTRANSFERASE	n/a	MLS	lincosamide antibiotic	antibiotic target alteration	DeepARG	chromosome	SRR12535055	SRR12535055
+NODE_2_length_269720_cov_13.825938	0000000002	2_97	0000000501	VANR	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	SRR12535055	SRR12535055
+NODE_29_length_35167_cov_12.429338	0000000029	29_29	0000003965	VATE	n/a	MLS	streptogramin antibiotic	antibiotic inactivation	DeepARG	chromosome	SRR12535055	SRR12535055
+NODE_7_length_198399_cov_12.529197	0000000007	7_59	0000001573	BCRA	n/a	bacitracin	peptide antibiotic	antibiotic efflux	DeepARG	chromosome	SRR12535055	SRR12535055
+NODE_8_length_191508_cov_15.008705	0000000008	8_13	0000001688	VANRI	n/a	glycopeptide	glycopeptide antibiotic	antibiotic target alteration	DeepARG	chromosome	SRR12535055	SRR12535055
+c_000000000003	0000000003	3_160	0000000855	VANR	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	ambiguous (phage/chromosome)	CM06_79_S180	CM06_79
+c_000000000005	0000000005	5_64	0000001087	LLMA_23S_RIBOSOMAL_RNA_METHYLTRANSFERASE	n/a	MLS	lincosamide antibiotic	antibiotic target alteration	DeepARG	chromosome	CM06_79_S180	CM06_79
+c_000000000008	0000000008	8_90	0000001525	UGD	n/a	peptide	peptide antibiotic	antibiotic target alteration	DeepARG	chromosome	CM06_79_S180	CM06_79
+c_000000000009	0000000009	9_68	0000001650	BRUCELLA SUIS MPRF	n/a	peptide	peptide antibiotic	antibiotic target alteration	RGI	ambiguous (phage/chromosome)	CM06_79_S180	CM06_79
+c_000000000011	0000000011	11_56	0000001909	VANRI	n/a	glycopeptide	glycopeptide antibiotic	antibiotic target alteration	DeepARG	chromosome	CM06_79_S180	CM06_79
+c_000000000019	0000000019	19_20	0000002799	TRUNCATED_PUTATIVE_RESPONSE_REGULATOR_ARLR	n/a	unclassified	unclassified	-	DeepARG	chromosome	CM06_79_S180	CM06_79
+c_000000000033	0000000033	33_22	0000003644	EFRB	n/a	multidrug	fluoroquinolone antibiotic;macrolide antibiotic;rifamycin antibiotic	antibiotic efflux	DeepARG	chromosome	CM06_79_S180	CM06_79
+c_000000000033	0000000033	33_23	0000003645	EFRA	n/a	multidrug	fluoroquinolone antibiotic;macrolide antibiotic;rifamycin antibiotic	antibiotic efflux	DeepARG	chromosome	CM06_79_S180	CM06_79
+c_000000000003	0000000003	3_208	0000000915	VANRI	n/a	glycopeptide	glycopeptide antibiotic	antibiotic target alteration	DeepARG	ambiguous (phage/chromosome)	CM2_11_S218	CM2_11
+c_000000000005	0000000005	5_237	0000001606	TRUNCATED_PUTATIVE_RESPONSE_REGULATOR_ARLR	n/a	unclassified	unclassified	-	DeepARG	chromosome	CM2_11_S218	CM2_11
+c_000000000010	0000000010	10_49	0000002642	VANU	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	CM2_11_S218	CM2_11
+c_000000000010	0000000010	10_62	0000002655	TETO	n/a	tetracycline	tetracycline antibiotic	antibiotic target protection	DeepARG/RGI	chromosome	CM2_11_S218	CM2_11
+c_000000000016	0000000016	16_94	0000003640	UGD	n/a	peptide	peptide antibiotic	antibiotic target alteration	DeepARG	chromosome	CM2_11_S218	CM2_11
+c_000000000017	0000000017	17_25	0000003669	EFRA	n/a	multidrug	fluoroquinolone antibiotic;macrolide antibiotic;rifamycin antibiotic	antibiotic efflux	DeepARG	chromosome	CM2_11_S218	CM2_11
+c_000000000017	0000000017	17_26	0000003670	EFRB	n/a	multidrug	fluoroquinolone antibiotic;macrolide antibiotic;rifamycin antibiotic	antibiotic efflux	DeepARG	chromosome	CM2_11_S218	CM2_11
+c_000000000018	0000000018	18_87	0000003850	LLMA_23S_RIBOSOMAL_RNA_METHYLTRANSFERASE	n/a	MLS	lincosamide antibiotic	antibiotic target alteration	DeepARG	ambiguous (phage/chromosome)	CM2_11_S218	CM2_11
+c_000000000021	0000000021	21_18	0000003980	VANR	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	CM2_11_S218	CM2_11
+c_000000000004	0000000004	4_135	0000001354	VANRI	n/a	glycopeptide	glycopeptide antibiotic	antibiotic target alteration	DeepARG	ambiguous (phage/chromosome)	CM2_20_S220	CM2_20
+c_000000000005	0000000005	5_237	0000001799	TRUNCATED_PUTATIVE_RESPONSE_REGULATOR_ARLR	n/a	unclassified	unclassified	-	DeepARG	chromosome	CM2_20_S220	CM2_20
+c_000000000009	0000000009	9_125	0000002715	TETO	n/a	tetracycline	tetracycline antibiotic	antibiotic target protection	DeepARG/RGI	chromosome	CM2_20_S220	CM2_20
+c_000000000009	0000000009	9_138	0000002728	VANU	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	CM2_20_S220	CM2_20
+c_000000000012	0000000012	12_87	0000003186	LLMA_23S_RIBOSOMAL_RNA_METHYLTRANSFERASE	n/a	MLS	lincosamide antibiotic	antibiotic target alteration	DeepARG	ambiguous (phage/chromosome)	CM2_20_S220	CM2_20
+c_000000000016	0000000016	16_94	0000003725	UGD	n/a	peptide	peptide antibiotic	antibiotic target alteration	DeepARG	chromosome	CM2_20_S220	CM2_20
+c_000000000017	0000000017	17_25	0000003754	EFRA	n/a	multidrug	fluoroquinolone antibiotic;macrolide antibiotic;rifamycin antibiotic	antibiotic efflux	DeepARG	chromosome	CM2_20_S220	CM2_20
+c_000000000017	0000000017	17_26	0000003755	EFRB	n/a	multidrug	fluoroquinolone antibiotic;macrolide antibiotic;rifamycin antibiotic	antibiotic efflux	DeepARG	chromosome	CM2_20_S220	CM2_20
+c_000000000020	0000000020	20_18	0000003974	VANR	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	CM2_20_S220	CM2_20
+c_000000000002	0000000002	2_176	0000001074	EFRB	n/a	multidrug	fluoroquinolone antibiotic;macrolide antibiotic;rifamycin antibiotic	antibiotic efflux	DeepARG	ambiguous (phage/chromosome)	CM6_01_S226	CM6_01
+c_000000000002	0000000002	2_177	0000001075	EFRA	n/a	multidrug	fluoroquinolone antibiotic;macrolide antibiotic;rifamycin antibiotic	antibiotic efflux	DeepARG	ambiguous (phage/chromosome)	CM6_01_S226	CM6_01
+c_000000000003	0000000003	3_169	0000001499	AADE	n/a	aminoglycoside	aminoglycoside antibiotic	-	DeepARG	ambiguous (phage/chromosome)	CM6_01_S226	CM6_01
+c_000000000003	0000000003	3_295	0000001625	TRUNCATED_PUTATIVE_RESPONSE_REGULATOR_ARLR	n/a	unclassified	unclassified	-	DeepARG	ambiguous (phage/chromosome)	CM6_01_S226	CM6_01
+c_000000000006	0000000006	6_218	0000002503	TETO	n/a	tetracycline	tetracycline antibiotic	antibiotic target protection	DeepARG/RGI	ambiguous (phage/chromosome)	CM6_01_S226	CM6_01
+c_000000000006	0000000006	6_231	0000002516	VANU	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	ambiguous (phage/chromosome)	CM6_01_S226	CM6_01
+c_000000000006	0000000006	6_74	0000002359	LLMA_23S_RIBOSOMAL_RNA_METHYLTRANSFERASE	n/a	MLS	lincosamide antibiotic	antibiotic target alteration	DeepARG	ambiguous (phage/chromosome)	CM6_01_S226	CM6_01
+c_000000000009	0000000009	9_135	0000003260	VANRI	n/a	glycopeptide	glycopeptide antibiotic	antibiotic target alteration	DeepARG	chromosome	CM6_01_S226	CM6_01
+c_000000000014	0000000014	14_94	0000004181	UGD	n/a	peptide	peptide antibiotic	antibiotic target alteration	DeepARG	chromosome	CM6_01_S226	CM6_01
+c_000000000015	0000000015	15_10	0000004195	VANR	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	CM6_01_S226	CM6_01
+c_000000000002	0000000002	2_176	0000000955	EFRB	n/a	multidrug	fluoroquinolone antibiotic;macrolide antibiotic;rifamycin antibiotic	antibiotic efflux	DeepARG	ambiguous (phage/chromosome)	CM6_02_S227	CM6_02
+c_000000000002	0000000002	2_177	0000000956	EFRA	n/a	multidrug	fluoroquinolone antibiotic;macrolide antibiotic;rifamycin antibiotic	antibiotic efflux	DeepARG	ambiguous (phage/chromosome)	CM6_02_S227	CM6_02
+c_000000000003	0000000003	3_169	0000001380	AADE	n/a	aminoglycoside	aminoglycoside antibiotic	-	DeepARG	ambiguous (phage/chromosome)	CM6_02_S227	CM6_02
+c_000000000003	0000000003	3_295	0000001506	TRUNCATED_PUTATIVE_RESPONSE_REGULATOR_ARLR	n/a	unclassified	unclassified	-	DeepARG	ambiguous (phage/chromosome)	CM6_02_S227	CM6_02
+c_000000000007	0000000007	7_218	0000002653	TETO	n/a	tetracycline	tetracycline antibiotic	antibiotic target protection	DeepARG/RGI	ambiguous (phage/chromosome)	CM6_02_S227	CM6_02
+c_000000000007	0000000007	7_231	0000002666	VANU	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	ambiguous (phage/chromosome)	CM6_02_S227	CM6_02
+c_000000000007	0000000007	7_74	0000002509	LLMA_23S_RIBOSOMAL_RNA_METHYLTRANSFERASE	n/a	MLS	lincosamide antibiotic	antibiotic target alteration	DeepARG	ambiguous (phage/chromosome)	CM6_02_S227	CM6_02
+c_000000000009	0000000009	9_110	0000003115	VANRI	n/a	glycopeptide	glycopeptide antibiotic	antibiotic target alteration	DeepARG	chromosome	CM6_02_S227	CM6_02
+c_000000000015	0000000015	15_94	0000004090	UGD	n/a	peptide	peptide antibiotic	antibiotic target alteration	DeepARG	chromosome	CM6_02_S227	CM6_02
+c_000000000016	0000000016	16_10	0000004104	VANR	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	CM6_02_S227	CM6_02
+c_000000000002	0000000002	2_176	0000000663	EFRB	n/a	multidrug	fluoroquinolone antibiotic;macrolide antibiotic;rifamycin antibiotic	antibiotic efflux	DeepARG	ambiguous (phage/chromosome)	CM6_04_S229	CM6_04
+c_000000000002	0000000002	2_177	0000000664	EFRA	n/a	multidrug	fluoroquinolone antibiotic;macrolide antibiotic;rifamycin antibiotic	antibiotic efflux	DeepARG	ambiguous (phage/chromosome)	CM6_04_S229	CM6_04
+c_000000000005	0000000005	5_168	0000001898	AADE	n/a	aminoglycoside	aminoglycoside antibiotic	-	DeepARG	ambiguous (phage/chromosome)	CM6_04_S229	CM6_04
+c_000000000005	0000000005	5_43	0000001773	TRUNCATED_PUTATIVE_RESPONSE_REGULATOR_ARLR	n/a	unclassified	unclassified	-	DeepARG	ambiguous (phage/chromosome)	CM6_04_S229	CM6_04
+c_000000000007	0000000007	7_198	0000002603	LLMA_23S_RIBOSOMAL_RNA_METHYLTRANSFERASE	n/a	MLS	lincosamide antibiotic	antibiotic target alteration	DeepARG	ambiguous (phage/chromosome)	CM6_04_S229	CM6_04
+c_000000000007	0000000007	7_41	0000002446	VANU	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	ambiguous (phage/chromosome)	CM6_04_S229	CM6_04
+c_000000000007	0000000007	7_54	0000002459	TETO	n/a	tetracycline	tetracycline antibiotic	antibiotic target protection	DeepARG/RGI	ambiguous (phage/chromosome)	CM6_04_S229	CM6_04
+c_000000000008	0000000008	8_110	0000002786	VANRI	n/a	glycopeptide	glycopeptide antibiotic	antibiotic target alteration	DeepARG	chromosome	CM6_04_S229	CM6_04
+c_000000000016	0000000016	16_5	0000004070	UGD	n/a	peptide	peptide antibiotic	antibiotic target alteration	DeepARG	chromosome	CM6_04_S229	CM6_04
+c_000000000017	0000000017	17_71	0000004233	VANR	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	CM6_04_S229	CM6_04
+c_000000000001	0000000001	1_176	0000000176	EFRB	n/a	multidrug	fluoroquinolone antibiotic;macrolide antibiotic;rifamycin antibiotic	antibiotic efflux	DeepARG	ambiguous (phage/chromosome)	CM6_05_S230	CM6_05
+c_000000000001	0000000001	1_177	0000000177	EFRA	n/a	multidrug	fluoroquinolone antibiotic;macrolide antibiotic;rifamycin antibiotic	antibiotic efflux	DeepARG	ambiguous (phage/chromosome)	CM6_05_S230	CM6_05
+c_000000000004	0000000004	4_169	0000001266	AADE	n/a	aminoglycoside	aminoglycoside antibiotic	-	DeepARG	ambiguous (phage/chromosome)	CM6_05_S230	CM6_05
+c_000000000004	0000000004	4_44	0000001141	TRUNCATED_PUTATIVE_RESPONSE_REGULATOR_ARLR	n/a	unclassified	unclassified	-	DeepARG	ambiguous (phage/chromosome)	CM6_05_S230	CM6_05
+c_000000000010	0000000010	10_218	0000003112	TETO	n/a	tetracycline	tetracycline antibiotic	antibiotic target protection	DeepARG/RGI	ambiguous (phage/chromosome)	CM6_05_S230	CM6_05
+c_000000000010	0000000010	10_231	0000003125	VANU	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	ambiguous (phage/chromosome)	CM6_05_S230	CM6_05
+c_000000000010	0000000010	10_74	0000002968	LLMA_23S_RIBOSOMAL_RNA_METHYLTRANSFERASE	n/a	MLS	lincosamide antibiotic	antibiotic target alteration	DeepARG	ambiguous (phage/chromosome)	CM6_05_S230	CM6_05
+c_000000000012	0000000012	12_135	0000003599	VANRI	n/a	glycopeptide	glycopeptide antibiotic	antibiotic target alteration	DeepARG	chromosome	CM6_05_S230	CM6_05
+c_000000000016	0000000016	16_94	0000004244	UGD	n/a	peptide	peptide antibiotic	antibiotic target alteration	DeepARG	chromosome	CM6_05_S230	CM6_05
+c_000000000018	0000000018	18_14	0000004300	VANR	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	CM6_05_S230	CM6_05
+c_000000000002	0000000002	2_169	0000000809	AADE	n/a	aminoglycoside	aminoglycoside antibiotic	-	DeepARG	ambiguous (phage/chromosome)	CM6_06_S231	CM6_06
+c_000000000002	0000000002	2_294	0000000934	TRUNCATED_PUTATIVE_RESPONSE_REGULATOR_ARLR	n/a	unclassified	unclassified	-	DeepARG	ambiguous (phage/chromosome)	CM6_06_S231	CM6_06
+c_000000000007	0000000007	7_198	0000002322	LLMA_23S_RIBOSOMAL_RNA_METHYLTRANSFERASE	n/a	MLS	lincosamide antibiotic	antibiotic target alteration	DeepARG	ambiguous (phage/chromosome)	CM6_06_S231	CM6_06
+c_000000000007	0000000007	7_41	0000002165	VANU	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	ambiguous (phage/chromosome)	CM6_06_S231	CM6_06
+c_000000000007	0000000007	7_54	0000002178	TETO	n/a	tetracycline	tetracycline antibiotic	antibiotic target protection	DeepARG/RGI	ambiguous (phage/chromosome)	CM6_06_S231	CM6_06
+c_000000000008	0000000008	8_8	0000002403	EFRB	n/a	multidrug	fluoroquinolone antibiotic;macrolide antibiotic;rifamycin antibiotic	antibiotic efflux	DeepARG	chromosome	CM6_06_S231	CM6_06
+c_000000000008	0000000008	8_9	0000002404	EFRA	n/a	multidrug	fluoroquinolone antibiotic;macrolide antibiotic;rifamycin antibiotic	antibiotic efflux	DeepARG	chromosome	CM6_06_S231	CM6_06
+c_000000000010	0000000010	10_135	0000003093	VANRI	n/a	glycopeptide	glycopeptide antibiotic	antibiotic target alteration	DeepARG	chromosome	CM6_06_S231	CM6_06
+c_000000000016	0000000016	16_5	0000003999	UGD	n/a	peptide	peptide antibiotic	antibiotic target alteration	DeepARG	chromosome	CM6_06_S231	CM6_06
+c_000000000017	0000000017	17_10	0000004101	VANR	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	CM6_06_S231	CM6_06
+c_000000000002	0000000002	2_255	0000000742	EFRA	n/a	multidrug	fluoroquinolone antibiotic;macrolide antibiotic;rifamycin antibiotic	antibiotic efflux	DeepARG	ambiguous (phage/chromosome)	CM6_08_S233	CM6_08
+c_000000000002	0000000002	2_256	0000000743	EFRB	n/a	multidrug	fluoroquinolone antibiotic;macrolide antibiotic;rifamycin antibiotic	antibiotic efflux	DeepARG	ambiguous (phage/chromosome)	CM6_08_S233	CM6_08
+c_000000000004	0000000004	4_169	0000001501	AADE	n/a	aminoglycoside	aminoglycoside antibiotic	-	DeepARG	ambiguous (phage/chromosome)	CM6_08_S233	CM6_08
+c_000000000004	0000000004	4_294	0000001626	TRUNCATED_PUTATIVE_RESPONSE_REGULATOR_ARLR	n/a	unclassified	unclassified	-	DeepARG	ambiguous (phage/chromosome)	CM6_08_S233	CM6_08
+c_000000000008	0000000008	8_218	0000002775	TETO	n/a	tetracycline	tetracycline antibiotic	antibiotic target protection	DeepARG/RGI	ambiguous (phage/chromosome)	CM6_08_S233	CM6_08
+c_000000000008	0000000008	8_231	0000002788	VANU	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	ambiguous (phage/chromosome)	CM6_08_S233	CM6_08
+c_000000000008	0000000008	8_74	0000002631	LLMA_23S_RIBOSOMAL_RNA_METHYLTRANSFERASE	n/a	MLS	lincosamide antibiotic	antibiotic target alteration	DeepARG	ambiguous (phage/chromosome)	CM6_08_S233	CM6_08
+c_000000000010	0000000010	10_135	0000003262	VANRI	n/a	glycopeptide	glycopeptide antibiotic	antibiotic target alteration	DeepARG	chromosome	CM6_08_S233	CM6_08
+c_000000000015	0000000015	15_94	0000004090	UGD	n/a	peptide	peptide antibiotic	antibiotic target alteration	DeepARG	chromosome	CM6_08_S233	CM6_08
+c_000000000016	0000000016	16_71	0000004165	VANR	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	CM6_08_S233	CM6_08
+c_000000000003	0000000003	3_160	0000000797	VANR	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	ambiguous (phage/chromosome)	CM6_34_S237	CM6_34
+c_000000000006	0000000006	6_57	0000001176	UGD	n/a	peptide	peptide antibiotic	antibiotic target alteration	DeepARG	chromosome	CM6_34_S237	CM6_34
+c_000000000007	0000000007	7_76	0000001341	BRUCELLA SUIS MPRF	n/a	peptide	peptide antibiotic	antibiotic target alteration	RGI	ambiguous (phage/chromosome)	CM6_34_S237	CM6_34
+c_000000000016	0000000016	16_13	0000002323	LLMA_23S_RIBOSOMAL_RNA_METHYLTRANSFERASE	n/a	MLS	lincosamide antibiotic	antibiotic target alteration	DeepARG	chromosome	CM6_34_S237	CM6_34
+c_000000000018	0000000018	18_15	0000002500	VANRI	n/a	glycopeptide	glycopeptide antibiotic	antibiotic target alteration	DeepARG	chromosome	CM6_34_S237	CM6_34
+c_000000000020	0000000020	20_71	0000002761	TRUNCATED_PUTATIVE_RESPONSE_REGULATOR_ARLR	n/a	unclassified	unclassified	-	DeepARG	chromosome	CM6_34_S237	CM6_34
+c_000000000035	0000000035	35_24	0000003570	EFRA	n/a	multidrug	fluoroquinolone antibiotic;macrolide antibiotic;rifamycin antibiotic	antibiotic efflux	DeepARG	chromosome	CM6_34_S237	CM6_34
+c_000000000035	0000000035	35_25	0000003571	EFRB	n/a	multidrug	fluoroquinolone antibiotic;macrolide antibiotic;rifamycin antibiotic	antibiotic efflux	DeepARG	chromosome	CM6_34_S237	CM6_34
+c_000000000001	0000000001	1_169	0000000169	AADE	n/a	aminoglycoside	aminoglycoside antibiotic	-	DeepARG	ambiguous (phage/chromosome)	CM6_81_S240	CM6_81
+c_000000000001	0000000001	1_444	0000000444	EFRA	n/a	multidrug	fluoroquinolone antibiotic;macrolide antibiotic;rifamycin antibiotic	antibiotic efflux	DeepARG	ambiguous (phage/chromosome)	CM6_81_S240	CM6_81
+c_000000000001	0000000001	1_445	0000000445	EFRB	n/a	multidrug	fluoroquinolone antibiotic;macrolide antibiotic;rifamycin antibiotic	antibiotic efflux	DeepARG	ambiguous (phage/chromosome)	CM6_81_S240	CM6_81
+c_000000000008	0000000008	8_198	0000002893	LLMA_23S_RIBOSOMAL_RNA_METHYLTRANSFERASE	n/a	MLS	lincosamide antibiotic	antibiotic target alteration	DeepARG	ambiguous (phage/chromosome)	CM6_81_S240	CM6_81
+c_000000000008	0000000008	8_41	0000002736	VANU	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	ambiguous (phage/chromosome)	CM6_81_S240	CM6_81
+c_000000000008	0000000008	8_54	0000002749	TETO	n/a	tetracycline	tetracycline antibiotic	antibiotic target protection	DeepARG/RGI	ambiguous (phage/chromosome)	CM6_81_S240	CM6_81
+c_000000000010	0000000010	10_110	0000003376	VANRI	n/a	glycopeptide	glycopeptide antibiotic	antibiotic target alteration	DeepARG	chromosome	CM6_81_S240	CM6_81
+c_000000000011	0000000011	11_164	0000003674	VANR	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	CM6_81_S240	CM6_81
+c_000000000014	0000000014	14_5	0000003978	UGD	n/a	peptide	peptide antibiotic	antibiotic target alteration	DeepARG	chromosome	CM6_81_S240	CM6_81
+c_000000000016	0000000016	16_19	0000004175	TRUNCATED_PUTATIVE_RESPONSE_REGULATOR_ARLR	n/a	unclassified	unclassified	-	DeepARG	chromosome	CM6_81_S240	CM6_81
+c_000000000001	0000000001	1_402	0000000402	EFRB	n/a	multidrug	fluoroquinolone antibiotic;macrolide antibiotic;rifamycin antibiotic	antibiotic efflux	DeepARG	ambiguous (phage/chromosome)	GCA_000165065_1_ASM16506v1_genomic	GCA_000165065
+c_000000000001	0000000001	1_65	0000000065	AADE	n/a	aminoglycoside	aminoglycoside antibiotic	-	DeepARG	ambiguous (phage/chromosome)	GCA_000165065_1_ASM16506v1_genomic	GCA_000165065
+c_000000000001	0000000001	1_77	0000000077	VANR	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	ambiguous (phage/chromosome)	GCA_000165065_1_ASM16506v1_genomic	GCA_000165065
+c_000000000002	0000000002	2_15	0000000530	TETM	n/a	tetracycline	tetracycline antibiotic	antibiotic target protection	RGI	ambiguous (phage/chromosome)	GCA_000165065_1_ASM16506v1_genomic	GCA_000165065
+c_000000000002	0000000002	2_16	0000000531	TET(W/N/W)	n/a	tetracycline	tetracycline antibiotic	antibiotic target protection	RGI	ambiguous (phage/chromosome)	GCA_000165065_1_ASM16506v1_genomic	GCA_000165065
+c_000000000003	0000000003	3_39	0000000985	ERMB	n/a	MLS	lincosamide antibiotic;macrolide antibiotic;streptogramin antibiotic	antibiotic target alteration	DeepARG/RGI	ambiguous (phage/chromosome)	GCA_000165065_1_ASM16506v1_genomic	GCA_000165065
+c_000000000005	0000000005	5_48	0000001796	VANRI	n/a	glycopeptide	glycopeptide antibiotic	antibiotic target alteration	DeepARG	chromosome	GCA_000165065_1_ASM16506v1_genomic	GCA_000165065
+c_000000000009	0000000009	9_144	0000002779	AAC(6')-IE-APH(2'')-IA	n/a	aminoglycoside	aminoglycoside antibiotic	antibiotic inactivation	RGI	chromosome	GCA_000165065_1_ASM16506v1_genomic	GCA_000165065
+c_000000000010	0000000010	10_108	0000002924	LLMA_23S_RIBOSOMAL_RNA_METHYLTRANSFERASE	n/a	MLS	lincosamide antibiotic	antibiotic target alteration	DeepARG	chromosome	GCA_000165065_1_ASM16506v1_genomic	GCA_000165065
+c_000000000018	0000000018	18_73	0000003992	TRUNCATED_PUTATIVE_RESPONSE_REGULATOR_ARLR	n/a	unclassified	unclassified	-	DeepARG	chromosome	GCA_000165065_1_ASM16506v1_genomic	GCA_000165065
+c_000000000001	0000000001	1_279	0000000279	VANR	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	GCA_003603195_1_ASM360319v1_genomic	GCA_003603195
+c_000000000001	0000000001	1_290	0000000290	AADE	n/a	aminoglycoside	aminoglycoside antibiotic	-	DeepARG	chromosome	GCA_003603195_1_ASM360319v1_genomic	GCA_003603195
+c_000000000012	0000000012	12_132	0000001445	VANRI	n/a	glycopeptide	glycopeptide antibiotic	antibiotic target alteration	DeepARG	ambiguous (phage/chromosome)	GCA_003603195_1_ASM360319v1_genomic	GCA_003603195
+c_000000000016	0000000016	16_4	0000001890	LLMA_23S_RIBOSOMAL_RNA_METHYLTRANSFERASE	n/a	MLS	lincosamide antibiotic	antibiotic target alteration	DeepARG	chromosome	GCA_003603195_1_ASM360319v1_genomic	GCA_003603195
+c_000000000021	0000000021	21_19	0000002218	TRUNCATED_PUTATIVE_RESPONSE_REGULATOR_ARLR	n/a	unclassified	unclassified	-	DeepARG	chromosome	GCA_003603195_1_ASM360319v1_genomic	GCA_003603195
+c_000000000024	0000000024	24_6	0000002572	ERMB	n/a	MLS	lincosamide antibiotic;macrolide antibiotic;streptogramin antibiotic	antibiotic target alteration	DeepARG/RGI	unclassified	GCA_003603195_1_ASM360319v1_genomic	GCA_003603195
+c_000000000038	0000000038	38_24	0000003289	EFRA	n/a	multidrug	fluoroquinolone antibiotic;macrolide antibiotic;rifamycin antibiotic	antibiotic efflux	DeepARG	chromosome	GCA_003603195_1_ASM360319v1_genomic	GCA_003603195
+c_000000000038	0000000038	38_25	0000003290	EFRB	n/a	multidrug	fluoroquinolone antibiotic;macrolide antibiotic;rifamycin antibiotic	antibiotic efflux	DeepARG	chromosome	GCA_003603195_1_ASM360319v1_genomic	GCA_003603195
+c_000000000004	0000000004	4_2	0000000462	TETM	n/a	tetracycline	tetracycline antibiotic	antibiotic target protection	DeepARG/RGI	chromosome	GCA_003603255_1_ASM360325v1_genomic	GCA_003603255
+c_000000000012	0000000012	12_88	0000001205	VANRI	n/a	glycopeptide	glycopeptide antibiotic	antibiotic target alteration	DeepARG	chromosome	GCA_003603255_1_ASM360325v1_genomic	GCA_003603255
+c_000000000014	0000000014	14_30	0000001431	MEXK	n/a	multidrug	macrolide antibiotic;tetracycline antibiotic;triclosan	antibiotic efflux	RGI	ambiguous (phage/chromosome)	GCA_003603255_1_ASM360325v1_genomic	GCA_003603255
+c_000000000026	0000000026	26_23	0000002312	ERMB	n/a	MLS	lincosamide antibiotic;macrolide antibiotic;streptogramin antibiotic	antibiotic target alteration	DeepARG/RGI	chromosome	GCA_003603255_1_ASM360325v1_genomic	GCA_003603255
+c_000000000028	0000000028	28_19	0000002410	TRUNCATED_PUTATIVE_RESPONSE_REGULATOR_ARLR	n/a	unclassified	unclassified	-	DeepARG	chromosome	GCA_003603255_1_ASM360325v1_genomic	GCA_003603255
+c_000000000031	0000000031	31_4	0000002520	LLMA_23S_RIBOSOMAL_RNA_METHYLTRANSFERASE	n/a	MLS	lincosamide antibiotic	antibiotic target alteration	DeepARG	chromosome	GCA_003603255_1_ASM360325v1_genomic	GCA_003603255
+c_000000000039	0000000039	39_24	0000002941	EFRA	n/a	multidrug	fluoroquinolone antibiotic;macrolide antibiotic;rifamycin antibiotic	antibiotic efflux	DeepARG	chromosome	GCA_003603255_1_ASM360325v1_genomic	GCA_003603255
+c_000000000039	0000000039	39_25	0000002942	EFRB	n/a	multidrug	fluoroquinolone antibiotic;macrolide antibiotic;rifamycin antibiotic	antibiotic efflux	DeepARG	chromosome	GCA_003603255_1_ASM360325v1_genomic	GCA_003603255
+c_000000000056	0000000056	56_85	0000003496	VANR	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	GCA_003603255_1_ASM360325v1_genomic	GCA_003603255
+c_000000000001	0000000001	1_402	0000000402	EFRB	n/a	multidrug	fluoroquinolone antibiotic;macrolide antibiotic;rifamycin antibiotic	antibiotic efflux	DeepARG	ambiguous (phage/chromosome)	GCA_902374175_1_MGYG_HGUT_01352_genomic	GCA_902374175
+c_000000000001	0000000001	1_65	0000000065	AADE	n/a	aminoglycoside	aminoglycoside antibiotic	-	DeepARG	ambiguous (phage/chromosome)	GCA_902374175_1_MGYG_HGUT_01352_genomic	GCA_902374175
+c_000000000001	0000000001	1_77	0000000077	VANR	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	ambiguous (phage/chromosome)	GCA_902374175_1_MGYG_HGUT_01352_genomic	GCA_902374175
+c_000000000002	0000000002	2_15	0000000530	TETM	n/a	tetracycline	tetracycline antibiotic	antibiotic target protection	RGI	ambiguous (phage/chromosome)	GCA_902374175_1_MGYG_HGUT_01352_genomic	GCA_902374175
+c_000000000002	0000000002	2_16	0000000531	TET(W/N/W)	n/a	tetracycline	tetracycline antibiotic	antibiotic target protection	RGI	ambiguous (phage/chromosome)	GCA_902374175_1_MGYG_HGUT_01352_genomic	GCA_902374175
+c_000000000003	0000000003	3_39	0000000985	ERMB	n/a	MLS	lincosamide antibiotic;macrolide antibiotic;streptogramin antibiotic	antibiotic target alteration	DeepARG/RGI	ambiguous (phage/chromosome)	GCA_902374175_1_MGYG_HGUT_01352_genomic	GCA_902374175
+c_000000000005	0000000005	5_48	0000001796	VANRI	n/a	glycopeptide	glycopeptide antibiotic	antibiotic target alteration	DeepARG	chromosome	GCA_902374175_1_MGYG_HGUT_01352_genomic	GCA_902374175
+c_000000000009	0000000009	9_144	0000002779	AAC(6')-IE-APH(2'')-IA	n/a	aminoglycoside	aminoglycoside antibiotic	antibiotic inactivation	RGI	chromosome	GCA_902374175_1_MGYG_HGUT_01352_genomic	GCA_902374175
+c_000000000010	0000000010	10_108	0000002924	LLMA_23S_RIBOSOMAL_RNA_METHYLTRANSFERASE	n/a	MLS	lincosamide antibiotic	antibiotic target alteration	DeepARG	chromosome	GCA_902374175_1_MGYG_HGUT_01352_genomic	GCA_902374175
+c_000000000018	0000000018	18_73	0000003992	TRUNCATED_PUTATIVE_RESPONSE_REGULATOR_ARLR	n/a	unclassified	unclassified	-	DeepARG	chromosome	GCA_902374175_1_MGYG_HGUT_01352_genomic	GCA_902374175
+NODE_1_length_279408_cov_12.753589	0000000001	1_132	0000000132	TET(W/N/W)	n/a	tetracycline	tetracycline antibiotic	antibiotic target protection	DeepARG/RGI	ambiguous (phage/chromosome)	SRR12535143	SRR12535143
+NODE_1_length_279408_cov_12.753589	0000000001	1_168	0000000168	LLMA_23S_RIBOSOMAL_RNA_METHYLTRANSFERASE	n/a	MLS	lincosamide antibiotic	antibiotic target alteration	DeepARG	ambiguous (phage/chromosome)	SRR12535143	SRR12535143
+NODE_15_length_117960_cov_13.861244	0000000015	15_81	0000002598	VANRI	n/a	glycopeptide	glycopeptide antibiotic	antibiotic target alteration	DeepARG	chromosome	SRR12535143	SRR12535143
+NODE_20_length_94652_cov_12.525015	0000000020	20_66	0000003121	VANR	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	SRR12535143	SRR12535143
+NODE_24_length_79566_cov_13.167814	0000000024	24_47	0000003419	EFRB	n/a	multidrug	fluoroquinolone antibiotic;macrolide antibiotic;rifamycin antibiotic	antibiotic efflux	DeepARG	chromosome	SRR12535143	SRR12535143
+NODE_24_length_79566_cov_13.167814	0000000024	24_48	0000003420	EFRA	n/a	multidrug	fluoroquinolone antibiotic;macrolide antibiotic;rifamycin antibiotic	antibiotic efflux	DeepARG	chromosome	SRR12535143	SRR12535143
+NODE_3_length_259151_cov_11.343385	0000000003	3_176	0000000661	TETO	n/a	tetracycline	tetracycline antibiotic	antibiotic target protection	DeepARG/RGI	chromosome	SRR12535143	SRR12535143
+NODE_36_length_38279_cov_14.055672	0000000036	36_14	0000004095	TRUNCATED_PUTATIVE_RESPONSE_REGULATOR_ARLR	n/a	unclassified	unclassified	-	DeepARG	chromosome	SRR12535143	SRR12535143
+NODE_18_length_78098_cov_19.546947	0000000018	18_60	0000004014	UGD	n/a	peptide	peptide antibiotic	antibiotic target alteration	DeepARG	chromosome	SRR12535151	SRR12535151
+NODE_2_length_490213_cov_19.986270	0000000002	2_254	0000000807	EFRA	n/a	multidrug	fluoroquinolone antibiotic;macrolide antibiotic;rifamycin antibiotic	antibiotic efflux	DeepARG	ambiguous (phage/chromosome)	SRR12535151	SRR12535151
+NODE_2_length_490213_cov_19.986270	0000000002	2_255	0000000808	EFRB	n/a	multidrug	fluoroquinolone antibiotic;macrolide antibiotic;rifamycin antibiotic	antibiotic efflux	DeepARG	ambiguous (phage/chromosome)	SRR12535151	SRR12535151
+NODE_5_length_298157_cov_22.147378	0000000005	5_168	0000001944	AADE	n/a	aminoglycoside	aminoglycoside antibiotic	-	DeepARG	chromosome	SRR12535151	SRR12535151
+NODE_5_length_298157_cov_22.147378	0000000005	5_44	0000001820	TRUNCATED_PUTATIVE_RESPONSE_REGULATOR_ARLR	n/a	unclassified	unclassified	-	DeepARG	chromosome	SRR12535151	SRR12535151
+NODE_6_length_253588_cov_20.487838	0000000006	6_136	0000002200	VANRI	n/a	glycopeptide	glycopeptide antibiotic	antibiotic target alteration	DeepARG	chromosome	SRR12535151	SRR12535151
+NODE_7_length_218285_cov_19.768443	0000000007	7_162	0000002472	TETO	n/a	tetracycline	tetracycline antibiotic	antibiotic target protection	DeepARG/RGI	ambiguous (phage/chromosome)	SRR12535151	SRR12535151
+NODE_7_length_218285_cov_19.768443	0000000007	7_175	0000002485	VANU	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	ambiguous (phage/chromosome)	SRR12535151	SRR12535151
+NODE_7_length_218285_cov_19.768443	0000000007	7_74	0000002384	LLMA_23S_RIBOSOMAL_RNA_METHYLTRANSFERASE	n/a	MLS	lincosamide antibiotic	antibiotic target alteration	DeepARG	ambiguous (phage/chromosome)	SRR12535151	SRR12535151
+NODE_8_length_205116_cov_18.799077	0000000008	8_10	0000002535	VANR	n/a	glycopeptide	glycopeptide antibiotic	-	DeepARG	chromosome	SRR12535151	SRR12535151

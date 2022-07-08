@@ -5,6 +5,8 @@ author: DB
 output: 
 ---
 
+# BASIC WGS PIPE
+
 ## Organizing data : run everything on scratch1  
 
 ### make necessary directories (Windows 'folder' == Mac/Linux 'directory'); I have it organised by `WGS_datedatareceived` directory separate from actual working directory eg. all my fastq data is in `wgs_data` while my genome assembly is in another folder called data
@@ -97,7 +99,7 @@ qstat -xf $PBS_JOBID
 
 
 
-### Quast pipe: The above script will not run quast required for quality metrics look at software install on how to install quast with the correct python  
+### QUAST pipe: The above script will not run quast required for quality metrics look at software install on how to install quast with the correct python  
 
 
 ```
@@ -119,7 +121,7 @@ qstat -xf $PBS_JOBID
 
 ```
 
-### MultiQC : To see all Quast output in a single txt or html file, use this otherwise you will be pulling all info from separate html files from Quast for 30-50 samples and it will take ages
+### MULTIQC : To see all Quast output in a single txt or html file, use this otherwise you will be pulling all info from separate html files from Quast for 30-50 samples and it will take ages
 
 #### Also this is a fairly new program, so use with precaution, I also don't know how to solve a lot of its issues
 
@@ -331,7 +333,7 @@ qstat -xf $PBS_JOBID
 
 ### To make a raxml tree from snps in core genome in palmetto
 
-#### Roary
+#### ROARY
 
 #### collect all gff files. make sure prokka has run on the samples or get the gff files from ncbi (I did not do that for the dataset from gtdb, I put it through prokka)
 
@@ -413,7 +415,7 @@ cat *.txt > all_16S_cinn.txt
 ```
 ## edit the file on the desktop in BBEdit to fix the fasta titles
 
-## clustalo
+## CLUSTALO
 
 		mv cinn_final_16S.txt cinn_final_16S.fa
 		clustalo -i ./cinn_final_16S.fa --threads 4 -o out_cinn_final.fa -v
@@ -422,7 +424,7 @@ cat *.txt > all_16S_cinn.txt
 
 		cp /scratch1/dbhatta/clustalo/cinn_final/out_cinn_final.fa ./out_cinn_final.fasta
 
-## raxml trees; raxml-pthreads if you want to run over pbs scripts otherwise raxmlHPC only on interactive which is going to take numerous hours
+## RAXML trees; raxml-pthreads if you want to run over pbs scripts otherwise raxmlHPC only on interactive which is going to take numerous hours
 
 ````
 #!/bin/sh
@@ -442,7 +444,7 @@ qstat -xf $PBS_JOBID
 
 ```
 
-# Phylophlan; for protein sequences
+# PHYLOPHLAN; for protein sequences
 
 ## setup database
 
@@ -473,56 +475,6 @@ qstat -xf $PBS_JOBID
 
 # PATHOFACT
 
-## Installation
-
-## go to the pathofact folder that you made
-
-## Requirements to install pathofact
-	The main requirements are:
-
-	gcc/g++
-	
-	git and git lfs
-
-	conda (version 4.9.2)
-
-## Getting into actual installation
-
-# activate git lfs
-	git lfs install
-# clone branch incl. sub-modules
-	git clone -b master --recursive https://git-r3lab.uni.lu/laura.denies/PathoFact.git --depth 1
-
-
-## Making environment
-
-# go into the new Pathofact folder
-	conda env create -f=envs/PathoFact.yaml
-
-## This is the output to be expected once PathoFact is created
-```
-analytical_code             cluster.json  cluster.yaml  config.yaml  envs      LICENSE        README.md  run_PathoFact.sh  scripts   submodules  workflows
-card_database_v3.0.9.fasta  cluster.sh    databases     localDB      rules     Snakefile      test
-```
-
-## Get signal_P: https://services.healthtech.dtu.dk/
-## I downloaded signal5.0b because that is what was recommended for pathofact
-## fill in your details they will send you an email with the link
-
-	wget "link/filename.gz" <--- fill in the link from your email, make sure .gz is at the end
-
-## PathoFact requires a snakemake version >= 5.5.4, which will be downloaded with pathofact in the .yaml
-## PathoFact has been downloaded with full folder inside the PathoFact environment
-## Pathofact also creates a bunch of unnamed envs in anaconda3 I dont know how to fix this
-## Unzip the signal5-0b.tar.gz inside the PathoFact folder
-
-	tar -xvf signal5......
-
-## This is how the final PathoFact folder look after opening signalp.tar
-```
-analytical_code             cluster.json  cluster.yaml  config.yaml  envs      LICENSE  README.md  run_PathoFact.sh  scripts       signalp-5.0b.Linux.tar  submodules  workflows
-card_database_v3.0.9.fasta  cluster.sh    databases    localDB  rules      signalp-5.0b  Snakefile               test
-```
 ## Running
 
 ## Two files to be modded when running: config.yaml and pbs script that you create
@@ -534,6 +486,7 @@ card_database_v3.0.9.fasta  cluster.sh    databases    localDB  rules      signa
 ### This will be where the results will be generated
 
 ### Example of config.yaml; save under a different name
+
 ```
 pathofact:
   sample: ["CM1_51A_S205", "CM1_51B_S206", "CM1_51C_S207", "CM1_52_S208", "CM1_53_S216"] # requires user input
@@ -559,9 +512,10 @@ pathofact:
     normal_mem_per_core_gb: "4G"
     big_mem_cores: 12 # change if required 
     big_mem_per_core_gb: "200G" # change if required
-```    
     
+```    
 ### Exmaple of PBS script that will use the above config file
+
 ```
 #!/bin/sh
 #PBS -N pathofact_cm1
@@ -576,6 +530,7 @@ cd /scratch1/dbhatta/virulence_factors/pathofact/PathoFact/
 snakemake -s Snakefile --configfile configcm1.yaml --use-conda --reason --cores 12 -p
 
 qstat -xf $PBS_JOBID
+
 ```
 
 ### Because software is new they are constantly changing the output so make sure you check their wiki/github page
@@ -608,29 +563,35 @@ done
 qstat -xf $PBS_JOBID
 
 ```
+
 # to get coordinates
 
 # copy all the .faa files to a new folder (coordinates)
 # make blastdb out of 4 strains
 
+```
 makeblastdb -in ./Ref_Cinnocuum_14501.faa -dbtype prot -parse_seqids
 makeblastdb -in ./GCA_000165065_1_ASM16506v1_genomic.faa -dbtype prot -parse_seqids
 makeblastdb -in ./GCA_003481775_1_ASM348177v1_genomic.faa -dbtype prot -parse_seqids
 makeblastdb -in ./Ref_Cinnocuum_I46.faa -dbtype prot -parse_seqids
 
+```
 # convert gff to gtf where the coordinates are
 
-grep -v "#" GCA_000165065_1_ASM16506v1_genomic.gff | grep "ID=" | cut -f1 -d ';' | sed 's/ID=//g' | cut -f1,4,5,7,9 |  awk -v OFS='\t' '{print $1,"PROKKA","CDS",$2,$3,".",$4,".","gene_id " $5}' > GCA_000165065_1_ASM16506v1_genomic.gtf 
+	grep -v "#" GCA_000165065_1_ASM16506v1_genomic.gff | grep "ID=" | cut -f1 -d ';' | sed 's/ID=//g' | cut -f1,4,5,7,9 |  awk -v OFS='\t' '{print $1,"PROKKA","CDS",$2,$3,".",$4,".","gene_id " $5}' > GCA_000165065_1_ASM16506v1_genomic.gtf 
 
 # blast the db against *_vir_facts.faa
 
+```
 blastp -query GCA_000165065_1_ASM16506v1_genomic_vir_facts.faa -db GCA_000165065_1_ASM16506v1_genomic -outfmt 6 -out blast_GCA_000165065_1_ASM16506v1_genomic.txt
 blastp -query GCA_003481775_1_ASM348177v1_genomic_vir_facts.faa -db GCA_003481775_1_ASM348177v1_genomic -outfmt 6 -out blast_GCA_003481775_1_ASM348177v1_genomic.txt
 blastp -query Ref_Cinnocuum_14501_dvf_vir_facts.faa -db Ref_Cinnocuum_14501 -outfmt 6 -out blast_Ref_Cinnocuum_14501.txt
 blastp -query Ref_Cinnocuum_I46_dvf_vir_facts.faa -db Ref_Cinnocuum_I46 -outfmt 6 -out blast_Ref_Cinnocuum_I46.txt
 
+```
 # in a script
 
+```
 #!/bin/sh
 #PBS -N blast
 #PBS -j oe 
@@ -652,8 +613,17 @@ blastp -query Ref_Cinnocuum_I46_dvf_vir_facts.faa -db Ref_Cinnocuum_I46.faa -out
 
 qstat -xf $PBS_JOBID
 
+```
 # collect gtf files and blastp files into one folder for R
 
+# CIRCOS
+
+### Circos was done based on the circos tutorial: http://circos.ca/documentation/tutorials/recipes/microbial_genomes/
+### The figure is user defined
+
+# GRAPHLAN
+
+### The figure is user defined; based on the tutorial from https://github.com/biobakery/graphlan/wiki
 
 
 
